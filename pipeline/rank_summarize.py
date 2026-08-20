@@ -11,11 +11,15 @@ import os
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 
 MODEL = "gemini-3.5-flash-lite"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+TAVILY_URL = "https://api.tavily.com/search"
+GROQ_MODEL = "qwen/qwen3.6-27b"
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 FETCHED_PATH = Path(__file__).parent / ".staging" / "fetched.json"
 RANKED_PATH = Path(__file__).parent / ".staging" / "ranked.json"
@@ -25,6 +29,14 @@ IST = timezone(timedelta(hours=5, minutes=30))
 BEATS = ["AI", "Design", "Voice AI"]
 MAX_ITEMS_PER_BEAT = 3
 DEDUP_LOOKBACK_DAYS = 3
+
+# Fallback web search query per beat — only used when the curated sources
+# return 0 candidates for that beat on a given day.
+WEB_SEARCH_QUERIES = {
+    "AI": "AI news last 24 hours",
+    "Design": "UX design news last 24 hours",
+    "Voice AI": "voice AI conversational AI news last 24 hours",
+}
 
 # Hard truncation ceilings — a safety net only. The prompt already asks for
 # tighter soft targets; this just guarantees the layout never breaks on an
@@ -55,6 +67,28 @@ RESPONSE_SCHEMA = {
                     "why": {"type": "STRING"},
                     "impact": {"type": "STRING"},
                     "practical": {"type": "BOOLEAN"},
+                },
+                "required": ["index", "what", "why", "impact", "practical"],
+            },
+        }
+    },
+    "required": ["selections"],
+}
+
+# Same shape as RESPONSE_SCHEMA, in standard lowercase JSON Schema for Groq/OpenAI-style APIs
+GROQ_RESPONSE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "selections": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "index": {"type": "integer"},
+                    "what": {"type": "string"},
+                    "why": {"type": "string"},
+                    "impact": {"type": "string"},
+                    "practical": {"type": "boolean"},
                 },
                 "required": ["index", "what", "why", "impact", "practical"],
             },
@@ -131,6 +165,48 @@ For each selected item, write:
 Return "index" as the candidate's number from the list above. Do not invent items that aren't in the candidate list."""
 
 
+def web_search_fallback(beat):
+    """Only called when the curated sources returned 0 candidates for this beat.
+    One bounded Tavily search — not a loop, not agentic decision-making — just
+    a wider net cast for a single day's gap in the curated source list.
+    """
+    api_key = os.environ.get("TAVILY_API_KEY")
+    if not api_key:
+        print(f"  · {beat}: 0 candidates and TAVILY_API_KEY not set, skipping fallback")
+        return []
+    try:
+        resp = requests.post(
+            TAVILY_URL,
+            json={
+                "api_key": api_key,
+                "query": WEB_SEARCH_QUERIES[beat],
+                "topic": "news",
+                "search_depth": "advanced",
+                "time_range": "day",
+                "max_results": 8,
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        results = resp.json().get("results", [])
+    except Exception as e:
+        print(f"  ✗ {beat}: Tavily fallback search failed: {e}", file=sys.stderr)
+        return []
+
+    candidates = []
+    for r in results:
+        url = r.get("url", "")
+        domain = urlparse(url).netloc.removeprefix("www.")
+        candidates.append({
+            "title": r.get("title", "").strip(),
+            "source": domain or "Web search",
+            "url": url,
+            "summary": r.get("content", ""),
+        })
+    print(f"  · {beat}: 0 curated candidates, found {len(candidates)} via web search fallback")
+    return candidates
+
+
 def call_gemini(prompt):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -148,10 +224,39 @@ def call_gemini(prompt):
     return json.loads(text)
 
 
+def call_groq(prompt):
+    """Fallback LLM if the Gemini call itself fails (outage, rate limit, etc.) —
+    same prompt, same schema shape, different provider. Not used otherwise.
+    """
+    api_key = os.environ.get("GROQ_API_KEY")
+    if not api_key:
+        raise RuntimeError("GROQ_API_KEY is not set")
+    payload = {
+        "model": GROQ_MODEL,
+        "messages": [{"role": "user", "content": prompt + "\n\nRespond with ONLY the JSON object, no other text."}],
+        "response_format": {
+            "type": "json_schema",
+            "json_schema": {"name": "selections_response", "schema": GROQ_RESPONSE_SCHEMA},
+        },
+        # Qwen3.6 is a reasoning model — it spends tokens thinking before the
+        # final JSON, so a low default budget truncates before valid JSON
+        # ever gets produced. Confirmed by testing: 400 json_validate_failed
+        # with an empty failed_generation at the default limit.
+        "max_completion_tokens": 4000,
+    }
+    resp = requests.post(
+        GROQ_URL, headers={"Authorization": f"Bearer {api_key}"}, json=payload, timeout=60
+    )
+    resp.raise_for_status()
+    text = resp.json()["choices"][0]["message"]["content"]
+    return json.loads(text)
+
+
 def rank_beat(beat, candidates):
     if not candidates:
-        print(f"  · {beat}: 0 candidates, skipping Gemini call")
-        return []
+        candidates = web_search_fallback(beat)
+        if not candidates:
+            return []
 
     recent_titles = load_recent_titles(beat)
     prompt = build_prompt(beat, candidates, recent_titles)
@@ -159,8 +264,13 @@ def rank_beat(beat, candidates):
     try:
         result = call_gemini(prompt)
     except Exception as e:
-        print(f"  ✗ {beat}: Gemini call failed: {e}", file=sys.stderr)
-        return []
+        print(f"  ✗ {beat}: Gemini call failed ({e}), trying Groq/Qwen fallback", file=sys.stderr)
+        try:
+            result = call_groq(prompt)
+            print(f"  ✓ {beat}: Groq fallback succeeded")
+        except Exception as e2:
+            print(f"  ✗ {beat}: Groq fallback also failed: {e2}", file=sys.stderr)
+            return []
 
     items = []
     for sel in result.get("selections", [])[:MAX_ITEMS_PER_BEAT]:
