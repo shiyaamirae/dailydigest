@@ -25,7 +25,7 @@ All pairings verified against the background using the WCAG relative-luminance c
 | Border | `#DEDCD3` | — (decorative) | — | hairline dividers |
 | Text primary | `#1A1B1E` | 15.9:1 | AAA | headlines, body copy |
 | Text muted | `#63666B` | 4.7:1 | AA | metadata, timestamps, source tags |
-| Accent (single) | `#C1440E` deep rust | 4.74:1 | AA | links, active states, margin rule, "try this" dot, citation chips, hover borders |
+| Accent (single) | `#C1440E` deep rust | 4.74:1 | AA | links, active states, margin rule, citation chips, hover borders |
 | Warning text | `#8A5A00` deep ochre | 5.49:1 | AA | stale-digest banner text (on a pale yellow `#FDF3DC` fill) |
 
 **One accent color does all the signaling work** — deliberately, instead of a color-per-beat scheme (which is what makes most digest sites look corporate/generic). Every time rust appears, it means the same thing: this matters, this is active, this is actionable.
@@ -59,7 +59,7 @@ All pairings verified against the background using the WCAG relative-luminance c
 │  > ai24                            2026-08-20    │
 │  daily curated AI / Design / Voice AI briefing   │  Issue #214
 ├────────────────┬─────────────────────────────────┤
-│  PREVIOUS 7 DAYS│  [ AI ] [ DESIGN ] [ VOICE ] · 3 items │
+│  PREVIOUS 7 DAYS│  [ AI ] [ DESIGN ] [ VOICE ]      · 3 items │
 │  2026-08-20  ●  │                                  │
 │  2026-08-19     │   -- item cards --              │
 │  ...            │                                  │
@@ -68,18 +68,15 @@ All pairings verified against the background using the WCAG relative-luminance c
 │  archive →       │                                  │
 │  [ activity      │                                  │
 │    sparkline ]   │                                  │
-│  ● try this      │                                  │
-│  ○ read this     │                                  │
 └────────────────┴─────────────────────────────────┘
-Curated and synthesized daily by an automated pipeline.
-Reviewed by a human on good days. — hello@ai24.fyi · GitHub
+AI24 by Shiyaa · Personal Daily Digests
 ```
 
 - **Header** (full width): mono wordmark `> ai24`, tagline beneath, date + a running **issue number** (e.g. "Issue #214" — a day-count, cheap to compute, reinforces the "ongoing publication" feel) top-right. Thin rust underline.
-- **Left sidebar:** "PREVIOUS 7 DAYS" label, notebook-tab-styled date list (protruding tab shape, not a flat list), active date highlighted with a rust border. "View full archive →" link below for anything older than 7 days. Digest activity sparkline beneath that (item volume over recent days) — **only renders once the archive has ≥2 days of history**; no special empty state needed for day one, it simply doesn't show yet. A **dot legend** (● try this / ○ read this) sits at the bottom of the sidebar, so a first-time visitor can decode the indicator without guessing.
-- **Main content:** beat tabs (AI / DESIGN / VOICE) styled as notebook index-tab dividers, with the **item count shown inline on the same row as the tabs** (e.g. "· 3 items") rather than as a separate repeated line below.
-- **Item card:** rust vertical rule down the left edge (echoing a notebook's red margin line); publisher-name citation chip top-left (e.g. "OpenAI ↗", styled like a typewritten stamp, links to source); try-this/read-this dot top-right; serif bold headline; three serif lines (What / Why / Your work) with bold inline lead-in labels, tightly spaced.
-- **Footer:** the transparency line — *"Curated and synthesized daily by an automated pipeline. Reviewed by a human on good days."* — plus contact and a GitHub repo link. This is the portfolio-context anchor: a visitor who lands here with zero context needs to understand what they're looking at without you there to explain it.
+- **Left sidebar:** "PREVIOUS 7 DAYS" label, notebook-tab-styled date list (protruding tab shape, not a flat list), active date highlighted with a rust border. "View full archive →" link below for anything older than 7 days. Digest activity sparkline beneath that (item volume over recent days) — **only renders once the archive has ≥2 days of history**; no special empty state needed for day one, it simply doesn't show yet.
+- **Main content:** beat tabs (AI / DESIGN / VOICE) styled as notebook index-tab dividers, with the **item count right-aligned on the same row as the tabs** (e.g. "· 3 items") rather than as a separate repeated line below.
+- **Item card:** rust vertical rule down the left edge (echoing a notebook's red margin line); publisher-name citation chip top-left (e.g. "OpenAI ↗", styled like a typewritten stamp); the whole card is a single link through to the source article; serif bold headline; three serif lines (What / Why / Your work) with bold inline lead-in labels, tightly spaced.
+- **Footer:** a single centered line — *"AI24 by Shiyaa · Personal Daily Digests"*. No contact/GitHub links; kept minimal.
 - **Individual day pages:** prev/next-day navigation, not just a bounce back to the archive list.
 - **Mobile:** the sidebar collapses into a slide-out drawer (matches how ChatGPT/Perplexity handle the same history-rail problem on small screens); main content stays full-width. This matters because the primary real-world entry point is the 9 AM push notification → tap on phone, not desktop browsing.
 
@@ -106,9 +103,8 @@ Reviewed by a human on good days. — hello@ai24.fyi · GitHub
 Motion as signage, not decoration — every animation should confirm a state change, nothing purely ornamental.
 
 - Tab switch: 150-200ms fade/slide, spring easing, `transform`/`opacity` only.
-- Card hover: border shifts to the rust accent, slight `translateY(-2px)` — no shadow bloom.
-- Citation chip hover: small popover (source name), click opens in a new tab.
-- "Try this" dot: a very subtle pulse — draws the eye toward actionable items specifically, directly reflecting the personalization blurb's stated priority. No pulse on "read this" items.
+- Card hover: border shifts to the rust accent, slight `translateY(-2px)` — no shadow bloom. The entire card is a single link; clicking anywhere on it opens the source article in a new tab.
+- Citation chip: visual label only (mirrors the card's hover state via the parent), not an independent click target.
 
 ---
 
