@@ -31,10 +31,10 @@ HEADERS = {
 RSS_SOURCES = [
     {"beat": "AI", "source": "OpenAI", "url": "https://openai.com/news/rss.xml"},
     {"beat": "AI", "source": "Google DeepMind", "url": "https://deepmind.google/blog/feed/basic/"},
+    {"beat": "AI", "source": "Latent Space", "url": "https://www.latent.space/feed"},
     {"beat": "Design", "source": "Nielsen Norman Group", "url": "https://www.nngroup.com/feed/rss/"},
     {"beat": "Design", "source": "Smashing Magazine", "url": "https://www.smashingmagazine.com/feed/"},
     {"beat": "Design", "source": "UX Collective", "url": "https://uxdesign.cc/feed"},
-    {"beat": "Voice AI", "source": "VoiceBot.ai", "url": "https://voicebot.ai/feed/"},
     {"beat": "Voice AI", "source": "Deepgram", "url": "https://deepgram.com/blog.xml"},
 ]
 
@@ -129,15 +129,18 @@ def fetch_arxiv():
     return items
 
 
-def fetch_anthropic():
+def _fetch_anthropic_style(page_url, href_prefix, beat, source_name):
+    """Anthropic's /news and /research pages share the same FeaturedGrid markup:
+    <a href="{href_prefix}..."><h2-4>title</h2-4>...<time>date</time></a>.
+    """
     items = []
     try:
-        resp = requests.get("https://www.anthropic.com/news", timeout=20, headers=HEADERS)
+        resp = requests.get(page_url, timeout=20, headers=HEADERS)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
         cutoff = cutoff_time()
         seen_urls = set()
-        for link in soup.select('a[href^="/news/"]'):
+        for link in soup.select(f'a[href^="{href_prefix}"]'):
             href = link.get("href", "")
             full_url = urljoin("https://www.anthropic.com", href)
             if full_url in seen_urls:
@@ -152,15 +155,61 @@ def fetch_anthropic():
                 continue
             seen_urls.add(full_url)
             items.append({
-                "beat": "AI",
-                "source": "Anthropic",
+                "beat": beat,
+                "source": source_name,
                 "title": heading.get_text(strip=True),
                 "url": full_url,
                 "published": published.isoformat(),
                 "summary": "",
             })
     except Exception as e:
-        print(f"  ✗ Anthropic: {e}", file=sys.stderr)
+        print(f"  ✗ {source_name}: {e}", file=sys.stderr)
+    return items
+
+
+def fetch_anthropic():
+    return _fetch_anthropic_style(
+        "https://www.anthropic.com/news", "/news/", "AI", "Anthropic"
+    )
+
+
+def fetch_anthropic_research():
+    return _fetch_anthropic_style(
+        "https://www.anthropic.com/research", "/research/", "AI", "Anthropic Research"
+    )
+
+
+def fetch_rasa():
+    items = []
+    try:
+        resp = requests.get("https://rasa.com/blog/", timeout=20, headers=HEADERS)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        cutoff = cutoff_time()
+        seen_urls = set()
+        for card in soup.select("div.blog-card"):
+            link = card.find("a", href=True)
+            heading = card.find("h3")
+            date_div = card.find("div", class_="blog-meta")
+            if not link or not heading or not date_div:
+                continue
+            full_url = urljoin("https://rasa.com", link["href"])
+            if full_url in seen_urls:
+                continue
+            published = safe_parse_date(date_div.get_text(strip=True))
+            if published is None or published < cutoff:
+                continue
+            seen_urls.add(full_url)
+            items.append({
+                "beat": "Voice AI",
+                "source": "Rasa",
+                "title": heading.get_text(strip=True),
+                "url": full_url,
+                "published": published.isoformat(),
+                "summary": "",
+            })
+    except Exception as e:
+        print(f"  ✗ Rasa: {e}", file=sys.stderr)
     return items
 
 
@@ -270,8 +319,10 @@ def main():
 
     for fetcher, name in [
         (fetch_anthropic, "Anthropic"),
+        (fetch_anthropic_research, "Anthropic Research"),
         (fetch_elevenlabs, "ElevenLabs"),
         (fetch_rain_agency, "Rain.agency"),
+        (fetch_rasa, "Rasa"),
     ]:
         items = fetcher()
         print(f"  {'✓' if items else '·'} {name}: {len(items)} items")
