@@ -113,7 +113,7 @@
 ## Tech Stack (updated — fully free tier)
 
 - **Python** — fetch, filter, ranking orchestration
-- **Gemini Flash-Lite** — combined ranking + summarization call. Free tier (1,000 requests/day, 15 RPM) comfortably covers the ~3 calls/day this needs, indefinitely
+- **Gemini Flash-Lite** — combined ranking + summarization call, via the raw REST API (`generateContent` with `responseSchema` for structured JSON output — no SDK dependency). Model ID as of build time: `gemini-3.5-flash-lite` (the `2.5` version was deprecated for new users mid-build — re-verify the current ID if `generateContent` starts 404ing). Free tier (1,000 requests/day, 15 RPM) comfortably covers the ~3 calls/day this needs, indefinitely. Beats with 0 fetched candidates skip the API call entirely.
 - **Astro** — static site generator. Chosen over Next.js for this project: content-driven (a handful of structured JSON files → templated pages), ships close to zero JS, fast builds — nothing here needs React's client-side machinery
 - **Vercel** — hosting (free Hobby tier), replaces Notion API for this project
 - **GitHub Actions (cron)** — daily pipeline execution, **replaces Hammerspoon**. Free (unlimited minutes on a public repo), and doesn't depend on the local Mac being awake and unlocked at 9 AM — a real reliability risk for the original local-only plan.
