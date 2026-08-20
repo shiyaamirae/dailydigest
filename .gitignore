@@ -10,6 +10,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+pipeline/.staging/
 
 # node / astro
 site/node_modules/
