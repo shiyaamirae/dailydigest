@@ -3,50 +3,50 @@
   "beats": {
     "AI": [
       {
-        "title": "Offering Zero Data Retention for frontier models",
-        "source": "OpenAI",
-        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-        "what": "OpenAI reaffirmed Zero Data Retention for API customers and previewed Private Safety Processing.",
-        "why": "It secures enterprise data privacy while deploying advanced AI safety controls in production APIs.",
-        "impact": "Protects user data in deployed voice and LLM products.",
+        "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel A\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.19147v1",
+        "what": "Pre-Compiled Pipeline Shards enable distributed LLM inference across Intel AI PC fleets.",
+        "why": "It allows running large 70B models locally on modest unified memory hardware.",
+        "impact": "Run large local models on standard hardware fleets",
+        "practical": true
+      },
+      {
+        "title": "Harness Continual Learning: Continual Adaptation Beyond Model Paramet\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.19013v1",
+        "what": "Harness Continual Learning extends agent adaptation beyond weights to prompts, tools, and memory.",
+        "why": "It formalizes non-weight architectural adaptation for modern agents.",
+        "impact": "Upgrade agent scaffolding and tool-routing patterns",
         "practical": true
       },
       {
         "title": "Training-Free Inference-Time Self-Reflection and Cost-Bounded Early S\u2026",
         "source": "arXiv",
         "url": "https://arxiv.org/abs/2608.18884v1",
-        "what": "EvoResearcher adds training-free, inference-time self-reflection and early stopping to frozen LLMs.",
-        "why": "It bypasses costly RL training pipelines by implementing agentic reflection at inference time.",
-        "impact": "Improves reasoning agent efficiency without retraining.",
-        "practical": true
-      },
-      {
-        "title": "DeepWeaver: Bridging the Evidence Synthesis Gap in Open-Ended Questio\u2026",
-        "source": "arXiv",
-        "url": "https://arxiv.org/abs/2608.18988v1",
-        "what": "DeepWeaver bridges the evidence synthesis gap for open-ended QA in retrieve-then-generate pipelines.",
-        "why": "It organizes noisy, fragmented retrieval evidence into well-cited, deep-research answers.",
-        "impact": "Enhances RAG quality for agentic research apps.",
+        "what": "EvoResearcher adds training-free, inference-time self-reflection to frozen LLMs.",
+        "why": "It bypasses expensive reinforcement learning training loops for reasoning models.",
+        "impact": "Build cheaper reflection loops without training models",
         "practical": true
       }
     ],
     "Design": [
       {
-        "title": "AI is lying to us, and nobody seems to care",
+        "title": "Why don\u2019t we download airport apps?",
         "source": "UX Collective",
-        "url": "https://uxdesign.cc/ai-is-lying-to-us-and-nobody-seems-to-care-f035cd6f502f?source=rss----138adf9c44c---4",
-        "what": "An exploration of how AI interfaces fail by hiding uncertainty behind overconfident responses.",
-        "why": "It highlights the critical UX flaw of current generation conversational and voice agents.",
-        "impact": "Informs better transparency design in voice agent prompts.",
-        "practical": true
+        "url": "https://uxdesign.cc/why-dont-we-download-airport-apps-095c7be5a384?source=rss----138adf9c44c---4",
+        "what": "An analysis explores why passengers refuse to download airport apps despite high smartphone usage.",
+        "why": "It highlights friction in single-use utility apps, offering lessons for modern interface design.",
+        "impact": "Informs scope decisions for specialized apps",
+        "practical": false
       },
       {
-        "title": "What nobody tells you about AI ethics",
+        "title": "It really wasn\u2019t your fault, Coyote",
         "source": "UX Collective",
-        "url": "https://uxdesign.cc/ai-ethics-ux-accountability-gradient-56094d538453?source=rss----138adf9c44c---4",
-        "what": "An essay on how making the human visible behind AI changes moral alignment and user trust.",
-        "why": "Trust and perceived agency are core design challenges for solo builders of autonomous agents.",
-        "impact": "Guides ethical framing in product design.",
+        "url": "https://uxdesign.cc/it-really-wasnt-your-fault-coyote-e82dbecc43bd?source=rss----138adf9c44c---4",
+        "what": "A satirical design critique examines the product failures in Wile E. Coyote's ACME gear.",
+        "why": "It uses humor to break down core product design flaws, safety considerations, and user frustration.",
+        "impact": "Entertaining lens on fail states",
         "practical": false
       }
     ],
@@ -55,28 +55,10 @@
         "title": "Murf AI launches Falcon 2, takes aim at OpenAI, ElevenLabs with lower\u2026",
         "source": "cnbctv18.com",
         "url": "https://www.cnbctv18.com/business/startup/murf-ai-launches-falcon-2-takes-aim-at-openai-elevenlabs-lower-cost-voice-model-us-india-markets-19973477.htm",
-        "what": "Murf AI launched Falcon 2, a lower-cost voice model aiming at OpenAI and ElevenLabs.",
-        "why": "It introduces competitive pricing and lower latency for voice agent developers.",
-        "impact": "Evaluate for lower-cost voice generation",
+        "what": "Murf AI launched Falcon 2, a lower-cost voice model competing with OpenAI and ElevenLabs.",
+        "why": "It offers lower latency and cost alternatives for builders developing voice applications.",
+        "impact": "Evaluate for cheaper voice generation API integration.",
         "practical": true
-      },
-      {
-        "title": "HappyRobot Wants $1.2 Billion to Run Your Freight by Voice \u2013 Forkast",
-        "source": "forkast.news",
-        "url": "https://forkast.news/happyrobot-wants-1-2-billion-to-run-your-freight-by-voice",
-        "what": "HappyRobot is seeking $1.2 billion to scale its voice AI platform for freight operations.",
-        "why": "Highlights massive vertical SaaS adoption for voice agents in logistics.",
-        "impact": "Benchmark vertical voice AI UX patterns",
-        "practical": false
-      },
-      {
-        "title": "Amazon Opens Alexa Plus AI to All Fire TV Users for Free | The Tech B\u2026",
-        "source": "techbuzz.ai",
-        "url": "https://www.techbuzz.ai/articles/amazon-opens-alexa-plus-ai-to-all-fire-tv-users-for-free",
-        "what": "Amazon made its Alexa Plus AI features free to all Fire TV users.",
-        "why": "Signals a shift toward aggressive consumer platform distribution for assistant tech.",
-        "impact": "Study consumer voice retention tactics",
-        "practical": false
       }
     ]
   }
