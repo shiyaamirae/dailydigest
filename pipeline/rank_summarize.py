@@ -66,9 +66,8 @@ RESPONSE_SCHEMA = {
                     "what": {"type": "STRING"},
                     "why": {"type": "STRING"},
                     "impact": {"type": "STRING"},
-                    "practical": {"type": "BOOLEAN"},
                 },
-                "required": ["index", "what", "why", "impact", "practical"],
+                "required": ["index", "what", "why", "impact"],
             },
         }
     },
@@ -88,9 +87,8 @@ GROQ_RESPONSE_SCHEMA = {
                     "what": {"type": "string"},
                     "why": {"type": "string"},
                     "impact": {"type": "string"},
-                    "practical": {"type": "boolean"},
                 },
-                "required": ["index", "what", "why", "impact", "practical"],
+                "required": ["index", "what", "why", "impact"],
             },
         }
     },
@@ -160,7 +158,6 @@ For each selected item, write:
 - "what": what happened, one sentence, under 150 characters
 - "why": why it matters, one sentence, under 150 characters
 - "impact": how it impacts the reader's work specifically, one short phrase, under 100 characters
-- "practical": true if this is something the reader could actually try/use, false if it's primarily informational/research
 
 Return "index" as the candidate's number from the list above. Do not invent items that aren't in the candidate list."""
 
@@ -285,7 +282,6 @@ def rank_beat(beat, candidates):
             "what": truncate(sel.get("what", ""), FIELD_MAX),
             "why": truncate(sel.get("why", ""), FIELD_MAX),
             "impact": truncate(sel.get("impact", ""), FIELD_MAX),
-            "practical": bool(sel.get("practical", False)),
         })
     print(f"  ✓ {beat}: {len(items)} selected from {len(candidates)} candidates")
     return items

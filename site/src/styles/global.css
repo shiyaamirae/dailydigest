@@ -7,7 +7,6 @@
 @theme {
   --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
   --font-serif: "Source Serif 4", Georgia, serif;
-  --font-hand: "Caveat", cursive;
 
   --color-paper: #f7f6f2;
   --color-surface: #fcfbf8;
@@ -119,10 +118,6 @@ body {
 @utility page-turn {
   transform-origin: left center;
   animation: page-turn 0.4s cubic-bezier(0.22, 0.61, 0.36, 1) both;
-}
-
-@utility handwritten {
-  font-family: var(--font-hand);
 }
 
 @media (prefers-reduced-motion: reduce) {

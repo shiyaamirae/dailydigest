@@ -10,7 +10,6 @@ export type Item = {
   what: string;
   why: string;
   impact: string;
-  practical: boolean;
 };
 
 export type Digest = {
