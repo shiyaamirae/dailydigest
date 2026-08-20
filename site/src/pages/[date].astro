@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import DigestPage from "../components/DigestPage.astro";
+import { loadAllDigests } from "../lib/digests";
+
+export async function getStaticPaths() {
+  const allDigests = loadAllDigests();
+  return allDigests.map((digest) => ({
+    params: { date: digest.date },
+    props: { digest, allDigests },
+  }));
+}
+
+const { digest, allDigests } = Astro.props;
+---
+
+<Layout title={`ai24 — ${digest.date}`}>
+  <DigestPage digest={digest} allDigests={allDigests} />
+</Layout>

@@ -1,0 +1,28 @@
+---
+interface Props {
+  date: string;
+  issueNum: number;
+}
+
+const { date, issueNum } = Astro.props;
+---
+
+<header class="border-b border-dashed border-rule-border">
+  <div class="mx-auto flex w-full max-w-5xl flex-wrap items-end justify-between gap-4 px-6 py-10">
+    <div>
+      <h1 class="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+        <span class="text-accent">&gt;</span> ai24
+      </h1>
+      <p class="mt-2 text-xs tracking-[0.18em] text-ink-muted uppercase">
+        daily curated AI / Design / Voice AI briefing
+      </p>
+      <p class="handwritten mt-3 -rotate-[1.4deg] text-lg text-accent/80">
+        kept by hand, compiled by machine
+      </p>
+    </div>
+    <div class="text-right font-mono text-xs text-ink-muted">
+      <p>{date}</p>
+      <p class="mt-1">Issue #{issueNum}</p>
+    </div>
+  </div>
+</header>

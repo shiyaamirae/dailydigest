@@ -1,0 +1,92 @@
+---
+interface SparkPoint {
+  date: string;
+  count: number;
+}
+
+interface Props {
+  recentDates: string[]; // up to 7, newest first
+  activeDate: string;
+  sparkline: SparkPoint[]; // oldest first; only rendered when length >= 2
+}
+
+const { recentDates, activeDate, sparkline } = Astro.props;
+
+const maxCount = Math.max(1, ...sparkline.map((p) => p.count));
+const avg = sparkline.length
+  ? (sparkline.reduce((s, p) => s + p.count, 0) / sparkline.length).toFixed(1)
+  : "0";
+---
+
+<aside class="md:pt-6">
+  <h2 class="text-[10px] tracking-[0.22em] text-ink-muted uppercase">Previous 7 days</h2>
+
+  <nav class="mt-4 -mr-8 flex flex-col gap-[3px]">
+    {
+      recentDates.map((d) => {
+        const active = d === activeDate;
+        return (
+          <a
+            href={`/${d}`}
+            class:list={[
+              "side-tab group relative flex items-center justify-between py-[7px] pr-8 pl-3 text-left text-xs transition-transform hover:translate-x-[-3px]",
+              active
+                ? "translate-x-[-8px] bg-surface font-medium text-accent card-shadow"
+                : "text-ink-muted",
+            ]}
+          >
+            <span>{d}</span>
+            <span
+              class:list={[
+                "text-[10px]",
+                active ? "text-accent" : "text-transparent group-hover:text-rule-border",
+              ]}
+            >
+              {active ? "●" : "○"}
+            </span>
+            {active && <span class="absolute inset-y-0 left-0 w-[2px] bg-accent" aria-hidden="true" />}
+          </a>
+        );
+      })
+    }
+  </nav>
+
+  <a
+    href="/archive"
+    class="mt-6 inline-block border-b border-dotted border-accent/50 text-xs text-accent transition-colors hover:border-accent"
+  >
+    View full archive →
+  </a>
+
+  {
+    sparkline.length >= 2 && (
+      <div class="mt-9">
+        <p class="text-[10px] tracking-[0.22em] text-ink-muted uppercase">Activity</p>
+        <div class="mt-3 flex h-16 items-end gap-[3px] border-b border-rule-border pb-px">
+          {sparkline.map((p, i) => (
+            <span
+              title={`${p.date}: ${p.count} items`}
+              style={`height:${(p.count / maxCount) * 100}%`}
+              class:list={[
+                "flex-1 rounded-[1px] transition-colors",
+                i === sparkline.length - 1 ? "bg-accent" : "bg-rule-border hover:bg-accent/50",
+              ]}
+            />
+          ))}
+        </div>
+        <p class="mt-2 text-[10px] text-ink-muted">last {sparkline.length} days · {avg} items/day</p>
+      </div>
+    )
+  }
+
+  <div class="mt-9 flex flex-col gap-1.5 text-[10px] tracking-[0.1em] text-ink-muted uppercase">
+    <span class="flex items-center gap-1.5">
+      <span class="inline-block h-[7px] w-[7px] rounded-full bg-accent" aria-hidden="true" />
+      try this
+    </span>
+    <span class="flex items-center gap-1.5">
+      <span class="inline-block h-[7px] w-[7px] rounded-full border border-ink-muted/70" aria-hidden="true" />
+      read this
+    </span>
+  </div>
+</aside>

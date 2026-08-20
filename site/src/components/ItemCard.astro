@@ -1,0 +1,57 @@
+---
+import type { Item } from "../lib/digests";
+
+interface Props {
+  item: Item;
+  delayMs?: number;
+}
+
+const { item, delayMs = 0 } = Astro.props;
+---
+
+<article
+  class="ink-in group relative rounded-lg border border-rule-border/70 bg-surface-solid/90 pt-5 pr-6 pb-6 pl-6 card-shadow transition-all duration-200 hover:-translate-y-[3px] hover:rotate-[-0.25deg] hover:card-shadow-lift"
+  style={`animation-delay:${delayMs}ms`}
+>
+  <span class="absolute inset-y-2 left-0 w-[3px] rounded-full bg-accent/70" aria-hidden="true"></span>
+
+  <div class="flex items-center gap-3">
+    <a
+      href={item.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="border border-rule-border bg-paper px-2 py-[3px] text-[10px] tracking-[0.12em] text-ink-muted uppercase transition-transform hover:-rotate-1 hover:border-accent/60 hover:text-accent"
+    >
+      {item.source} ↗
+    </a>
+    <span class="flex items-center gap-1.5 text-[10px] tracking-[0.14em] text-ink-muted uppercase">
+      <span
+        class:list={[
+          "inline-block h-[7px] w-[7px] rounded-full transition-transform group-hover:scale-125",
+          item.practical ? "bg-accent" : "border border-ink-muted/70 bg-transparent",
+        ]}
+        aria-hidden="true"
+      ></span>
+      {item.practical ? "try this" : "read this"}
+    </span>
+  </div>
+
+  <h3 class="mt-3 font-serif text-[20px] leading-snug font-bold text-ink">
+    {item.title}
+  </h3>
+
+  <dl class="mt-3 space-y-1.5 font-serif text-[15px] leading-[1.65]">
+    <div class="flex gap-2">
+      <dt class="mt-[3px] shrink-0 font-mono text-[10px] tracking-[0.12em] text-ink-muted uppercase">What</dt>
+      <dd class="text-ink/90">{item.what}</dd>
+    </div>
+    <div class="flex gap-2">
+      <dt class="mt-[3px] shrink-0 font-mono text-[10px] tracking-[0.12em] text-ink-muted uppercase">Why</dt>
+      <dd class="text-ink/90">{item.why}</dd>
+    </div>
+    <div class="flex gap-2">
+      <dt class="mt-[3px] shrink-0 font-mono text-[10px] tracking-[0.12em] text-ink-muted uppercase">Impact</dt>
+      <dd class="text-ink/90">{item.impact}</dd>
+    </div>
+  </dl>
+</article>

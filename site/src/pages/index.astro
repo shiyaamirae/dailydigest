@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import DigestPage from "../components/DigestPage.astro";
+import { loadAllDigests, loadLatestDigest, todayIST } from "../lib/digests";
+
+const allDigests = loadAllDigests();
+const latest = loadLatestDigest();
+const today = todayIST();
+---
+
+<Layout>
+  {
+    latest ? (
+      <DigestPage digest={latest} allDigests={allDigests} isStale={latest.date !== today} todayDate={today} />
+    ) : (
+      <div class="mx-auto flex min-h-[60vh] w-full max-w-5xl flex-col items-center justify-center px-6 text-center">
+        <p class="font-mono text-sm text-ink-muted">
+          No digest has been published yet — check back after the next run.
+        </p>
+      </div>
+    )
+  }
+</Layout>

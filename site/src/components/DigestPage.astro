@@ -1,0 +1,64 @@
+---
+import Header from "./Header.astro";
+import Sidebar from "./Sidebar.astro";
+import DigestBeats from "./DigestBeats.astro";
+import Footer from "./Footer.astro";
+import StaleBanner from "./StaleBanner.astro";
+import { issueNumber, itemCount, type Digest } from "../lib/digests";
+
+interface Props {
+  digest: Digest;
+  allDigests: Digest[];
+  isStale?: boolean;
+  todayDate?: string;
+}
+
+const { digest, allDigests, isStale = false, todayDate } = Astro.props;
+
+const recentDates = allDigests.slice(0, 7).map((d) => d.date);
+const sparkline = [...allDigests]
+  .slice(0, 14)
+  .reverse()
+  .map((d) => ({ date: d.date, count: itemCount(d) }));
+const issueNum = issueNumber(digest.date, allDigests);
+
+const sortedAsc = [...allDigests].sort((a, b) => a.date.localeCompare(b.date));
+const idx = sortedAsc.findIndex((d) => d.date === digest.date);
+const prevDate = idx > 0 ? sortedAsc[idx - 1].date : null;
+const nextDate = idx >= 0 && idx < sortedAsc.length - 1 ? sortedAsc[idx + 1].date : null;
+---
+
+{isStale && todayDate && <StaleBanner shownDate={digest.date} />}
+
+<Header date={digest.date} issueNum={issueNum} />
+
+<div class="mx-auto grid w-full max-w-5xl gap-8 px-6 py-12 md:grid-cols-[220px_1fr]">
+  <Sidebar recentDates={recentDates} activeDate={digest.date} sparkline={sparkline} />
+
+  <main class="relative z-10">
+    <DigestBeats digest={digest} />
+
+    <nav class="mt-8 flex items-center justify-between pl-14 text-xs text-ink-muted">
+      {
+        prevDate ? (
+          <a href={`/${prevDate}`} class="hover:text-accent">
+            ← {prevDate}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        nextDate ? (
+          <a href={`/${nextDate}`} class="hover:text-accent">
+            {nextDate} →
+          </a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
+  </main>
+</div>
+
+<Footer />

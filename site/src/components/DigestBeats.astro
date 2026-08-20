@@ -1,0 +1,103 @@
+---
+import ItemCard from "./ItemCard.astro";
+import { BEATS, type Digest } from "../lib/digests";
+
+interface Props {
+  digest: Digest;
+}
+
+const { digest } = Astro.props;
+
+// Default to the first beat that actually has items, falling back to "AI".
+const defaultBeat = BEATS.find((b) => (digest.beats[b] ?? []).length > 0) ?? BEATS[0];
+const counts = Object.fromEntries(BEATS.map((b) => [b, (digest.beats[b] ?? []).length]));
+---
+
+<div>
+  <div class="relative z-10 flex items-end gap-3 pl-10" role="tablist" aria-label="Beat">
+    <div class="flex items-end gap-1">
+      {
+        BEATS.map((b) => (
+          <button
+            type="button"
+            role="tab"
+            data-beat-tab={b}
+            aria-selected={b === defaultBeat}
+            class:list={[
+              "notebook-tab px-5 text-[11px] tracking-[0.18em] transition-all",
+              b === defaultBeat
+                ? "translate-y-px bg-surface py-3 font-medium text-accent"
+                : "translate-y-[5px] py-2.5 text-ink-muted hover:translate-y-[2px] hover:text-ink",
+            ]}
+          >
+            {b.toUpperCase()}
+          </button>
+        ))
+      }
+    </div>
+    <span data-beat-count class="pb-3 text-[11px] tracking-[0.1em] text-ink-muted" data-counts={JSON.stringify(counts)}>
+      · {counts[defaultBeat]} items
+    </span>
+  </div>
+
+  <div class="sheet relative rounded-[3px] rounded-tl-none pt-8 pr-7 pb-12 pl-14">
+    <div class="absolute inset-y-0 left-[15px] flex flex-col justify-around py-10" aria-hidden="true">
+      {[0, 1, 2, 3].map(() => <span class="punch-hole h-[13px] w-[13px] rounded-full" />)}
+    </div>
+    <span class="absolute inset-y-0 left-[42px] w-px bg-accent/45" aria-hidden="true"></span>
+    <span class="absolute inset-y-0 left-[45px] w-px bg-accent/15" aria-hidden="true"></span>
+
+    {
+      BEATS.map((b) => {
+        const items = digest.beats[b] ?? [];
+        return (
+          <div data-beat-panel={b} class:list={["page-turn space-y-7", b !== defaultBeat && "hidden"]}>
+            {items.length > 0 ? (
+              items.map((item, i) => <ItemCard item={item} delayMs={i * 80} />)
+            ) : (
+              <p class="py-6 text-sm text-ink-muted italic">
+                No {b} items made the cut today — sources didn't turn up anything new worth including.
+              </p>
+            )}
+            <p class="handwritten pt-2 -rotate-[0.8deg] text-[19px] text-accent/75">
+              — end of {b.toLowerCase()} notes, {digest.date}
+            </p>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+
+<script>
+  function initBeatTabs(root: ParentNode) {
+    const tabs = root.querySelectorAll<HTMLButtonElement>("[data-beat-tab]");
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const beat = tab.dataset.beatTab;
+        tabs.forEach((t) => {
+          const active = t === tab;
+          t.setAttribute("aria-selected", String(active));
+          t.classList.toggle("text-accent", active);
+          t.classList.toggle("bg-surface", active);
+          t.classList.toggle("font-medium", active);
+          t.classList.toggle("translate-y-px", active);
+          t.classList.toggle("py-3", active);
+          t.classList.toggle("text-ink-muted", !active);
+          t.classList.toggle("translate-y-[5px]", !active);
+          t.classList.toggle("py-2.5", !active);
+        });
+        root.querySelectorAll<HTMLElement>("[data-beat-panel]").forEach((panel) => {
+          panel.classList.toggle("hidden", panel.dataset.beatPanel !== beat);
+        });
+        const countEl = root.querySelector<HTMLElement>("[data-beat-count]");
+        if (countEl && beat) {
+          const counts = JSON.parse(countEl.dataset.counts ?? "{}");
+          countEl.textContent = `· ${counts[beat] ?? 0} items`;
+        }
+      });
+    });
+  }
+
+  initBeatTabs(document);
+</script>
