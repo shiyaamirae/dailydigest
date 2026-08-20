@@ -3,59 +3,50 @@
   "beats": {
     "AI": [
       {
-        "title": "X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Tex\u2026",
-        "source": "arXiv",
-        "url": "https://arxiv.org/abs/2608.18661v1",
-        "what": "X2Streaming-TTS introduces causal, token-level text-to-speech for low-latency spoken dialog.",
-        "why": "Enables true real-time voice agent interactions without waiting for full sentences.",
-        "impact": "Lowers voice agent latency",
+        "title": "Offering Zero Data Retention for frontier models",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "what": "OpenAI reaffirmed Zero Data Retention for API customers and previewed Private Safety Processing.",
+        "why": "It secures enterprise data privacy while deploying advanced AI safety controls in production APIs.",
+        "impact": "Protects user data in deployed voice and LLM products.",
         "practical": true
       },
       {
-        "title": "Harness Continual Learning: Continual Adaptation Beyond Model Paramet\u2026",
+        "title": "Training-Free Inference-Time Self-Reflection and Cost-Bounded Early S\u2026",
         "source": "arXiv",
-        "url": "https://arxiv.org/abs/2608.19013v1",
-        "what": "Harness Continual Learning explores agent adaptation through prompts, memories, and tools.",
-        "why": "Shifts agent learning beyond model weights to dynamic harnesses you can build.",
-        "impact": "Improves agent architecture",
+        "url": "https://arxiv.org/abs/2608.18884v1",
+        "what": "EvoResearcher adds training-free, inference-time self-reflection and early stopping to frozen LLMs.",
+        "why": "It bypasses costly RL training pipelines by implementing agentic reflection at inference time.",
+        "impact": "Improves reasoning agent efficiency without retraining.",
         "practical": true
       },
       {
-        "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+        "title": "DeepWeaver: Bridging the Evidence Synthesis Gap in Open-Ended Questio\u2026",
         "source": "arXiv",
-        "url": "https://arxiv.org/abs/2608.18852v1",
-        "what": "SkillGate trains agents on-policy to dynamically select and load procedural skills on demand.",
-        "why": "Solves context bloat by letting agents fetch needed instructions mid-episode.",
-        "impact": "Optimizes multi-turn agents",
+        "url": "https://arxiv.org/abs/2608.18988v1",
+        "what": "DeepWeaver bridges the evidence synthesis gap for open-ended QA in retrieve-then-generate pipelines.",
+        "why": "It organizes noisy, fragmented retrieval evidence into well-cited, deep-research answers.",
+        "impact": "Enhances RAG quality for agentic research apps.",
         "practical": true
       }
     ],
     "Design": [
       {
-        "title": "Why don\u2019t we download airport apps?",
+        "title": "AI is lying to us, and nobody seems to care",
         "source": "UX Collective",
-        "url": "https://uxdesign.cc/why-dont-we-download-airport-apps-095c7be5a384?source=rss----138adf9c44c---4",
-        "what": "An analysis explores why passengers rarely download dedicated airport apps despite heavy traffic.",
-        "why": "It highlights friction points in single-use utility apps versus web or conversational interfaces.",
-        "impact": "Informs mobile product strategy",
-        "practical": false
+        "url": "https://uxdesign.cc/ai-is-lying-to-us-and-nobody-seems-to-care-f035cd6f502f?source=rss----138adf9c44c---4",
+        "what": "An exploration of how AI interfaces fail by hiding uncertainty behind overconfident responses.",
+        "why": "It highlights the critical UX flaw of current generation conversational and voice agents.",
+        "impact": "Informs better transparency design in voice agent prompts.",
+        "practical": true
       },
       {
-        "title": "Is the future of software certain once AI is everywhere?",
+        "title": "What nobody tells you about AI ethics",
         "source": "UX Collective",
-        "url": "https://uxdesign.cc/is-the-future-of-software-certain-once-ai-is-everywhere-f93e1bc5697f?source=rss----138adf9c44c---4",
-        "what": "An industry piece examines how AI generation is shifting enterprise software demand and evolution.",
-        "why": "It contextualizes the broader market shifts affecting software builders right now.",
-        "impact": "Provides macro product context",
-        "practical": false
-      },
-      {
-        "title": "It really wasn\u2019t your fault, Coyote",
-        "source": "UX Collective",
-        "url": "https://uxdesign.cc/it-really-wasnt-your-fault-coyote-e82dbecc43bd?source=rss----138adf9c44c---4",
-        "what": "A satirical UX critique analyzes ACME products through a fictional design review lens.",
-        "why": "It offers lighthearted design lessons on common usability failures.",
-        "impact": "Refines UX critique instincts",
+        "url": "https://uxdesign.cc/ai-ethics-ux-accountability-gradient-56094d538453?source=rss----138adf9c44c---4",
+        "what": "An essay on how making the human visible behind AI changes moral alignment and user trust.",
+        "why": "Trust and perceived agency are core design challenges for solo builders of autonomous agents.",
+        "impact": "Guides ethical framing in product design.",
         "practical": false
       }
     ],
@@ -64,27 +55,27 @@
         "title": "Murf AI launches Falcon 2, takes aim at OpenAI, ElevenLabs with lower\u2026",
         "source": "cnbctv18.com",
         "url": "https://www.cnbctv18.com/business/startup/murf-ai-launches-falcon-2-takes-aim-at-openai-elevenlabs-lower-cost-voice-model-us-india-markets-19973477.htm",
-        "what": "Murf AI launched Falcon 2, a lower-cost, low-latency voice model.",
-        "why": "It directly competes with OpenAI and ElevenLabs in the voice generation space.",
-        "impact": "Evaluate for cheaper voice synthesis APIs.",
+        "what": "Murf AI launched Falcon 2, a lower-cost voice model aiming at OpenAI and ElevenLabs.",
+        "why": "It introduces competitive pricing and lower latency for voice agent developers.",
+        "impact": "Evaluate for lower-cost voice generation",
         "practical": true
       },
       {
-        "title": "News by ACCESS Newswire on TradingView, 2026-08-19 \u2014 tag:reuters.com,\u2026",
-        "source": "tradingview.com",
-        "url": "https://www.tradingview.com/news/reuters.com,2026-08-19:newsml_ACSYBqtka:0",
-        "what": "Rainbow Six Siege reduced toxic voice chat by 50% using Modulate's ToxMod.",
-        "why": "It demonstrates real-world production viability for real-time voice moderation AI.",
-        "impact": "Consider integrating voice safety agents.",
-        "practical": true
+        "title": "HappyRobot Wants $1.2 Billion to Run Your Freight by Voice \u2013 Forkast",
+        "source": "forkast.news",
+        "url": "https://forkast.news/happyrobot-wants-1-2-billion-to-run-your-freight-by-voice",
+        "what": "HappyRobot is seeking $1.2 billion to scale its voice AI platform for freight operations.",
+        "why": "Highlights massive vertical SaaS adoption for voice agents in logistics.",
+        "impact": "Benchmark vertical voice AI UX patterns",
+        "practical": false
       },
       {
-        "title": "Amazon Makes Alexa+ Free on Fire TV, Escalating AI Assistant War | Th\u2026",
+        "title": "Amazon Opens Alexa Plus AI to All Fire TV Users for Free | The Tech B\u2026",
         "source": "techbuzz.ai",
-        "url": "https://www.techbuzz.ai/articles/amazon-makes-alexa-free-on-fire-tv-escalating-ai-assistant-war",
-        "what": "Amazon bundled its premium Alexa+ conversational AI service free on Fire TV.",
-        "why": "It signals aggressive platform-level push of advanced voice agents to mainstream consumers.",
-        "impact": "Benchmark conversational UX patterns.",
+        "url": "https://www.techbuzz.ai/articles/amazon-opens-alexa-plus-ai-to-all-fire-tv-users-for-free",
+        "what": "Amazon made its Alexa Plus AI features free to all Fire TV users.",
+        "why": "Signals a shift toward aggressive consumer platform distribution for assistant tech.",
+        "impact": "Study consumer voice retention tactics",
         "practical": false
       }
     ]
