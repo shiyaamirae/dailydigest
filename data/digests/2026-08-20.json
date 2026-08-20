@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-20",
+  "beats": {
+    "AI": [
+      {
+        "title": "X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Tex\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.18661v1",
+        "what": "X2Streaming-TTS introduces causal token-level text-to-speech for low-latency streaming dialogue systems.",
+        "why": "Enables true streaming audio generation from uncertain text prefixes without waiting for full sentences.",
+        "impact": "Drops voice agent latency",
+        "practical": true
+      },
+      {
+        "title": "Offering Zero Data Retention for frontier models",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "what": "OpenAI reaffirmed Zero Data Retention for eligible API customers and previewed Private Safety Processing.",
+        "why": "Protects user data privacy while enabling advanced AI moderation on frontier models.",
+        "impact": "Secures user data in production",
+        "practical": true
+      },
+      {
+        "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.18852v1",
+        "what": "SkillGate introduces in-policy skill selection for long-horizon agents to choose prompt files dynamically.",
+        "why": "Optimizes how LLM agents load and apply procedural knowledge mid-episode.",
+        "impact": "Better voice agent orchestration",
+        "practical": true
+      }
+    ],
+    "Design": [
+      {
+        "title": "AI is lying to us, and nobody seems to care",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ai-is-lying-to-us-and-nobody-seems-to-care-f035cd6f502f?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an analysis on how AI interfaces hallucinate and fail to show uncertainty.",
+        "why": "It highlights critical UX design flaws in conversational and voice agents that erode user trust.",
+        "impact": "Improve voice agent transparency",
+        "practical": false
+      }
+    ],
+    "Voice AI": []
+  }
+}
