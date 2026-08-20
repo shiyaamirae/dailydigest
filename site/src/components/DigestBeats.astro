@@ -14,7 +14,7 @@ const counts = Object.fromEntries(BEATS.map((b) => [b, (digest.beats[b] ?? []).l
 ---
 
 <div>
-  <div class="relative z-10 flex items-end gap-3 pl-10" role="tablist" aria-label="Beat">
+  <div class="relative z-10 flex items-end justify-between pl-10 pr-7" role="tablist" aria-label="Beat">
     <div class="flex items-end gap-1">
       {
         BEATS.map((b) => (
@@ -59,9 +59,6 @@ const counts = Object.fromEntries(BEATS.map((b) => [b, (digest.beats[b] ?? []).l
                 No {b} items made the cut today — sources didn't turn up anything new worth including.
               </p>
             )}
-            <p class="handwritten pt-2 -rotate-[0.8deg] text-[19px] text-accent/75">
-              — end of {b.toLowerCase()} notes, {digest.date}
-            </p>
           </div>
         );
       })

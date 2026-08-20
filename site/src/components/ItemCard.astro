@@ -9,30 +9,18 @@ interface Props {
 const { item, delayMs = 0 } = Astro.props;
 ---
 
-<article
-  class="ink-in group relative rounded-lg border border-rule-border/70 bg-surface-solid/90 pt-5 pr-6 pb-6 pl-6 card-shadow transition-all duration-200 hover:-translate-y-[3px] hover:rotate-[-0.25deg] hover:card-shadow-lift"
+<a
+  href={item.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="ink-in group relative block rounded-lg border border-rule-border/70 bg-surface-solid/90 pt-5 pr-6 pb-6 pl-6 card-shadow transition-all duration-200 hover:-translate-y-[3px] hover:rotate-[-0.25deg] hover:card-shadow-lift hover:border-accent/60"
   style={`animation-delay:${delayMs}ms`}
 >
   <span class="absolute inset-y-2 left-0 w-[3px] rounded-full bg-accent/70" aria-hidden="true"></span>
 
   <div class="flex items-center gap-3">
-    <a
-      href={item.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      class="border border-rule-border bg-paper px-2 py-[3px] text-[10px] tracking-[0.12em] text-ink-muted uppercase transition-transform hover:-rotate-1 hover:border-accent/60 hover:text-accent"
-    >
+    <span class="border border-rule-border bg-paper px-2 py-[3px] text-[10px] tracking-[0.12em] text-ink-muted uppercase transition-transform group-hover:-rotate-1 group-hover:border-accent/60 group-hover:text-accent">
       {item.source} ↗
-    </a>
-    <span class="flex items-center gap-1.5 text-[10px] tracking-[0.14em] text-ink-muted uppercase">
-      <span
-        class:list={[
-          "inline-block h-[7px] w-[7px] rounded-full transition-transform group-hover:scale-125",
-          item.practical ? "bg-accent" : "border border-ink-muted/70 bg-transparent",
-        ]}
-        aria-hidden="true"
-      ></span>
-      {item.practical ? "try this" : "read this"}
     </span>
   </div>
 
@@ -54,4 +42,4 @@ const { item, delayMs = 0 } = Astro.props;
       <dd class="text-ink/90">{item.impact}</dd>
     </div>
   </dl>
-</article>
+</a>
