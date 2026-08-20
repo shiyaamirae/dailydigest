@@ -48,5 +48,6 @@ jobs:
           curl -s \
             -H "Title: AI24 — today's digest is up" \
             -H "Tags: newspaper" \
+            -H "Click: https://dailydigest-six.vercel.app/" \
             -d "Fresh AI / Design / Voice AI picks are live." \
             "https://ntfy.sh/$NTFY_TOPIC"
