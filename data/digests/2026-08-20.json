@@ -6,41 +6,87 @@
         "title": "X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Tex\u2026",
         "source": "arXiv",
         "url": "https://arxiv.org/abs/2608.18661v1",
-        "what": "X2Streaming-TTS introduces causal token-level text-to-speech for low-latency streaming dialogue systems.",
-        "why": "Enables true streaming audio generation from uncertain text prefixes without waiting for full sentences.",
-        "impact": "Drops voice agent latency",
+        "what": "X2Streaming-TTS introduces causal, token-level text-to-speech for low-latency spoken dialog.",
+        "why": "Enables true real-time voice agent interactions without waiting for full sentences.",
+        "impact": "Lowers voice agent latency",
         "practical": true
       },
       {
-        "title": "Offering Zero Data Retention for frontier models",
-        "source": "OpenAI",
-        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-        "what": "OpenAI reaffirmed Zero Data Retention for eligible API customers and previewed Private Safety Processing.",
-        "why": "Protects user data privacy while enabling advanced AI moderation on frontier models.",
-        "impact": "Secures user data in production",
+        "title": "Harness Continual Learning: Continual Adaptation Beyond Model Paramet\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.19013v1",
+        "what": "Harness Continual Learning explores agent adaptation through prompts, memories, and tools.",
+        "why": "Shifts agent learning beyond model weights to dynamic harnesses you can build.",
+        "impact": "Improves agent architecture",
         "practical": true
       },
       {
         "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
         "source": "arXiv",
         "url": "https://arxiv.org/abs/2608.18852v1",
-        "what": "SkillGate introduces in-policy skill selection for long-horizon agents to choose prompt files dynamically.",
-        "why": "Optimizes how LLM agents load and apply procedural knowledge mid-episode.",
-        "impact": "Better voice agent orchestration",
+        "what": "SkillGate trains agents on-policy to dynamically select and load procedural skills on demand.",
+        "why": "Solves context bloat by letting agents fetch needed instructions mid-episode.",
+        "impact": "Optimizes multi-turn agents",
         "practical": true
       }
     ],
     "Design": [
       {
-        "title": "AI is lying to us, and nobody seems to care",
+        "title": "Why don\u2019t we download airport apps?",
         "source": "UX Collective",
-        "url": "https://uxdesign.cc/ai-is-lying-to-us-and-nobody-seems-to-care-f035cd6f502f?source=rss----138adf9c44c---4",
-        "what": "UX Collective published an analysis on how AI interfaces hallucinate and fail to show uncertainty.",
-        "why": "It highlights critical UX design flaws in conversational and voice agents that erode user trust.",
-        "impact": "Improve voice agent transparency",
+        "url": "https://uxdesign.cc/why-dont-we-download-airport-apps-095c7be5a384?source=rss----138adf9c44c---4",
+        "what": "An analysis explores why passengers rarely download dedicated airport apps despite heavy traffic.",
+        "why": "It highlights friction points in single-use utility apps versus web or conversational interfaces.",
+        "impact": "Informs mobile product strategy",
+        "practical": false
+      },
+      {
+        "title": "Is the future of software certain once AI is everywhere?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/is-the-future-of-software-certain-once-ai-is-everywhere-f93e1bc5697f?source=rss----138adf9c44c---4",
+        "what": "An industry piece examines how AI generation is shifting enterprise software demand and evolution.",
+        "why": "It contextualizes the broader market shifts affecting software builders right now.",
+        "impact": "Provides macro product context",
+        "practical": false
+      },
+      {
+        "title": "It really wasn\u2019t your fault, Coyote",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/it-really-wasnt-your-fault-coyote-e82dbecc43bd?source=rss----138adf9c44c---4",
+        "what": "A satirical UX critique analyzes ACME products through a fictional design review lens.",
+        "why": "It offers lighthearted design lessons on common usability failures.",
+        "impact": "Refines UX critique instincts",
         "practical": false
       }
     ],
-    "Voice AI": []
+    "Voice AI": [
+      {
+        "title": "Murf AI launches Falcon 2, takes aim at OpenAI, ElevenLabs with lower\u2026",
+        "source": "cnbctv18.com",
+        "url": "https://www.cnbctv18.com/business/startup/murf-ai-launches-falcon-2-takes-aim-at-openai-elevenlabs-lower-cost-voice-model-us-india-markets-19973477.htm",
+        "what": "Murf AI launched Falcon 2, a lower-cost, low-latency voice model.",
+        "why": "It directly competes with OpenAI and ElevenLabs in the voice generation space.",
+        "impact": "Evaluate for cheaper voice synthesis APIs.",
+        "practical": true
+      },
+      {
+        "title": "News by ACCESS Newswire on TradingView, 2026-08-19 \u2014 tag:reuters.com,\u2026",
+        "source": "tradingview.com",
+        "url": "https://www.tradingview.com/news/reuters.com,2026-08-19:newsml_ACSYBqtka:0",
+        "what": "Rainbow Six Siege reduced toxic voice chat by 50% using Modulate's ToxMod.",
+        "why": "It demonstrates real-world production viability for real-time voice moderation AI.",
+        "impact": "Consider integrating voice safety agents.",
+        "practical": true
+      },
+      {
+        "title": "Amazon Makes Alexa+ Free on Fire TV, Escalating AI Assistant War | Th\u2026",
+        "source": "techbuzz.ai",
+        "url": "https://www.techbuzz.ai/articles/amazon-makes-alexa-free-on-fire-tv-escalating-ai-assistant-war",
+        "what": "Amazon bundled its premium Alexa+ conversational AI service free on Fire TV.",
+        "why": "It signals aggressive platform-level push of advanced voice agents to mainstream consumers.",
+        "impact": "Benchmark conversational UX patterns.",
+        "practical": false
+      }
+    ]
   }
 }
