@@ -1,0 +1,20 @@
+# secrets
+.env
+.env.local
+
+# local claude code settings (personal, not project config)
+.claude/settings.local.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node / astro
+site/node_modules/
+site/dist/
+site/.astro/
+
+# os
+.DS_Store
