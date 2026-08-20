@@ -33,23 +33,29 @@
 
 ---
 
-## Sources (v1, verified)
+## Sources (v1, built and tested against live sites)
 
 | Beat | Source | Fetch method |
 |---|---|---|
-| AI | arXiv cs.AI, cs.CL | Official API/RSS |
+| AI | arXiv cs.AI, cs.CL | Official API |
 | AI | OpenAI blog | RSS — `openai.com/news/rss.xml` |
 | AI | Google DeepMind blog | RSS — `deepmind.google/blog/feed/basic/` |
-| AI | Anthropic blog | Scraping — no official RSS feed exists |
+| AI | Latent Space | RSS — `latent.space/feed` (Substack) |
+| AI | Anthropic news | Scraping — no official RSS feed exists |
+| AI | Anthropic Research | Scraping — no RSS; same page structure as Anthropic news |
 | Design | Nielsen Norman Group | RSS — `nngroup.com/feed/rss` |
 | Design | Smashing Magazine | RSS — `smashingmagazine.com/feed/` |
 | Design | UX Collective | RSS — `uxdesign.cc/feed` (Medium-backed) |
-| Voice AI | VoiceBot.ai | RSS — `voicebot.ai/feed/` (verified live) |
-| Voice AI | Deepgram blog | RSS — `deepgram.com/blog.xml` (re-verify at build time; blog URL structure looked inconsistent during research) |
+| Voice AI | Deepgram blog | RSS — `deepgram.com/blog.xml` (confirmed working; feedparser must fetch via `requests` with browser headers first, not parse the URL directly, or Deepgram's server returns malformed XML) |
 | Voice AI | ElevenLabs blog | Scraping — no RSS feed found |
-| Voice AI | Rain.agency blog | Scraping — no RSS found, site had redirect/404 issues during research; re-verify it's still active at build time |
+| Voice AI | Rain.agency | Scraping — actual path is `/insights-updates/`, not `/blog` |
+| Voice AI | Rasa blog | Scraping — no RSS feed found |
 
-7 of 10 sources use free, official RSS — reliable, low maintenance. The 3 scraped sources (Anthropic, ElevenLabs, Rain.agency) are more fragile: a site redesign can silently break the scraper until noticed and fixed. Budget for occasional maintenance there.
+8 of 12 sources use free, official RSS — reliable, low maintenance. The 4 scraped sources (Anthropic news + Research, ElevenLabs, Rain.agency, Rasa) are more fragile: a site redesign can silently break the scraper until noticed and fixed. Budget for occasional maintenance there.
+
+**Dropped after testing:** VoiceBot.ai (RSS confirmed genuinely stale — stuck at ~2 years old content despite returning valid 200 responses), Voice & AI / voiceand.ai (domain doesn't resolve), Google PAIR and Stanford AI Index (both evergreen/annual publications with no dated posts — structurally incompatible with a 24h-window digest), OpenAI Research (the `/research/` page blocks scraping outright, and the existing OpenAI news RSS already mixes in research content), The Batch (no RSS feed exists despite search results suggesting one; weekly cadence made a scraper not worth building).
+
+**Fetch behavior note:** several sources (VoiceBot.ai in particular) sit behind Cloudflare bot protection and reject a self-identifying bot User-Agent — the fetcher uses a standard browser UA string throughout.
 
 **Note:** HN/Reddit dropped from v1 — community engagement wasn't picked as a ranking factor, so including them adds complexity without a clear use.
 
@@ -130,6 +136,6 @@ No hard numeric target for v1 — self-assessed.
 ## Open Questions / Assumptions to confirm before build
 
 - Timezone for 9 AM — **confirmed IST (Kollam)**
-- Zero-qualifying-items case — **confirmed:** show fewer than 2-3 for that beat, don't force-fill with filler
-- Deepgram blog and Rain.agency's RSS/scraping targets showed some inconsistency during research (URL structure, redirects/404s) — re-verify both are still live and correct at build time
+- Zero-qualifying-items case — **confirmed:** show fewer than 2-3 for that beat, don't force-fill with filler. Validated in practice: a real `fetch.py` run against all 12 live sources returned 0 items for the entire Voice AI beat on a normal day — most sources simply don't publish daily, which is expected, not a bug.
+- Deepgram and Rain.agency's fetch targets — **resolved:** both confirmed working (Deepgram needed a header fix, Rain.agency's real path is `/insights-updates/`)
 - Full visual/UX system, layout, content budget rationale, and data viz scope — see `design.md`
