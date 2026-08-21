@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-21",
+  "beats": {
+    "AI": [
+      {
+        "title": "The /wayfinder Skill: Navigating the \u201cFog of War\u201d of Planning",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/wayfinder-skill",
+        "what": "Latent Space shared the /wayfinder skill for planning greenfield projects and navigating unclear workflows.",
+        "why": "It provides a tactical pattern for tackling ambiguous product development tasks using AI tools.",
+        "impact": "Improves your solo planning and greenfield development workflow."
+      },
+      {
+        "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.19758v1",
+        "what": "FlashPrefill V2 introduces block-sparse prefill attention to accelerate long-context LLM serving.",
+        "why": "It directly targets the quadratic compute bottleneck of attention during the prefilling phase.",
+        "impact": "Lowers latency and cost for your long-context agent applications."
+      },
+      {
+        "title": "Optimal Skill Selection for LLM Agents with Provable Bicriteria Guara\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.19993v1",
+        "what": "Researchers proposed optimal bicriteria guarantees for selecting reusable skill documents for LLM agents.",
+        "why": "Skill loading is critical for agent task performance and managing bounded context windows.",
+        "impact": "Better context management for your voice agent's tool and skill retrieval."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Timing Charts: A Blueprint For SMIL Animations",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
+        "what": "Smashing Magazine published a guide on using SMIL animations for SVGs without JavaScript.",
+        "why": "It offers a lightweight, performant way to build animated UI elements directly inside tags.",
+        "impact": "Useful for crafting responsive, snappy UI animations for your voice agent."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Innovative Eyewear's smart glasses will read custom AI news aloud nex\u2026",
+        "source": "stocktitan.net",
+        "url": "https://www.stocktitan.net/news/LUCY/innovative-eyewear-inc-announces-major-new-ai-and-news-features-for-1p2be97wl3rl.html",
+        "what": "Innovative Eyewear launched smart glasses supporting seamless visual and voice AI context switching.",
+        "why": "It demonstrates cross-modal state persistence for real-time AI agents.",
+        "impact": "Informs design patterns for multi-modal interfaces."
+      },
+      {
+        "title": "7 Best AI Phone Agents for Recruitment Teams in 2026 | Onrec",
+        "source": "onrec.com",
+        "url": "https://www.onrec.com/news/7-best-ai-phone-agents-for-recruitment-teams-in-2026",
+        "what": "Consio launched a Shopify-native AI phone agent connected to real-time e-commerce data.",
+        "why": "It shows production-grade tool calling and deep backend integration for voice agents.",
+        "impact": "Provides a practical reference architecture for vertical voice agents."
+      },
+      {
+        "title": "Capacity Brings Automated Quality Assurance, Multi-Agent ...",
+        "source": "prnewswire.com",
+        "url": "https://www.prnewswire.com/news-releases/capacity-brings-automated-quality-assurance-multi-agent-support-and-knowledge-orchestration-to-voice-offerings-302855778.html",
+        "what": "Capacity launched a unified CX automation platform featuring conversational neural voice agents.",
+        "why": "It highlights stateful, multi-agent orchestration maintaining context over calls.",
+        "impact": "Offers architectural insights for context retention."
+      }
+    ]
+  }
+}
