@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-22",
+  "beats": {
+    "AI": [
+      {
+        "title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/simile",
+        "what": "Simile AI's CEO discusses transitioning from Generative Agents to building 8 billion digital twins.",
+        "why": "Provides practical insights into scaling complex agent simulations for real-world applications.",
+        "impact": "Informs complex agent architecture"
+      },
+      {
+        "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+        "what": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay mechanics.",
+        "why": "Demonstrates advanced interactive AI design patterns applicable to conversational interfaces.",
+        "impact": "New interactive agent patterns"
+      }
+    ],
+    "Design": [
+      {
+        "title": "AI-Generated Images Can Perform as Well as Stock Photography",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ai-generated-images/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "NN/g study shows AI-generated images perform as well as stock photography without user perception penalties.",
+        "why": "It validates using AI visuals in your product designs without worrying about user trust degradation.",
+        "impact": "Faster prototyping visuals"
+      },
+      {
+        "title": "Artificial Intelligence: Glossary",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "NN/g released a plain-language AI glossary covering core concepts like tokens, agents, and evals.",
+        "why": "It provides a clear mental model for AI primitives you deal with when building your voice agent.",
+        "impact": "Clearer technical vocabulary"
+      }
+    ],
+    "Voice AI": []
+  }
+}
