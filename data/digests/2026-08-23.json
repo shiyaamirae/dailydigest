@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-23",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is ta\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+        "what": "Latent Space explored how simulation is replacing traditional training methods to be faster and cheaper.",
+        "why": "It radically changes how AI systems are tested and developed with massive cost reductions.",
+        "impact": "Faster simulation testing for voice agents"
+      },
+      {
+        "title": "The Evolution of the Agent Harness",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/attention-interface",
+        "what": "Latent Space analyzed the evolution of agent harnesses as models absorb orchestration layers.",
+        "why": "Understanding how harnesses shift helps developers architect better standalone agent workflows.",
+        "impact": "Redefining voice agent architecture"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Designers, stop what you're doing Claude Code just secretly ...",
+        "source": "instagram.com",
+        "url": "https://www.instagram.com/reel/DcWepC3tOHp",
+        "what": "A preview shows Claude Code handling design tasks directly within the CLI.",
+        "why": "It bridges the gap between design concepts and coding workflows for solo builders.",
+        "impact": "Speeds up UI implementation directly from the terminal."
+      },
+      {
+        "title": "Claude Max package vs Pro: Better UI/UX coding results?",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/groups/claudeaicommunity/posts/1359194592914371",
+        "what": "Discussions highlight using Claude Design outputs directly exported into Claude Code.",
+        "why": "It creates a streamlined pipeline from visual design to full app development.",
+        "impact": "Enhances single-developer app creation speed."
+      },
+      {
+        "title": "How are Mid/senior Ui/UX designers actually using AI in ...",
+        "source": "reddit.com",
+        "url": "https://www.reddit.com/r/UIUX/comments/1vv3tp2/how_are_midsenior_uiux_designers_actually_using",
+        "what": "Designers discuss integrating improved GPT image generation into their workflows.",
+        "why": "AI image tools are reaching a competitive threshold for rapid asset creation.",
+        "impact": "Provides faster prototyping assets for your voice agent UI."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "How AI Character Chat Is Reshaping Customer Engagement for Modern Bus\u2026",
+        "source": "techbullion.com",
+        "url": "https://techbullion.com/how-ai-character-chat-is-reshaping-customer-engagement-for-modern-businesses",
+        "what": "TechBullion published a breakdown of 10 top AI voice agents and customer engagement trends.",
+        "why": "It highlights current market implementations and capabilities of deployed conversational voice agents.",
+        "impact": "benchmarking competitor voice agent features"
+      },
+      {
+        "title": "Mental health workers say algorithmic triage is hurting ...",
+        "source": "wausaupilotandreview.com",
+        "url": "https://wausaupilotandreview.com/2026/08/22/mental-health-workers-say-algorithmic-triage-is-hurting-patients",
+        "what": "Rogers Behavioral Health partnered with Limbic to deploy AI for clinical intakes and triage.",
+        "why": "Shows practical integration of conversational AI in high-stakes healthcare intake workflows.",
+        "impact": "designing robust voice intake flows"
+      },
+      {
+        "title": "Natural Extracts Launches Three-Website Ecosystem With",
+        "source": "openpr.com",
+        "url": "https://www.openpr.com/news/4610262/natural-extracts-launches-three-website-ecosystem-with",
+        "what": "Natural Extracts launched an ecosystem featuring voice-based AI companions for adults in midlife.",
+        "why": "Demonstrates niche consumer product deployment of conversational voice companion tech.",
+        "impact": "exploring conversational companion UX"
+      }
+    ]
+  }
+}
