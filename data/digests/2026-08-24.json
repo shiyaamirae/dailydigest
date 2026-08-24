@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-24",
+  "beats": {
+    "AI": [],
+    "Design": [
+      {
+        "title": "Stop using OKLCH lightness for your color scale",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/stop-using-oklch-lightness-for-your-color-scale-02025deca49d?source=rss----138adf9c44c---4",
+        "what": "An analysis shows why OKLCH lightness fails to accurately predict contrast in color scales.",
+        "why": "It provides a better numerical alternative for building accessible palette weights.",
+        "impact": "Improves UI contrast precision"
+      },
+      {
+        "title": "Sterling Cooper built your UX process. We need to redefine it in the\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/sterling-cooper-built-your-ux-process-we-need-to-redefine-it-in-the-age-of-ai-and-systems-520a2d3b2a60?source=rss----138adf9c44c---4",
+        "what": "An argument proposes redefining the traditional UX process and mid-century agency rituals for the AI era.",
+        "why": "AI builders need workflows optimized for systems rather than legacy handoffs.",
+        "impact": "Reshapes solo AI product workflows"
+      },
+      {
+        "title": "Nobody wants a blank page. Nobody touches a perfect one.",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/nobody-wants-a-blank-page-nobody-touches-a-perfect-one-48d452a26dae?source=rss----138adf9c44c---4",
+        "what": "An exploration examines why users struggle with blank pages and avoid touching finished states.",
+        "why": "Understanding psychological friction helps design better cold-start AI interfaces.",
+        "impact": "Guides voice agent onboarding design"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "OpenAI unveils GPT-Live for real-time voice conversations",
+        "source": "scanx.trade",
+        "url": "https://scanx.trade/stock-market-news/technology/openai-unveils-gpt-live-for-real-time-voice-conversations/45098626",
+        "what": "OpenAI has unveiled GPT-Live for real-time voice conversations.",
+        "why": "It provides a new native capability for conversational voice agents.",
+        "impact": "Test immediately for latency and conversational flow in agent builds."
+      },
+      {
+        "title": "AI to learn to speak like a human: Sber develops new voice ...",
+        "source": "www1.ru",
+        "url": "https://www1.ru/en/news/2026/08/23/ii-naucat-razgovarivat-kak-celovek-sber-razrabatyvaet-novyi-golosovoi-intellekt.html",
+        "what": "Sber developed a full-duplex voice model using a single neural network.",
+        "why": "It replaces multi-step pipelines to enable simultaneous listening and speaking.",
+        "impact": "Incorporate single-model full-duplex patterns into current voice architectures."
+      },
+      {
+        "title": "I spent 20 minutes counting everything I hate about ChatGPT\u2019s new voi\u2026",
+        "source": "techradar.com",
+        "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/i-spent-20-minutes-counting-everything-i-hate-about-chatgpts-new-voice-and-accidentally-discovered-why-it-works",
+        "what": "TechRadar analyzed ChatGPT's voice behavior, highlighting filler words and pauses.",
+        "why": "It highlights user-experience trade-offs in conversational voice agent pacing.",
+        "impact": "Refine agent prompt design and conversational rhythm based on UX feedback."
+      }
+    ]
+  }
+}
