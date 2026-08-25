@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-25",
+  "beats": {
+    "AI": [
+      {
+        "title": "Advancing price-performance for developers with GPT\u20115.6 in Kiro",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/gpt-5-6-in-kiro",
+        "what": "OpenAI released GPT-5.6 in Kiro to improve developer workflows and price-performance.",
+        "why": "Provides cheaper and more capable model execution for end-to-end coding loops.",
+        "impact": "Lowers inference costs and speeds up building your voice agent."
+      },
+      {
+        "title": "Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.23138v1",
+        "what": "Researchers introduced Pointing-VLA, providing typed hidden-state spatial grounding for VLA models.",
+        "why": "Replaces brittle text coordinates with robust hidden-state spatial interfaces for robotics.",
+        "impact": "Offers a cleaner pattern for grounding spatial interactions in your voice agent."
+      },
+      {
+        "title": "Think Only When Needed: Prompt-Authority Control for Selective Slow-P\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.23224v1",
+        "what": "A study on prompt-authority control for selective slow-path intervention in VLA manipulation was published.",
+        "why": "Shows raw appended text degrades VLA policy performance, requiring structured control instead.",
+        "impact": "Guides how you inject dynamic tool context into real-time agent prompts."
+      }
+    ],
+    "Design": [
+      {
+        "title": "No log off, How to become an AI Designer, vibe coded portfolios",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/no-log-off-how-to-become-an-ai-designer-vibe-coded-portfolios-deb7ca0e0f5d?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a guide on becoming an AI designer and vibe-coded portfolios.",
+        "why": "It addresses how AI is dissolving design seams and altering digital environments.",
+        "impact": "Refines portfolio approach for AI-first roles."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Bengaluru-based Murf AI enters the next phase of Voice AI with Falcon\u2026",
+        "source": "cio.eletsonline.com",
+        "url": "https://cio.eletsonline.com/news/bengaluru-based-murf-ai-enters-the-next-phase-of-voice-ai-with-falcon-2/76335",
+        "what": "Murf AI launched Falcon 2, a new text-to-speech model for fast, natural voice agents.",
+        "why": "It achieves sub-second speech generation latency, crucial for fluid voice interfaces.",
+        "impact": "Test its latency for your real-time voice agent."
+      },
+      {
+        "title": "Boya Notra Neo Pre-Order Opens August 24: A $69.99 AI Voice Recorder\u2026",
+        "source": "techtimes.com",
+        "url": "https://www.techtimes.com/articles/325273/20260824/boya-notra-neo-pre-order-opens-august-24-6999-ai-voice-recorder-built-campus.htm",
+        "what": "Boya opened pre-orders for Notra Neo, a $69.99 AI voice recorder.",
+        "why": "It offers affordable hardware integration for voice capturing use cases.",
+        "impact": "Explore hardware-level voice data capture."
+      },
+      {
+        "title": "Signia Introduces MaX, Powered by Acoustic Intelligence\u2122: World's Fir\u2026",
+        "source": "prnewswire.com",
+        "url": "https://www.prnewswire.com/news-releases/signia-introduces-max-powered-by-acoustic-intelligence-worlds-first-ai-hearing-aid-platform-with-4-dnns-302857407.html",
+        "what": "Signia launched MaX, an AI hearing aid platform powered by 4 DNNs.",
+        "why": "It features advanced real-time conversation enhancement and own voice processing.",
+        "impact": "Study its acoustic processing patterns."
+      }
+    ]
+  }
+}
