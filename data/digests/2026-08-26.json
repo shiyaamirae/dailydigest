@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-26",
+  "beats": {
+    "AI": [
+      {
+        "title": "Jalape\u00f1o\u2019s first results show industry-leading speed and efficiency i\u2026",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/jalapeno-first-results",
+        "what": "OpenAI announced Jalape\u00f1o, a custom inference chip delivering industry-leading speed and efficiency.",
+        "why": "It significantly reduces latency and increases throughput for modern AI models at a lower cost.",
+        "impact": "Lowers latency and compute costs for building real-time voice agents."
+      },
+      {
+        "title": "Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Cali\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.24314v1",
+        "what": "Researchers evaluated LLM-as-a-Judge frameworks specifically for scaling conversational voice agent evaluation.",
+        "why": "It provides a reliable methodology to assess interaction quality and calibration at scale.",
+        "impact": "Improves automated testing and evaluation loops for voice interaction quality."
+      },
+      {
+        "title": "StarHarness: Evolving Harnesses with Stratified Search for Enterprise\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.24804v1",
+        "what": "StarHarness introduces a framework for evolving environment-specific agent harnesses with fixed model weights.",
+        "why": "It optimizes prompt framing, tool interfaces, and subagent structures for specific environments.",
+        "impact": "Provides actionable patterns to upgrade custom agent architectures and loops."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Why Your Website Should Never Stop Changing",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
+        "what": "Pierre Burgy explores building autonomous websites continuously optimized by AI agents post-launch.",
+        "why": "It shifts web design from static delivery to managing self-updating, living product interfaces.",
+        "impact": "Automate front-end updates on your apps."
+      },
+      {
+        "title": "Researcher-in-the-loop",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/researcher-in-the-loop-18a8ffddf48e?source=rss----138adf9c44c---4",
+        "what": "UX Collective introduces the researcher-in-the-loop model for governing AI in UX research workflows.",
+        "why": "It defines a practical governance framework for leveraging AI without losing methodological rigor.",
+        "impact": "Scale user testing for your voice agent."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Industry analysts are taking notice. SoundHound AI has ...",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/soundhoundAI/videos/industry-analysts-are-taking-notice-soundhound-ai-has-officially-been-recognized/1607187854434451",
+        "what": "SoundHound AI highlighted a new platform enabling agents to be built in minutes using foundation models.",
+        "why": "It showcases rapid developer tooling for creating functional voice agents.",
+        "impact": "Speeds up prototyping workflows."
+      },
+      {
+        "title": "Voice AI Agent: Benefits, Use Cases & How It Works",
+        "source": "blog.intimetec.com",
+        "url": "https://blog.intimetec.com/what-is-voice-ai-agent-and-how-it-works",
+        "what": "An overview outlined the core components of modern voice AI agents, from speech recognition to synthesis.",
+        "why": "It defines the modern architectural stack required for building conversational voice tools.",
+        "impact": "Guides system architecture design."
+      }
+    ]
+  }
+}
