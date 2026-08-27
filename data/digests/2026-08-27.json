@@ -1,0 +1,51 @@
+{
+  "date": "2026-08-27",
+  "beats": {
+    "AI": [
+      {
+        "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.26005v1",
+        "what": "VoiceMem introduces a dual-brain memory architecture for streaming real-time conversational voice agents.",
+        "why": "It provides the missing memory soul for duplex speech language models to enable empathetic interaction.",
+        "impact": "Directly usable for building better stateful voice agents."
+      },
+      {
+        "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+        "what": "Google DeepMind released Gemini 3.5 Transcribe for intelligent speech-to-text transcription.",
+        "why": "It delivers advanced audio understanding capabilities directly via API.",
+        "impact": "Can upgrade the core listening engine of a voice agent."
+      },
+      {
+        "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/lovable-future-of-saas",
+        "what": "Lovable expanded its web app creation platform into MCP-powered capabilities for autonomous agents.",
+        "why": "It points to the future where SaaS is built out of tool-use components agents can leverage.",
+        "impact": "Inspires new product patterns for agentic workflows."
+      }
+    ],
+    "Design": [
+      {
+        "title": "AI has a hospitality problem money can\u2019t fix",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ai-has-a-hospitality-problem-money-cant-fix-e8fa34e91d62?source=rss----138adf9c44c---4",
+        "what": "UX Collective examines AI integration in luxury hotel check-in experiences.",
+        "why": "It highlights the friction between automated efficiency and human-centric service touchpoints.",
+        "impact": "Informs design patterns for hybrid human-AI interfaces in voice agents."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Batch Text-to-Speech Deep Dive: From One Speech Call to a Produced Sh\u2026",
+        "source": "Deepgram",
+        "url": "https://deepgram.com/learn/batch-tts-pipeline-deep-dive",
+        "what": "Deepgram published a deep dive on building batch text-to-speech pipelines for automated daily shows.",
+        "why": "It provides a blueprint for stitching single TTS API calls into production-ready long-form audio.",
+        "impact": "Improves long-form voice agent output architectures."
+      }
+    ]
+  }
+}
