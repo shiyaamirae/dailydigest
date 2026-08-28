@@ -3,7 +3,7 @@ name: Daily Digest
 on:
   schedule:
     - cron: "30 3 * * *" # 9:00 AM IST (primary) — not minute-precise, can slip under load
-    - cron: "30 7 * * *" # 1:00 PM IST (backup) — no-ops if the primary already published today
+    - cron: "30 4 * * *" # 10:00 AM IST (backup) — no-ops if the primary already published today
   workflow_dispatch: {}
 
 permissions:
