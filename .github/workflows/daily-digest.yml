@@ -2,7 +2,8 @@ name: Daily Digest
 
 on:
   schedule:
-    - cron: "30 3 * * *" # 9:00 AM IST — not minute-precise, can slip under load
+    - cron: "30 3 * * *" # 9:00 AM IST (primary) — not minute-precise, can slip under load
+    - cron: "30 7 * * *" # 1:00 PM IST (backup) — no-ops if the primary already published today
   workflow_dispatch: {}
 
 permissions:
@@ -15,17 +16,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check if today's digest already exists
+        id: check
+        run: |
+          TODAY=$(TZ=Asia/Kolkata date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/digests/$TODAY.json" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "data/digests/$TODAY.json already exists — scheduled trigger no-op."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.exists != 'true'
         with:
           python-version: "3.11"
 
       - name: Install dependencies
+        if: steps.check.outputs.exists != 'true'
         run: pip install -r requirements.txt
 
       - name: Fetch candidates
+        if: steps.check.outputs.exists != 'true'
         run: python pipeline/fetch.py
 
       - name: Rank and summarize
+        if: steps.check.outputs.exists != 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
@@ -33,15 +49,18 @@ jobs:
         run: python pipeline/rank_summarize.py
 
       - name: Publish digest
+        if: steps.check.outputs.exists != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           python pipeline/publish.py
 
       - name: Wait for Vercel deploy
+        if: steps.check.outputs.exists != 'true'
         run: sleep 45
 
       - name: Notify via ntfy.sh
+        if: steps.check.outputs.exists != 'true'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
