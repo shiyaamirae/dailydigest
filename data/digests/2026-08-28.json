@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-28",
+  "beats": {
+    "AI": [
+      {
+        "title": "Gemini Omni 1.1 Flash lets you build with more control",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+        "what": "Google DeepMind released Gemini Omni 1.1 Flash for building with enhanced developer control.",
+        "why": "Provides greater precision and lower latency for multimodal and real-time interaction paradigms.",
+        "impact": "Directly usable for building low-latency voice agent interfaces."
+      },
+      {
+        "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LL\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.27427v1",
+        "what": "Researchers proposed Persona-Execution Separation (PES) for evolving LLM agents under execution audits.",
+        "why": "Decouples mutable prompt personas from stateful, secure code execution domains.",
+        "impact": "Architectural pattern to build safer, auditable multi-function agent loops."
+      },
+      {
+        "title": "When Tool Outputs Become Commands: Separating Action Induction from R\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2608.27146v1",
+        "what": "A new paper analyzes separating action induction from runtime authorization in tool-augmented agents.",
+        "why": "Addresses the critical security failure mode where untrusted tool outputs turn into execution commands.",
+        "impact": "Informs safer sandboxing and tool-use design for self-built agent harnesses."
+      }
+    ],
+    "Design": [
+      {
+        "title": "What Blade Runner got wrong about AI (so far)",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/what-blade-runner-got-wrong-about-ai-so-far-d01b579288c1?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an analysis comparing sci-fi AI design tropes to current text-box interfaces.",
+        "why": "It contrasts cinematic expectations with current interaction realities, prompting better paradigm shifts.",
+        "impact": "Guides voice agent interface design"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Property Maintenance Software: The 9 Best Features in 2026",
+        "source": "eliseai.com",
+        "url": "https://eliseai.com/blog/property-maintenance-software-the-9-best-features-in-2026",
+        "what": "EliseAI highlights unified resident records connecting VoiceAI maintenance calls directly to user profiles.",
+        "why": "It showcases practical integration patterns for handling inbound voice requests within existing databases.",
+        "impact": "Improves voice agent data routing architecture."
+      },
+      {
+        "title": "Is Your AI Agent Audit-Ready? AI Compliance Checklist 2026",
+        "source": "happyrobot.ai",
+        "url": "https://www.happyrobot.ai/hub/ai-compliance-checklist-ai-agents",
+        "what": "HappyRobot published an audit checklist and comparison framework for AI text versus voice agent tools.",
+        "why": "It provides evaluation criteria for selecting reliable production tools in real enterprise workflows.",
+        "impact": "Guides technical stack selection for voice."
+      },
+      {
+        "title": "9 voice AI challenges every enterprise hits (here's how)",
+        "source": "kore.ai",
+        "url": "https://www.kore.ai/blog/voice-ai-challenges-and-how-to-fix",
+        "what": "Kore.ai outlined nine core voice AI challenges and mitigation strategies for enterprise deployments.",
+        "why": "It flags common production roadblocks like latency and interruption handling that builders must solve.",
+        "impact": "Helps preemptively avoid architecture pitfalls."
+      }
+    ]
+  }
+}
