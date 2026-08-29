@@ -1,0 +1,59 @@
+{
+  "date": "2026-08-29",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] OpenAI shuts off Cursor",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+        "what": "OpenAI reportedly shut off access to Cursor, impacting developer workflows.",
+        "why": "It signals sudden shifts in tool availability that can disrupt AI-native builders.",
+        "impact": "Monitor dependency on closed vendor APIs"
+      }
+    ],
+    "Design": [
+      {
+        "title": "The Custodial Era of UX: Cleaning Up After AI",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "NN/g outlines the custodial era of UX where design must rapidly clean up and evaluate AI-generated outputs.",
+        "why": "It addresses the core builder bottleneck of rapid AI generation outpacing design evaluation and UX quality.",
+        "impact": "Refine evaluation workflows"
+      },
+      {
+        "title": "AI Can't Replace Real Research in Empathy Mapping",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "NN/g highlights that AI organizes research but cannot replace firsthand user empathy mapping evidence.",
+        "why": "It anchors solo product builders on the necessity of direct user research when designing voice interfaces.",
+        "impact": "Conduct direct user research"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Intron launches Sahara v2.5 for African voice AI",
+        "source": "portalerp.com",
+        "url": "https://portalerp.com/za/noticia/intron-launches-sahara-v2-5-for-african-voice-ai",
+        "what": "Intron launched Sahara v2.5, featuring bilingual code-switching speech recognition.",
+        "why": "It improves voice AI accuracy for mixed-language conversations.",
+        "impact": "Useful for building multilingual conversational agents."
+      },
+      {
+        "title": "Datoric (YC W26): Custom AI Training Data for Frontier Labs - Claude'\u2026",
+        "source": "startuphub.ai",
+        "url": "https://www.startuphub.ai/ai-news/claudes-corner/2026/claudes-corner-arzule-yc-w2026",
+        "what": "Datoric released over 20,000 hours of multilingual conversational voice training data.",
+        "why": "It provides verified conversational data beyond standard read-aloud sentences.",
+        "impact": "Improves custom TTS and voice model training quality."
+      },
+      {
+        "title": "SalesCloser Q3FY26 Results: Revenue surges 90%, gross margin expands\u2026",
+        "source": "scanx.trade",
+        "url": "https://scanx.trade/stock-market-news/companies/salescloser-q3fy26-results-revenue-surges-90-gross-margin-expands-70-9/49462468",
+        "what": "SalesCloser filed a patent for hybrid session management across voice, text, and avatars.",
+        "why": "It enables continuous context switching across multiple AI interaction channels.",
+        "impact": "Offers architectural patterns for multi-modal agent design."
+      }
+    ]
+  }
+}
