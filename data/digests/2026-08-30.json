@@ -1,8 +1,50 @@
 {
   "date": "2026-08-30",
   "beats": {
-    "AI": [],
+    "AI": [
+      {
+        "title": "Top Meeting AI Tools With a Native MCP Server (August ...",
+        "source": "spinach.ai",
+        "url": "https://www.spinach.ai/blog/top-meeting-ai-mcp-servers",
+        "what": "Spinach AI published a roundup of top meeting AI tools with native MCP server integrations.",
+        "why": "Model Context Protocol servers are expanding rapidly for agentic application workflows.",
+        "impact": "Incorporate MCP servers into voice agent data pipelines."
+      },
+      {
+        "title": "This Week\u2019s Awesome Tech Stories From Around the Web (Through August\u2026",
+        "source": "singularityhub.com",
+        "url": "https://singularityhub.com/2026/08/29/this-weeks-awesome-tech-stories-from-around-the-web-through-august-29-2",
+        "what": "OpenAI CEO Sam Altman shared plans to evolve ChatGPT into a proactive, always-on AI agent.",
+        "why": "Shifts user expectations from reactive chat boxes to proactive background agents.",
+        "impact": "Informs design patterns for proactive voice assistants."
+      }
+    ],
     "Design": [],
-    "Voice AI": []
+    "Voice AI": [
+      {
+        "title": "Voice AI is getting cheaper. And a lot more competitive. Fish ...",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/JoseAristimunoprandbranding/videos/voice-ai-is-getting-cheaper-and-a-lot-more-competitive-fish-audio-has-unveiled-s/2450729588767822",
+        "what": "Fish Audio launched S2.1 Pro, a new voice model competing directly with ElevenLabs.",
+        "why": "Increased competition is driving down voice AI costs and expanding model choices.",
+        "impact": "Lowers experimentation costs for your voice agent."
+      },
+      {
+        "title": "Boat partners with Google Gemini for Crest AI smart audio",
+        "source": "timesofindia.indiatimes.com",
+        "url": "https://timesofindia.indiatimes.com/technology/audio/boat-partners-with-google-gemini-for-crest-ai-smart-audio/articleshow/133611674.cms",
+        "what": "Boat partnered with Google Gemini for Crest AI smart audio integration.",
+        "why": "Brings hands-free Workspace management and real-time translation to hardware.",
+        "impact": "Shows emerging patterns for voice assistant UX."
+      },
+      {
+        "title": "Speechify Review 2026: Features, Pricing & Verdict",
+        "source": "memeburn.com",
+        "url": "https://memeburn.com/speechify-review",
+        "what": "Speechify expanded its platform into a suite with voice AI assistants and dictation.",
+        "why": "Demonstrates successful product expansion of core voice tech into productivity.",
+        "impact": "Inspiration for feature bundling in your own app."
+      }
+    ]
   }
 }
