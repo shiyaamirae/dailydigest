@@ -35,6 +35,7 @@ RSS_SOURCES = [
     {"beat": "Design", "source": "Nielsen Norman Group", "url": "https://www.nngroup.com/feed/rss/"},
     {"beat": "Design", "source": "Smashing Magazine", "url": "https://www.smashingmagazine.com/feed/"},
     {"beat": "Design", "source": "UX Collective", "url": "https://uxdesign.cc/feed"},
+    {"beat": "Design", "source": "UX Planet", "url": "https://uxplanet.org/feed"},
     {"beat": "Voice AI", "source": "Deepgram", "url": "https://deepgram.com/blog.xml"},
 ]
 

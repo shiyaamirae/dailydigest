@@ -46,6 +46,7 @@
 | Design | Nielsen Norman Group | RSS — `nngroup.com/feed/rss` |
 | Design | Smashing Magazine | RSS — `smashingmagazine.com/feed/` |
 | Design | UX Collective | RSS — `uxdesign.cc/feed` (Medium-backed) |
+| Design | UX Planet | RSS — `uxplanet.org/feed` (Medium-backed) |
 | Voice AI | Deepgram blog | RSS — `deepgram.com/blog.xml` (confirmed working; feedparser must fetch via `requests` with browser headers first, not parse the URL directly, or Deepgram's server returns malformed XML) |
 | Voice AI | ElevenLabs blog | Scraping — no RSS feed found |
 | Voice AI | Rain.agency | Scraping — actual path is `/insights-updates/`, not `/blog` |
