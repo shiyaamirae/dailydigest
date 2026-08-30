@@ -15,6 +15,7 @@ export type Item = {
 export type Digest = {
   date: string; // YYYY-MM-DD
   beats: Record<Beat, Item[]>;
+  carried_over?: Partial<Record<Beat, string>>; // beat -> original date its items were found
 };
 
 export const BEATS: Beat[] = ["AI", "Design", "Voice AI"];

@@ -50,8 +50,14 @@ const counts = Object.fromEntries(BEATS.map((b) => [b, (digest.beats[b] ?? []).l
     {
       BEATS.map((b) => {
         const items = digest.beats[b] ?? [];
+        const carriedFrom = digest.carried_over?.[b];
         return (
           <div data-beat-panel={b} class:list={["page-turn space-y-7", b !== defaultBeat && "hidden"]}>
+            {carriedFrom && (
+              <div class="rounded-md border border-warning-text/25 bg-warning-bg px-4 py-2.5 text-xs text-warning-text">
+                Nothing new in {b} today — showing the latest {b} picks, from {carriedFrom}.
+              </div>
+            )}
             {items.length > 0 ? (
               items.map((item, i) => <ItemCard item={item} delayMs={i * 80} />)
             ) : (

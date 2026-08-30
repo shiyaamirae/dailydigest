@@ -102,6 +102,30 @@ def load_fetched():
     return json.loads(FETCHED_PATH.read_text())
 
 
+def find_carryover(beat):
+    """Most recent day with non-empty items for this beat, walking back through
+    the archive. Used when curated sources AND the web search fallback both
+    come up empty — surface real, previously-vetted content instead of a
+    blank tab. Returns (items, original_date) or (None, None) if the archive
+    has never had anything for this beat.
+    """
+    if not ARCHIVE_DIR.exists():
+        return None, None
+    for f in sorted(ARCHIVE_DIR.glob("*.json"), reverse=True):
+        try:
+            data = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        items = data.get("beats", {}).get(beat, [])
+        if items:
+            # Keep pointing at the original day the content was found, not
+            # just the previous file, so a multi-day dry spell doesn't make
+            # the "carried over from" date creep forward each day.
+            original_date = data.get("carried_over", {}).get(beat) or data.get("date")
+            return items, original_date
+    return None, None
+
+
 def load_recent_titles(beat):
     """Titles already published for this beat in the last few days, for dedup."""
     if not ARCHIVE_DIR.exists():
@@ -291,10 +315,20 @@ def main():
     fetched = load_fetched()
     print("Ranking and summarizing...\n")
 
-    digest = {"date": datetime.now(IST).date().isoformat(), "beats": {}}
+    digest = {"date": datetime.now(IST).date().isoformat(), "beats": {}, "carried_over": {}}
     for beat in BEATS:
         candidates = fetched.get(beat, [])
-        digest["beats"][beat] = rank_beat(beat, candidates)
+        items = rank_beat(beat, candidates)
+        if not items:
+            carried_items, original_date = find_carryover(beat)
+            if carried_items:
+                print(f"  · {beat}: nothing new, carried over from {original_date}")
+                items = carried_items
+                digest["carried_over"][beat] = original_date
+        digest["beats"][beat] = items
+
+    if not digest["carried_over"]:
+        del digest["carried_over"]
 
     RANKED_PATH.parent.mkdir(parents=True, exist_ok=True)
     RANKED_PATH.write_text(json.dumps(digest, indent=2))
