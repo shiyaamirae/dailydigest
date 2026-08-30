@@ -3,56 +3,73 @@
   "beats": {
     "AI": [
       {
-        "title": "This Week\u2019s Awesome Tech Stories From Around the Web (Through August\u2026",
-        "source": "singularityhub.com",
-        "url": "https://singularityhub.com/2026/08/29/this-weeks-awesome-tech-stories-from-around-the-web-through-august-29-2",
-        "what": "OpenAI plans to transform ChatGPT into a proactive, always-on AI agent.",
-        "why": "It signals a major shift toward continuous assistant interaction paradigms.",
-        "impact": "Informs design patterns for your voice agent UX."
+        "title": "A Judge Just Called This Pentagon AI Ban Illegal. Why ...",
+        "source": "247wallst.com",
+        "url": "https://247wallst.com/investing/2026/08/29/a-judge-just-called-this-pentagon-ai-ban-illegal-why-palantir-could-rally",
+        "what": "Palantir's Sankar noted Nemotron Ultra beat frontier models in specific tasks.",
+        "why": "It shows smaller specialized models can outperform massive ones in production.",
+        "impact": "Evaluate smaller models for voice pipeline efficiency."
       },
       {
-        "title": "Top Meeting AI Tools With a Native MCP Server (August ...",
-        "source": "spinach.ai",
-        "url": "https://www.spinach.ai/blog/top-meeting-ai-mcp-servers",
-        "what": "Meeting AI tools are expanding native MCP server capabilities.",
-        "why": "MCP is becoming a standard integration layer for context-aware agents.",
-        "impact": "Guides your tool choice and agent architecture."
-      },
-      {
-        "title": "AI (artificial intelligence) | The Guardian",
-        "source": "theguardian.com",
-        "url": "https://www.theguardian.com/technology/artificialintelligenceai",
-        "what": "OpenAI staff issued warnings prior to an AI agent security incident.",
-        "why": "Highlights crucial safety and permission boundaries for autonomous systems.",
-        "impact": "Highlights agent safety risks to mitigate."
+        "title": "OpenAI, Google, and Microsoft have warned of the threat of cyberattac\u2026",
+        "source": "logos-pres.md",
+        "url": "https://logos-pres.md/en/news/openai-google-and-microsoft-have-warned-of-the-threat-of-cyberattacks-using-ai",
+        "what": "Google, OpenAI, and Microsoft warned about cyberattack threats from advanced models.",
+        "why": "Security guardrails are becoming increasingly critical for autonomous agents.",
+        "impact": "Implement strict output validation in your voice agent."
       }
     ],
     "Design": [
       {
-        "title": "Design jobs at Y Combinator startups in San Francisco | Y Combinator",
-        "source": "ycombinator.com",
-        "url": "https://www.ycombinator.com/jobs/role/designer/san-francisco",
-        "what": "Y Combinator startups like BoldVoice are hiring senior designers for speech and voice apps.",
-        "why": "It signals active venture backing and real-world product demand for voice interface design.",
-        "impact": "Informs voice agent UX trends"
+        "title": "Fintech and Banking App UX Design: Key Patterns for Building User Tru\u2026",
+        "source": "youxstudio.com",
+        "url": "https://www.youxstudio.com/en/blog/990/fintech-and-banking-app-ux-design",
+        "what": "Published new UX design patterns for building trust in fintech and banking apps.",
+        "why": "Establishes critical interface patterns for handling secure, high-stakes user flows.",
+        "impact": "Apply security patterns to AI apps"
       },
       {
-        "title": "Muzli.Me - Your Creative Identity, Amplified",
-        "source": "me.muz.li",
-        "url": "https://me.muz.li",
-        "what": "New AI-driven eCommerce and price-tracking UI/UX design concepts were published on Muzli.",
-        "why": "Provides fresh layout and interaction patterns for AI-assisted transactional interfaces.",
-        "impact": "Sparks UI layout ideas"
-      },
-      {
-        "title": "What is Visual Hierarchy? \u2014 updated 2026",
+        "title": "What is Storytelling? \u2014 updated 2026",
         "source": "ixdf.org",
-        "url": "https://ixdf.org/literature/topics/visual-hierarchy",
-        "what": "IxDF updated its comprehensive guide on visual hierarchy and UI contrast standards.",
-        "why": "Strong visual hierarchy remains critical for guiding users through non-visual or hybrid voice/screen agents.",
-        "impact": "Refines agent display states"
+        "url": "https://ixdf.org/literature/topics/storytelling",
+        "what": "Explored how narrative storytelling enhances user engagement and emotional depth in UX.",
+        "why": "Narrative pacing is essential for conversational voice agents and fluid interactions.",
+        "impact": "Improve voice agent prompts"
+      },
+      {
+        "title": "Medium",
+        "source": "medium.com",
+        "url": "https://medium.com/design-bootcamp/the-most-beautiful-design-in-the-room-might-be-the-least-accessible-964f83bda951",
+        "what": "Reviewed WCAG accessibility guidelines focusing on text contrast and practical compliance.",
+        "why": "Ensures digital products remain fully accessible across visual and alternative interfaces.",
+        "impact": "Ensure interface accessibility"
       }
     ],
-    "Voice AI": []
+    "Voice AI": [
+      {
+        "title": "Google AI Releases Gemini Omni 1.1 Flash: 40-Second ...",
+        "source": "marktechpost.com",
+        "url": "https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling",
+        "what": "Google AI released Gemini Omni 1.1 Flash with real-time audio and voice capabilities.",
+        "why": "It offers cutting-edge low-latency voice model capabilities directly applicable to voice agent development.",
+        "impact": "Test out immediate low-latency audio model APIs for your voice agent."
+      },
+      {
+        "title": "Boat partners with Google Gemini for Crest AI smart audio",
+        "source": "timesofindia.indiatimes.com",
+        "url": "https://timesofindia.indiatimes.com/technology/audio/boat-partners-with-google-gemini-for-crest-ai-smart-audio/articleshow/133611674.cms",
+        "what": "Boat partnered with Google Gemini to integrate Gemini into Crest AI smart audio devices.",
+        "why": "Showcases practical hardware and voice assistant integrations with workspace tools.",
+        "impact": "Study real-world multimodal voice UX patterns for hardware."
+      },
+      {
+        "title": "Speechify Review 2026: Features, Pricing & Verdict",
+        "source": "memeburn.com",
+        "url": "https://memeburn.com/speechify-review",
+        "what": "Speechify updated its productivity suite to include an integrated voice AI assistant and dictation.",
+        "why": "Demonstrates evolving UX patterns for multi-feature voice productivity apps.",
+        "impact": "Analyze consumer voice assistant UX implementation details."
+      }
+    ]
   }
 }
