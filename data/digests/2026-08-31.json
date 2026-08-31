@@ -1,0 +1,63 @@
+{
+  "date": "2026-08-31",
+  "beats": {
+    "AI": [
+      {
+        "title": "A Judge Just Called This Pentagon AI Ban Illegal. Why ...",
+        "source": "247wallst.com",
+        "url": "https://247wallst.com/investing/2026/08/29/a-judge-just-called-this-pentagon-ai-ban-illegal-why-palantir-could-rally",
+        "what": "Palantir's Sankar noted Nemotron Ultra beat frontier models in specific tasks.",
+        "why": "It shows smaller specialized models can outperform massive ones in production.",
+        "impact": "Evaluate smaller models for voice pipeline efficiency."
+      },
+      {
+        "title": "OpenAI, Google, and Microsoft have warned of the threat of cyberattac\u2026",
+        "source": "logos-pres.md",
+        "url": "https://logos-pres.md/en/news/openai-google-and-microsoft-have-warned-of-the-threat-of-cyberattacks-using-ai",
+        "what": "Google, OpenAI, and Microsoft warned about cyberattack threats from advanced models.",
+        "why": "Security guardrails are becoming increasingly critical for autonomous agents.",
+        "impact": "Implement strict output validation in your voice agent."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Fintech and Banking App UX Design: Key Patterns for Building User Tru\u2026",
+        "source": "youxstudio.com",
+        "url": "https://www.youxstudio.com/en/blog/990/fintech-and-banking-app-ux-design",
+        "what": "Published new UX design patterns for building trust in fintech and banking apps.",
+        "why": "Establishes critical interface patterns for handling secure, high-stakes user flows.",
+        "impact": "Apply security patterns to AI apps"
+      },
+      {
+        "title": "What is Storytelling? \u2014 updated 2026",
+        "source": "ixdf.org",
+        "url": "https://ixdf.org/literature/topics/storytelling",
+        "what": "Explored how narrative storytelling enhances user engagement and emotional depth in UX.",
+        "why": "Narrative pacing is essential for conversational voice agents and fluid interactions.",
+        "impact": "Improve voice agent prompts"
+      },
+      {
+        "title": "Medium",
+        "source": "medium.com",
+        "url": "https://medium.com/design-bootcamp/the-most-beautiful-design-in-the-room-might-be-the-least-accessible-964f83bda951",
+        "what": "Reviewed WCAG accessibility guidelines focusing on text contrast and practical compliance.",
+        "why": "Ensures digital products remain fully accessible across visual and alternative interfaces.",
+        "impact": "Ensure interface accessibility"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Apple CarPlay New Features: Meta AI Joins ChatGPT ...",
+        "source": "zeerawireless.com",
+        "url": "https://zeerawireless.com/blogs/news/apple-carplay-new-features-meta-ai-chatgpt-siri-ai",
+        "what": "Apple updated CarPlay to natively support voice-first conversational AI applications.",
+        "why": "It opens a major new distribution channel for voice agent developers.",
+        "impact": "Direct path to test in-car voice agents"
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-08-30",
+    "Design": "2026-08-30"
+  }
+}
