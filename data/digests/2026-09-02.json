@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-02",
+  "beats": {
+    "AI": [
+      {
+        "title": "Ready to Speak: Aligning LLMs for TTS-Friendly Text Generation",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.01246v1",
+        "what": "New research explores how to align LLMs to natively generate speech-friendly text for text-to-speech workflows.",
+        "why": "Bridging text generation and TTS output improves the responsiveness and naturalness of voice agents.",
+        "impact": "Directly improves voice agent output naturalness."
+      },
+      {
+        "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousan\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/pr-not-welcome",
+        "what": "Top open-source projects are replacing community PRs with agent software factories for fixes and features.",
+        "why": "Showcases a production pattern for autonomous agent swarms handling end-to-end development tasks.",
+        "impact": "Informs patterns for self-building dev workflows."
+      },
+      {
+        "title": "LatentPress: Context Compression Beyond Text and Vision",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.01507v1",
+        "what": "LatentPress compresses conversational histories and documents into continuous memory tokens for frozen LLMs.",
+        "why": "Offers an advanced context compression technique beyond human-readable text and rendered images.",
+        "impact": "Improves context handling for agent memory."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Color scheming with Perplexity tetrads",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/color-scheming-with-perplexity-tetrads-daad13b49732?source=rss----138adf9c44c---4",
+        "what": "A new case study explores generating accessible color palettes using Perplexity tetrads.",
+        "why": "It offers a practical GenAI workflow for rapidly prototyping accessible design systems.",
+        "impact": "Speeds up color system creation for your apps."
+      },
+      {
+        "title": "Your users aren\u2019t unmotivated-they have 1 of 4 problems",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/your-users-arent-unmotivated-they-have-1-of-4-problems-99d709b60376?source=rss----138adf9c44c---4",
+        "what": "An exploration of the four core motivation problems behind unused advanced features.",
+        "why": "It provides a clear framework for diagnosing and fixing hidden adoption blockers.",
+        "impact": "Guides better UX decisions for your voice agent."
+      },
+      {
+        "title": "Users don\u2019t see your design system",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
+        "what": "An analysis of how Gestalt principles power effective, scalable design systems.",
+        "why": "It reinforces foundational perceptual rules that make complex UIs feel intuitive.",
+        "impact": "Improves your end-to-end interface execution."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Phonely launches Alma, a voice AI model trained on over 10 million ph\u2026",
+        "source": "siliconangle.com",
+        "url": "https://siliconangle.com/2026/09/01/phonely-launches-alma-a-voice-ai-model-trained-on-over-10-million-phone-conversations",
+        "what": "Phonely launched Alma, a voice AI model trained on over 10M phone conversations.",
+        "why": "Provides domain-specific conversational data for phone-based agents.",
+        "impact": "Benchmark for conversational telephony design."
+      },
+      {
+        "title": "Gupshup Launches Self-Serve Voice AI Platform, Extending Conversation\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/media-coverage/gupshup-launches-self-serve-voice-ai-platform-extending-conversational-engagement-into-phone-calls",
+        "what": "Gupshup launched a self-serve Voice AI Platform for end-to-end customer calls.",
+        "why": "Lowers barriers to deploying production-ready telephony voice agents.",
+        "impact": "New platform to test for rapid voice deployment."
+      },
+      {
+        "title": "Sonos 27 Update Brings ChatGPT and Custom AI To Your ...",
+        "source": "smartprix.com",
+        "url": "https://www.smartprix.com/bytes/sonos-27-update-brings-chatgpt-and-custom-ai-to-your-speakers",
+        "what": "Sonos released Update 27, introducing native ChatGPT and custom AI to speakers.",
+        "why": "Turns consumer hardware into an open audio OS for conversational interfaces.",
+        "impact": "New hardware ecosystem pattern for voice agents."
+      }
+    ]
+  }
+}
