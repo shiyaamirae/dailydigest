@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-03",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+        "what": "Anthropic released Claude Fable/Mythos 5.1 with SOTA performance, a 75% cache price cut, and 70% higher output tokens.",
+        "why": "Massive price reduction on prompt caching combined with higher output makes complex agent loops significantly cheaper.",
+        "impact": "Reduces token costs for building autonomous agents."
+      },
+      {
+        "title": "Language Models Can Control Their Own Attention",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.02737v1",
+        "what": "New research demonstrates that language models can actively control their own attention mechanisms over the KV cache.",
+        "why": "This bypasses the need to scan full long contexts for every single token, drastically speeding up retrieval.",
+        "impact": "Improves latency for long-context voice agents."
+      },
+      {
+        "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/atv-big-air-tour",
+        "what": "ATV Big Air Tour used ChatGPT Work to build an inventory website from merchandise photos in just 15 minutes.",
+        "why": "Demonstrates rapid, non-developer prototyping and workflow automation using standard enterprise AI tools.",
+        "impact": "Speeds up prototyping and no-code product iteration."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Claude Code\u2019s New Design Plugin Is a Big Deal for Product Designers",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-codes-new-design-plugin-is-a-big-deal-for-product-designers-445bf30cea9d?source=rss----819cc2aaeee0---4",
+        "what": "Claude Code released a new design plugin enabling direct design creation within the tool.",
+        "why": "It bridges coding and designing for solo builders without relying on traditional design handoffs.",
+        "impact": "Streamlines solo prototyping"
+      },
+      {
+        "title": "When the canvas starts acting, who\u2019s really in control?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c?source=rss----138adf9c44c---4",
+        "what": "UX Collective explored how agentic canvas interfaces shift control from interaction to agency.",
+        "why": "It redefines UX patterns for multi-tool context aggregation and autonomous execution.",
+        "impact": "Informs voice agent workflows"
+      },
+      {
+        "title": "Making ky\u014dwa possible with AI",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/making-ky%C5%8Dwa-possible-with-ai-9f4bf8fae315?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an exploration on unbundling the Send button using AI as sketches.",
+        "why": "It offers new conversational interaction patterns beyond traditional chat interfaces.",
+        "impact": "Improves voice interaction design"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Ashley Kramer joins ElevenLabs as Chief Revenue Officer",
+        "source": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/cro",
+        "what": "Ashley Kramer has joined ElevenLabs as their new Chief Revenue Officer.",
+        "why": "It signals major enterprise scaling for a key voice AI tool provider.",
+        "impact": "Potential shifts in pricing and enterprise tool availability"
+      }
+    ]
+  }
+}
