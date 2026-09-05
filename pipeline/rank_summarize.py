@@ -178,6 +178,10 @@ Select the top {MAX_ITEMS_PER_BEAT} candidates. Fewer is fine and expected if fe
 - Novelty (skip stories substantially the same as something already covered recently)
 - Tie-break: a practical/try-able item (a tool, API, or launch the reader can actually use) beats a prestigious-but-theoretical item when scores are otherwise close
 
+If two or more candidates above cover the same underlying story or event (e.g. syndicated or
+re-reported coverage from different outlets), select only ONE of them — the one from the more
+authoritative source — never both.
+
 For each selected item, write:
 - "what": what happened, one sentence, under 150 characters
 - "why": why it matters, one sentence, under 150 characters

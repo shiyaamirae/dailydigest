@@ -3,20 +3,28 @@
   "beats": {
     "AI": [
       {
-        "title": "EU CRA Article 14 Hits Sep 11 \u2014 Every AI Agent Product Now Has a 24-H\u2026",
-        "source": "cryptorank.io",
-        "url": "https://cryptorank.io/news/feed/06909-eu-cra-article-14-hits-sep-11-every-ai-agent-product-now-has-a-24-hour-disclosure-clock",
-        "what": "EU CRA Article 14 introduces a 24-hour disclosure clock for AI agent products.",
-        "why": "It imposes strict new compliance timelines that directly impact autonomous agent deployment.",
-        "impact": "Must build compliance and rapid disclosure mechanisms into current agent builds."
+        "title": "Major AI developments: 4 September 2026",
+        "source": "startuphub.ai",
+        "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/major-developments-2026-09-04",
+        "what": "StartupHub.ai highlighted new enterprise AI, agent, and world model developments from HPE, a16z, Nvidia, and Runway.",
+        "why": "It surfaces new tools and ecosystem updates relevant to hands-on agent and world model builders.",
+        "impact": "Exposes new agent tooling and infrastructure components to test."
       },
       {
-        "title": "EU CRA Article 14 Hits Sep 11 \u2014 Every AI Agent Product Now Has ...",
-        "source": "forkast.news",
-        "url": "https://forkast.news/eu-cra-article-14-hits-sep-11-every-ai-agent-product-now-has-a-24-hour-disclosure-clock",
-        "what": "The EU CRA Article 14 enforcement sets new legally binding rules for agentic AI.",
-        "why": "It dictates operational constraints and strict reporting windows for all AI agents.",
-        "impact": "Requires immediate architectural adjustments for error handling and mandatory disclosures."
+        "title": "BIDU Stock Up After AI Firm Opens Hong Kong Shares To Mainland China\u2026",
+        "source": "tradingview.com",
+        "url": "https://www.tradingview.com/news/stocktwits:4efd16e21094b:0-bidu-stock-up-after-ai-firm-opens-hong-kong-shares-to-mainland-china-investors",
+        "what": "Baidu reported that AI-related sales grew 25% to 12.5 billion yuan, now representing half of its main business.",
+        "why": "It shows rapid commercial scaling of production AI cloud and application architectures at enterprise scale.",
+        "impact": "Provides market validation for enterprise AI product demand."
+      },
+      {
+        "title": "APPLE IS ASSEMBLING THE AI PUZZLE JOHN TERNUS NOW INHERITS | Techlife\u2026",
+        "source": "magzter.com",
+        "url": "https://www.magzter.com/stories/technology/Techlife-News/APPLE-IS-ASSEMBLING-THE-AI-PUZZLE-JOHN-TERNUS-NOW-INHERITS",
+        "what": "Techlife News reported on organizational shifts in Apple's hardware leadership and OpenAI stepping away from Cursor.",
+        "why": "Shifts in AI development partnerships and hardware capabilities directly affect tooling ecosystems.",
+        "impact": "Signals changes in the third-party AI development tool landscape."
       }
     ],
     "Design": [
