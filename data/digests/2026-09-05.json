@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-05",
+  "beats": {
+    "AI": [
+      {
+        "title": "EU CRA Article 14 Hits Sep 11 \u2014 Every AI Agent Product Now Has a 24-H\u2026",
+        "source": "cryptorank.io",
+        "url": "https://cryptorank.io/news/feed/06909-eu-cra-article-14-hits-sep-11-every-ai-agent-product-now-has-a-24-hour-disclosure-clock",
+        "what": "EU CRA Article 14 introduces a 24-hour disclosure clock for AI agent products.",
+        "why": "It imposes strict new compliance timelines that directly impact autonomous agent deployment.",
+        "impact": "Must build compliance and rapid disclosure mechanisms into current agent builds."
+      },
+      {
+        "title": "EU CRA Article 14 Hits Sep 11 \u2014 Every AI Agent Product Now Has ...",
+        "source": "forkast.news",
+        "url": "https://forkast.news/eu-cra-article-14-hits-sep-11-every-ai-agent-product-now-has-a-24-hour-disclosure-clock",
+        "what": "The EU CRA Article 14 enforcement sets new legally binding rules for agentic AI.",
+        "why": "It dictates operational constraints and strict reporting windows for all AI agents.",
+        "impact": "Requires immediate architectural adjustments for error handling and mandatory disclosures."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Figma Design Critique Using Claude Code",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/figma-design-critique-using-claude-code-d8f2ee54bf01?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet published a guide on conducting Figma design critiques using Claude Code's design plugin.",
+        "why": "It bridges design systems and AI coding tools directly into a practical workflow.",
+        "impact": "Speeds up design-to-code execution"
+      },
+      {
+        "title": "Reading and writing are interfaces. And AI can reduce their friction.",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/reading-and-writing-are-interfaces-and-ai-can-reduce-their-friction-13623dea34c0?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an essay exploring how AI reduces friction in reading and writing interfaces.",
+        "why": "It examines how AI shifts intellectual labor in interface design beyond simple content generation.",
+        "impact": "Informs voice and text UI strategy"
+      },
+      {
+        "title": "Using AI for UX Work: Study Guide",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Nielsen Norman Group released a comprehensive study guide on using AI for UX work.",
+        "why": "It compiles foundational research and best practices for integrating AI into design workflows.",
+        "impact": "Improves AI UX methodology"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Gupshup Launches Self-Serve Voice AI Platform, Extending Conversation\u2026",
+        "source": "macaubusiness.com",
+        "url": "https://macaubusiness.com/gupshup-launches-self-serve-voice-ai-platform-extending-conversational-engagement-into-phone-calls",
+        "what": "Gupshup launched a self-serve voice AI platform for building and deploying phone agents.",
+        "why": "It offers an actionable tool for developers to integrate voice agents into telephony and messaging channels.",
+        "impact": "Test and deploy phone-based voice agents quickly."
+      },
+      {
+        "title": "Havells launches Agentic AI Voice on Havells One",
+        "source": "mediabrief.com",
+        "url": "https://mediabrief.com/havells-launches-agentic-ai-voice-on-havells-one",
+        "what": "Havells launched Agentic AI Voice on its Havells One platform for smart home appliances.",
+        "why": "It showcases real-world edge deployment of agentic voice controlling physical hardware and FAQs.",
+        "impact": "Inspiration for appliance and IoT voice UX patterns."
+      },
+      {
+        "title": "LG ELECTRONICS HIGHLIGHTS SEVEN HOME APPLIANCES AT IFA 2026",
+        "source": "technode.global",
+        "url": "https://technode.global/prnasia/lg-electronics-highlights-seven-home-appliances-at-ifa-2026",
+        "what": "LG introduced an LLM-powered natural language voice recognition system in home appliances.",
+        "why": "It highlights advanced conversational context integration within embedded hardware ecosystems.",
+        "impact": "Insights into conversational context for edge hardware."
+      }
+    ]
+  }
+}
