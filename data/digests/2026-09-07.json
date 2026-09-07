@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-07",
+  "beats": {
+    "AI": [
+      {
+        "title": "Research acceleration: The view inside OpenAI",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+        "what": "OpenAI shared internal data showing how coding agents are accelerating their AI research and experiment velocity.",
+        "why": "It offers a rare peek into how autonomous coding agents change development workflows at the frontier.",
+        "impact": "Informs solo builder agent workflows"
+      },
+      {
+        "title": "An Alien Mind",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/an-alien-mind",
+        "what": "Jakub Pachocki published reflections on increasingly capable AI and the ongoing challenge of alignment.",
+        "why": "It highlights safety and alignment priorities directly from a leading lab's perspective.",
+        "impact": "Guides safety design choices"
+      },
+      {
+        "title": "Supporting independent journalism in Ukraine",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+        "what": "OpenAI partnered to launch an AI program supporting independent journalism in Ukraine.",
+        "why": "It showcases real-world application of AI tools in specialized operational contexts.",
+        "impact": "Context on applied social tooling"
+      }
+    ],
+    "Design": [
+      {
+        "title": "AI canvas, Synthetic self, The prompt is the product",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ai-canvas-synthetic-self-the-prompt-is-the-product-801f0da7bea6?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a curation highlighting AI canvas and prompt-driven interaction patterns.",
+        "why": "It explores how intent-driven AI agents change software interaction models away from manual execution.",
+        "impact": "Refines your voice agent UX patterns"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Meta's new real-time audio model is the foundation for AI assistants\u2026",
+        "source": "the-decoder.com",
+        "url": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening",
+        "what": "Meta released Muse Voice Transcribe for real-time speech-to-text and multi-speaker ID.",
+        "why": "It processes audio in 80ms chunks, combining transcription and speaker diarization.",
+        "impact": "Improves real-time voice agent responsiveness."
+      },
+      {
+        "title": "AI Tools For Text To Speech: 21 Best Options [2026]",
+        "source": "officechai.com",
+        "url": "https://officechai.com/learn/ai-tools-for-text-to-speech",
+        "what": "Google Cloud launched Chirp 3: HD and updated its Text-to-Speech pricing tiers.",
+        "why": "Provides updated voice synthesis options and revised pricing structures.",
+        "impact": "Enhances voice agent output quality and cost control."
+      },
+      {
+        "title": "News from the week beginning 31st August 2026 -",
+        "source": "enterprisetimes.co.uk",
+        "url": "https://www.enterprisetimes.co.uk/2026/09/07/news-from-the-week-beginning-31st-august-2026",
+        "what": "Mindsprint launched a conversational Purchase Requisition AI agent.",
+        "why": "Demonstrates an applied enterprise pattern for conversational procurement flows.",
+        "impact": "Informs workflow design for transactional enterprise voice agents."
+      }
+    ]
+  }
+}
