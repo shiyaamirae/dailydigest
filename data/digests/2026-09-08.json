@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-08",
+  "beats": {
+    "AI": [
+      {
+        "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontie\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/aeo",
+        "what": "Latent Space launched the Frontier AEO Tracker analyzing Astra and other frontier models.",
+        "why": "It helps product builders understand optimization trends across major AI models.",
+        "impact": "Refines your multi-model product strategy"
+      }
+    ],
+    "Design": [
+      {
+        "title": "The model is behaving impeccably. Your information architecture isn\u2019t.",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-model-is-behaving-impeccably-your-information-architecture-isnt-bfe8881da3c2?source=rss----138adf9c44c---4",
+        "what": "A UX Collective piece applies a 1960 city mapping study to diagnose AI context failures.",
+        "why": "It explains why poor information architecture masquerades as model misbehavior in AI products.",
+        "impact": "Refine app information architecture"
+      },
+      {
+        "title": "GPT-6 Astra for UI Design",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/gpt-6-astra-for-ui-design-5cff47b4c765?source=rss----819cc2aaeee0---4",
+        "what": "GPT-6 Astra launches as OpenAI's latest model with praised capabilities for UI design.",
+        "why": "It introduces advanced multimodal features directly applicable to modern UI generation workflows.",
+        "impact": "Test new frontier UI models"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "SoundHound AI Completes Acquisition of LivePerson",
+        "source": "directorsclub.news",
+        "url": "https://directorsclub.news/2026/09/07/soundhound-ai-completes-acquisition-of-liveperson",
+        "what": "SoundHound AI completed its acquisition of LivePerson.",
+        "why": "It merges enterprise conversational tech with a major agentic voice platform.",
+        "impact": "Evaluate enterprise agentic architecture patterns."
+      },
+      {
+        "title": "Agora Promotes Voice AI as the Main Layer for Connected Devices at IF\u2026",
+        "source": "globalsources.com",
+        "url": "https://www.globalsources.com/sourcing-digest/agora-promotes-voice-ai-as-a-central-layer-for-connected-devices-at-ifa-2026",
+        "what": "Agora promoted Voice AI as the primary interaction layer for connected devices at IFA 2026.",
+        "why": "It highlights real-time voice integration patterns for hardware devices.",
+        "impact": "Explore Agora's real-time voice APIs."
+      },
+      {
+        "title": "Google brings conversational AI voice tools | The Daily Star",
+        "source": "thedailystar.net",
+        "url": "https://www.thedailystar.net/news/technology/news/google-brings-conversational-ai-voice-tools-gmail-docs-and-keep-4267006",
+        "what": "Google rolled out new conversational AI voice tools.",
+        "why": "It expands Google's suite of accessible conversational interfaces.",
+        "impact": "Test new Google voice tool capabilities."
+      }
+    ]
+  }
+}
