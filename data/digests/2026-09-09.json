@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-09",
+  "beats": {
+    "AI": [
+      {
+        "title": "Omni Interaction Agent Technical Report",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.08977v1",
+        "what": "Gander unifies omni perception, realtime interaction, and agentic capabilities.",
+        "why": "It enables continuous streaming multimodal inputs for realtime voice and video agents.",
+        "impact": "Directly applicable to building low-latency, multimodal voice agents."
+      },
+      {
+        "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Ge\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.08936v1",
+        "what": "AuK, an open-source foundational model for speech generation and editing, was released.",
+        "why": "It unifies speech generation and editing through natural-language instructions.",
+        "impact": "Immediate utility for hands-on voice agent pipeline development."
+      },
+      {
+        "title": "X2Streaming-ASR: wait when uncertain, emit when ready for streaming A\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.08672v1",
+        "what": "X2Streaming-ASR optimizes low-latency partial transcripts for real-time voice agents.",
+        "why": "It solves the timing dilemma of when to emit text during full-duplex dialogue.",
+        "impact": "Improves responsiveness and dialogue flow in custom voice agent builds."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Persistent lessons in human-centered automation",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/persistent-lessons-in-human-centered-automation-45b53412e6a5?source=rss----138adf9c44c---4",
+        "what": "A mixed-media study connects 1980s photocopier automation lessons to today's Agentic UX era.",
+        "why": "It offers timeless human-centered interaction insights for building autonomous agents.",
+        "impact": "Improves your agentic UI design"
+      },
+      {
+        "title": "Most AI problems are really human problems",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/most-ai-problems-are-really-human-problems-this-is-how-you-can-fix-it-ab64843f845e?source=rss----138adf9c44c---4",
+        "what": "An upstream checklist tackles common AI product failures caused by unread intent and loose language.",
+        "why": "It helps solo AI builders prevent misalignment and fuzzy outcomes before coding.",
+        "impact": "Better prompt and intent definition"
+      },
+      {
+        "title": "If you can externalize your design process, you can win back your time",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/if-you-can-externalize-your-design-process-you-can-win-back-your-time-59c531521346?source=rss----138adf9c44c---4",
+        "what": "An exploration of Skill.MD details how to externalize your design process to reclaim time.",
+        "why": "Streamlining documentation helps solo builders communicate product depth faster.",
+        "impact": "Saves time on solo product documentation"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "SoundHound AI Completes Acquisition of LivePerson",
+        "source": "directorsclub.news",
+        "url": "https://directorsclub.news/2026/09/07/soundhound-ai-completes-acquisition-of-liveperson",
+        "what": "SoundHound AI completed its acquisition of LivePerson.",
+        "why": "It merges enterprise conversational tech with a major agentic voice platform.",
+        "impact": "Evaluate enterprise agentic architecture patterns."
+      },
+      {
+        "title": "Agora Promotes Voice AI as the Main Layer for Connected Devices at IF\u2026",
+        "source": "globalsources.com",
+        "url": "https://www.globalsources.com/sourcing-digest/agora-promotes-voice-ai-as-a-central-layer-for-connected-devices-at-ifa-2026",
+        "what": "Agora promoted Voice AI as the primary interaction layer for connected devices at IFA 2026.",
+        "why": "It highlights real-time voice integration patterns for hardware devices.",
+        "impact": "Explore Agora's real-time voice APIs."
+      },
+      {
+        "title": "Google brings conversational AI voice tools | The Daily Star",
+        "source": "thedailystar.net",
+        "url": "https://www.thedailystar.net/news/technology/news/google-brings-conversational-ai-voice-tools-gmail-docs-and-keep-4267006",
+        "what": "Google rolled out new conversational AI voice tools.",
+        "why": "It expands Google's suite of accessible conversational interfaces.",
+        "impact": "Test new Google voice tool capabilities."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-09-08"
+  }
+}
