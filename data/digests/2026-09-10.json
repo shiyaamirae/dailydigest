@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-10",
+  "beats": {
+    "AI": [
+      {
+        "title": "GPT-6 Astra: The next generation in intelligence for work",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+        "what": "OpenAI announced GPT-6 Astra, its new model featuring advanced reasoning and computer use.",
+        "why": "It introduces powerful new native operational capabilities for business tasks and tool integration.",
+        "impact": "Directly upgrade your workflow tooling"
+      },
+      {
+        "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.10522v1",
+        "what": "Researchers presented Show-Harness, enabling foundation vision-language models to control robots.",
+        "why": "It bridges abstract VLM reasoning and physical environment actions through a compact interface.",
+        "impact": "Apply spatial-action interface patterns"
+      },
+      {
+        "title": "$S^3$-Bench: Evaluating Speech Interaction Models as Scientific Voice\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.09852v1",
+        "what": "A new benchmark, $S^3$-Bench, evaluates speech interaction models as domain-specific voice assistants.",
+        "why": "It provides a rigorous evaluation framework specifically for specialized voice-agent interactions.",
+        "impact": "Benchmark your voice agent design"
+      }
+    ],
+    "Design": [
+      {
+        "title": "The Death Of The Button: Why The Best Interface Is No Interface",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
+        "what": "Smashing Magazine explores the shift from traditional buttons and forms to intent-driven AI interfaces.",
+        "why": "It re-evaluates the UX role for modern builders designing transparent, conversational experiences.",
+        "impact": "Guides your voice agent interaction design"
+      },
+      {
+        "title": "GPT-6 Astra for Web Design",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/gpt-6-astra-for-web-design-d273a818ca78?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet details a practical 4-step process for crafting web projects using GPT-6.",
+        "why": "It offers an actionable blueprint for integrating advanced models directly into your workflow.",
+        "impact": "Speeds up your hands-on prototyping"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Important News Last Night and This Morning (September 9 - September 1\u2026",
+        "source": "panewslab.com",
+        "url": "https://www.panewslab.com/en/articles/01a0890b-162f-7550-8d65-1e25d600ad64",
+        "what": "OpenAI added GPT-5.6 Sol and GPT-6 Astra routing to ChatGPT Voice.",
+        "why": "It lets users dynamically trigger advanced reasoning models inside live voice sessions.",
+        "impact": "Upgrade your voice agent reasoning architecture."
+      },
+      {
+        "title": "Apple takes on AI wearables with always-listening watch features",
+        "source": "spokesman.com",
+        "url": "https://www.spokesman.com/stories/2026/sep/09/apple-takes-on-ai-wearables-with-always-listening-",
+        "what": "Apple unveiled always-listening Audio Intelligence features for Apple Watch.",
+        "why": "It introduces ambient conversation capture and Siri Recap tools for hardware.",
+        "impact": "Incorporate ambient audio triggers in UX."
+      },
+      {
+        "title": "Apple Just Unveiled a Folding iPhone, and It Looks Good",
+        "source": "nytimes.com",
+        "url": "https://www.nytimes.com/wirecutter/reviews/apple-iphone-18-event-recap-20260909",
+        "what": "Apple announced revamped Siri AI features arriving in iOS 27 this month.",
+        "why": "Siri now draws context from device screens, emails, and photos for personalized answers.",
+        "impact": "Study new cross-app context patterns."
+      }
+    ]
+  }
+}
