@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-11",
+  "beats": {
+    "AI": [
+      {
+        "title": "Now everyone can put data to work",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/put-data-to-work",
+        "what": "OpenAI released the Data agent in ChatGPT Work for natural-language data apps.",
+        "why": "Enables rapid building of interactive dashboards and data workflows without manual coding.",
+        "impact": "Speeds up internal prototyping."
+      },
+      {
+        "title": "The Eloquence submission for Task 2 of the Interspeech 2026 MLC-SLM c\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.11724v1",
+        "what": "The Eloquence team detailed a fine-tuned LoRA approach for multilingual conversational speech.",
+        "why": "Demonstrates efficient adaptation of speech LLMs for multilingual question answering tasks.",
+        "impact": "Improves voice agent accuracy."
+      },
+      {
+        "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cro\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.11412v1",
+        "what": "Researchers introduced X-AuT for progressive audio-encoder compression in speech LLMs.",
+        "why": "Lowers inference costs and latency for audio models via cross-scale distillation.",
+        "impact": "Optimizes real-time voice latency."
+      }
+    ],
+    "Design": [
+      {
+        "title": "8 voice AIUX patterns",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/8-voice-aiux-patterns-81324c8feaa0?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an analysis mapping 8 emerging voice AI UX patterns and agent roles.",
+        "why": "It provides concrete interaction models directly applicable to building voice agent interfaces.",
+        "impact": "Informs current voice UX architecture."
+      },
+      {
+        "title": "Your first draft now has a log",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/your-first-draft-now-has-a-log-ee378eb7b3e9?source=rss----138adf9c44c---4",
+        "what": "An exploration of how workplace AI interactions log raw user thoughts and agent trust dynamics.",
+        "why": "Understanding prompt psychology helps design more natural human-AI conversational loops.",
+        "impact": "Improves conversational prompt design."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Voice agent function calling: real-time data lookup during a call",
+        "source": "Deepgram",
+        "url": "https://deepgram.com/learn/voice-agent-function-calling-real-time-data-lookup",
+        "what": "Deepgram released a guide on real-time function calling and data lookups for voice agents.",
+        "why": "It addresses critical voice agent latency optimization and handling server-side execution.",
+        "impact": "Improves real-time voice agent UX"
+      },
+      {
+        "title": "Voice AI telephony integration: carriers, SLAs and global rollout",
+        "source": "Deepgram",
+        "url": "https://deepgram.com/learn/voice-ai-telephony-integration-carriers-slas-global-rollout",
+        "what": "Deepgram published a guide on voice AI telephony integration and global SIP hand-offs.",
+        "why": "It provides actionable patterns for deploying production-grade telephony voice agents.",
+        "impact": "Guides telephony architecture setup"
+      },
+      {
+        "title": "What is Speaker Diarization?",
+        "source": "Deepgram",
+        "url": "https://deepgram.com/learn/what-is-speaker-diarization",
+        "what": "Deepgram published a technical overview of speaker diarization and API capabilities.",
+        "why": "It explains core metrics and handling unlimited speakers for multi-party audio workflows.",
+        "impact": "Enhances multi-speaker audio processing"
+      }
+    ]
+  }
+}
