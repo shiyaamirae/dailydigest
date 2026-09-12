@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-12",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder\u2013Deco\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+        "what": "DeepSeek released v4.1-Flash featuring a novel causal Encoder-Decoder architecture.",
+        "why": "It introduces advanced multimodal capabilities with a new architecture for builders to explore.",
+        "impact": "Test new encoder-decoder patterns for audio and vision."
+      },
+      {
+        "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+        "what": "OpenAI detailed how Habitat scales globally to serve 1 billion ChatGPT users.",
+        "why": "Provides infrastructure scaling patterns behind massive production AI apps.",
+        "impact": "Apply large-scale storage patterns to production apps."
+      },
+      {
+        "title": "Cognition helps Devin test its own work with GPT\u20116 Astra",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+        "what": "Cognition is using GPT-6 Astra to help Devin test its own software work autonomously.",
+        "why": "Highlights advanced autonomous agent testing loops for self-contained workflows.",
+        "impact": "Improve autonomous agent self-testing loops."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Test Complex Interactions Earlier with AI Prototyping",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "NN/G explores using AI tools to build fully interactive prototypes for early user testing.",
+        "why": "Enables faster validation of complex interface flows without manual wireframing.",
+        "impact": "Test voice and UI interactions earlier."
+      },
+      {
+        "title": "Design Critique with Claude Code",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/design-critique-with-claude-code-7628e74f95a1?source=rss----819cc2aaeee0---4",
+        "what": "A guide on using Claude Code for conducting design critiques and building prototypes.",
+        "why": "Integrates coding assistants directly into the hands-on prototyping workflow.",
+        "impact": "Critique designs via AI."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Voice agent function calling: real-time data lookup during a call",
+        "source": "Deepgram",
+        "url": "https://deepgram.com/learn/voice-agent-function-calling-real-time-data-lookup",
+        "what": "Deepgram published a guide on real-time data lookups for voice agents using function calling.",
+        "why": "It addresses latency optimization, filler functions, and failure modes critical for live agents.",
+        "impact": "Improves your agent's real-time responsiveness."
+      },
+      {
+        "title": "Voice AI telephony integration: carriers, SLAs and global rollout",
+        "source": "Deepgram",
+        "url": "https://deepgram.com/learn/voice-ai-telephony-integration-carriers-slas-global-rollout",
+        "what": "Deepgram released a guide on voice AI telephony integration via SIP hand-offs and CPaaS streaming.",
+        "why": "It helps navigate carrier SLAs and global compliance for telephony-based voice deployments.",
+        "impact": "Simplifies deploying your voice agent to phone lines."
+      }
+    ]
+  }
+}
