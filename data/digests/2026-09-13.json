@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-13",
+  "beats": {
+    "AI": [
+      {
+        "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "what": "Perplexity uses OpenAI's GPT-6 Astra for autonomous system management and operations.",
+        "why": "Shows the practical reliability of frontier models for end-to-end production automation.",
+        "impact": "Automate routine operations"
+      },
+      {
+        "title": "The Rise of the Forward Deployed Engineer \u2014 and How To Do the Job Rig\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+        "what": "Latent Space podcast details best practices for Forward Deployed Engineers.",
+        "why": "Crucial patterns for solo builders shipping custom AI solutions directly to users.",
+        "impact": "Improve client deployment workflows"
+      }
+    ],
+    "Design": [
+      {
+        "title": "The real reason everyone hates the viral AI food slop images",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4",
+        "what": "UX Collective analyzes why viral AI-generated food imagery triggers negative reactions compared to traditional food styling.",
+        "why": "It highlights evolving user psychological boundaries and trust issues regarding synthetic visual realism in media.",
+        "impact": "Refines user trust design strategies"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Voice AI telephony integration: carriers, SLAs and global rollout",
+        "source": "Deepgram",
+        "url": "https://deepgram.com/learn/voice-ai-telephony-integration-carriers-slas-global-rollout",
+        "what": "Deepgram released a guide on voice AI telephony integration via SIP hand-off and CPaaS streaming.",
+        "why": "It provides crucial architecture patterns for connecting voice agents to real phone networks globally.",
+        "impact": "Informs phone integration architecture"
+      }
+    ]
+  }
+}
