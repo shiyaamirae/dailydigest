@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-14",
+  "beats": {
+    "AI": [
+      {
+        "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "what": "Perplexity deploys OpenAI's Astra for end-to-end autonomous systems management.",
+        "why": "It showcases state-of-the-art agent reliability for complex production tasks.",
+        "impact": "Informs voice agent autonomy design"
+      }
+    ],
+    "Design": [
+      {
+        "title": "The real reason everyone hates the viral AI food slop images",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4",
+        "what": "UX Collective analyzes why viral AI-generated food imagery triggers negative reactions compared to traditional food styling.",
+        "why": "It highlights evolving user psychological boundaries and trust issues regarding synthetic visual realism in media.",
+        "impact": "Refines user trust design strategies"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "ElevenLabs Hires Former Adyen CFO Tandowsky to Drive Global Expansion\u2026",
+        "source": "finance.biggo.com",
+        "url": "https://finance.biggo.com/news/4ee44932-37a4-49e8-8d36-d5322414347f",
+        "what": "ElevenLabs hired a former Adyen CFO to drive global expansion and IPO expertise.",
+        "why": "Signals rapid market scaling and enterprise tool maturity for conversational AI agents.",
+        "impact": "Informs platform choice for enterprise voice deployment."
+      },
+      {
+        "title": "Voice AI startup Arrowhead eyes fresh funding to accelerate internati\u2026",
+        "source": "m.economictimes.com",
+        "url": "https://m.economictimes.com/ai/ai-insights/voice-ai-startup-arrowhead-eyes-fresh-funding-to-accelerate-international-expansion/amp_articleshow/134234679.cms",
+        "what": "Voice AI startup Arrowhead is eyeing fresh funding for international BFSI expansion.",
+        "why": "Demonstrates vertical-specific scaling in lending and collections voice use cases.",
+        "impact": "Highlights domain-specific voice agent patterns."
+      },
+      {
+        "title": "Zoho founder Sridhar Vembu reacts to chilling AI voice scam: \u2018Sadly,\u2026",
+        "source": "timesofindia.indiatimes.com",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/zoho-founder-sridhar-vembu-reacts-to-chilling-ai-voice-scam-sadly-ai-is-/articleshow/134194524.cms",
+        "what": "Zoho founder Sridhar Vembu reacted to a chilling AI voice scam involving cloned audio.",
+        "why": "Highlights the ongoing security and trust challenges facing real-time voice applications.",
+        "impact": "Drives the need for robust verification in voice UIs."
+      }
+    ]
+  },
+  "carried_over": {
+    "Design": "2026-09-13"
+  }
+}
