@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-15",
+  "beats": {
+    "AI": [
+      {
+        "title": "How Fyxer built an AI executive assistant people trust",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/fyxer",
+        "what": "OpenAI detailed how Fyxer built a trusted AI executive assistant using models, fine-tuning, and memory.",
+        "why": "It demonstrates effective architecture and user trust patterns for autonomous workflow agents.",
+        "impact": "Provides design patterns for agent memory and trust."
+      },
+      {
+        "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, O\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+        "what": "xAI, OpenAI, and Anthropic cosigned the new AEF-1 standard for third-party evaluators.",
+        "why": "Standardized evaluation frameworks directly impact how agents are benchmarked and validated.",
+        "impact": "New evaluation standards for agent reliability."
+      },
+      {
+        "title": "Humanity\u2019s Last Invention \u2014 Richard Socher of Recursive",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/recursive",
+        "what": "Richard Socher spun out Recursive, a $5B startup focused on recursive self-improvement.",
+        "why": "Highlights macro shifts in foundational capabilities and ambitious startup directions.",
+        "impact": "Keeps you informed on high-level paradigm shifts."
+      }
+    ],
+    "Design": [
+      {
+        "title": "The UX Double Diamond is dead, and in AI only one survives for softwa\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-ux-double-diamond-is-dead-and-in-ai-only-one-survives-for-software-heres-how-to-adapt-f63b57c524ed?source=rss----138adf9c44c---4",
+        "what": "The UX Double Diamond model is obsolete for AI software because building is no longer the primary risk.",
+        "why": "The cost of building has collapsed, shifting design to a compressed, brief-led generation process.",
+        "impact": "Streamline your solo product validation workflow."
+      },
+      {
+        "title": "Five eras of UX, First drafts, Logos made of data, Voice AIUX patterns",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
+        "what": "UX Collective released a weekly curation highlighting new patterns for Voice AI and first-draft workflows.",
+        "why": "It surfaces fresh interface patterns and practical resources for emerging AI-first paradigms.",
+        "impact": "Adopt new voice agent interaction patterns immediately."
+      },
+      {
+        "title": "I Tried to Make Claude Code Stop Producing AI Slop",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/i-tried-to-make-claude-code-stop-producing-ai-slop-fa594f6b5981?source=rss----819cc2aaeee0---4",
+        "what": "An exploration into stopping Claude Code from generating generic, easily identifiable AI slop UIs.",
+        "why": "AI-generated interfaces often look instantly recognizable and lack genuine design polish.",
+        "impact": "Improve the visual quality of AI-coded apps."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Siri AI, a profoundly more capable and personal assistant, is here",
+        "source": "apple.com",
+        "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
+        "what": "Apple released Siri AI as a deeply integrated conversational assistant across its platforms.",
+        "why": "It establishes a new baseline for consumer-facing conversational UX and personal context in voice.",
+        "impact": "Benchmarks ecosystem-level voice UX design"
+      },
+      {
+        "title": "SoundHound AI SOUN Jumps After LivePerson Deal Closes - StocksToTrade",
+        "source": "stockstotrade.com",
+        "url": "https://stockstotrade.com/news/soundhound-ai-inc-soun-news-2026_09_14",
+        "what": "SoundHound AI closed its acquisition of LivePerson to form an omnichannel conversational stack.",
+        "why": "It merges enterprise messaging with voice and agentic AI, targeting large-scale deployments.",
+        "impact": "Informs enterprise voice agent architecture"
+      },
+      {
+        "title": "Nexdata to Showcase AI Training Data Solutions at INTERSPEECH 2026 in\u2026",
+        "source": "einnews.com",
+        "url": "https://www.einnews.com/pr_news/942079670/nexdata-to-showcase-ai-training-data-solutions-at-interspeech-2026-in-sydney",
+        "what": "Nexdata announced showcases for Speech LLM training data solutions at INTERSPEECH 2026.",
+        "why": "Highlights emerging data infrastructure and collection requirements for advanced Speech LLMs.",
+        "impact": "Highlights speech LLM data strategies"
+      }
+    ]
+  }
+}
