@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-16",
+  "beats": {
+    "AI": [
+      {
+        "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+        "what": "Google DeepMind released Gemini 3.8 Live and 3.8 Live Extended Thinking.",
+        "why": "Provides advanced live interaction and extended reasoning capabilities for agents.",
+        "impact": "Directly upgrades voice agent reasoning loops."
+      },
+      {
+        "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.17475v1",
+        "what": "JustFit enables 200K-token LLM serving on a 24 GiB laptop via JIT state management.",
+        "why": "Makes running high-context models locally practical without extreme hardware limits.",
+        "impact": "Improves local coding and agent development setups."
+      },
+      {
+        "title": "ECHO: A Matched-Contrast Benchmark for Context-Sensitive Turn-Taking\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.17360v1",
+        "what": "ECHO introduced a matched-contrast benchmark for turn-taking in full-duplex dialogue.",
+        "why": "Addresses the core challenge of distinguishing interruptions from backchannels in voice.",
+        "impact": "Provides a direct evaluation tool for voice agent responsiveness."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Claude Design vs Figma AI: I Designed the Same Web Page With Both",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-design-vs-figma-ai-i-designed-the-same-web-page-with-both-bf2a3712f980?source=rss----819cc2aaeee0---4",
+        "what": "An author compared Claude Design and Figma AI by building the same web page with both tools.",
+        "why": "It evaluates the practical capabilities of competing AI layout generators for hands-on builders.",
+        "impact": "Helps choose the right AI design tool"
+      },
+      {
+        "title": "Don\u2019t let AI build a Winchester Mystery House",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/dont-let-ai-build-a-winchester-mystery-house-2cb59ec05a73?source=rss----138adf9c44c---4",
+        "what": "An essay warns against chaotic feature additions in AI apps and offers six architectural moves.",
+        "why": "It provides structural blueprints to avoid fragmented UX when rapidly shipping AI features.",
+        "impact": "Improves architectural consistency"
+      },
+      {
+        "title": "The users were confident, but wrong. Here\u2019s how to design for that.",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-users-were-confident-but-wrong-heres-how-to-design-for-that-4b1546dc5864?source=rss----138adf9c44c---4",
+        "what": "A design guide explores how to handle users who are confidently wrong about confusing terminology.",
+        "why": "It addresses critical edge cases in user certainty that frequently break AI interaction flows.",
+        "impact": "Guides better error and help states"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Gemini 3.8 Live Launch: 82.6 Voice AI Score [2026] - Tech Insider",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/gemini-3-8-live-extended-thinking-launch-2026",
+        "what": "Google launched Gemini 3.8 Live and Live Extended Thinking voice AI models.",
+        "why": "They offer ultra-low latency, real-time reasoning, and mid-conversation language switching.",
+        "impact": "Test and integrate new real-time voice capabilities"
+      },
+      {
+        "title": "OmniDimension Completes 21 Launches in 21 Days, Expanding ...",
+        "source": "usatoday.com",
+        "url": "https://www.usatoday.com/press-release/story/43381/omnidimension-completes-21-launches-in-21-days-expanding-into-a-full-stack-conversational-ai-platform",
+        "what": "OmniDimension completed a campaign expanding its tool into a full-stack conversational platform.",
+        "why": "It introduces continuous new platform capabilities for building voice AI agents.",
+        "impact": "Explore new full-stack voice agent building tools"
+      },
+      {
+        "title": "Meet the CX Engineer: AI's New Contact Center Manager",
+        "source": "crmbuyer.com",
+        "url": "https://www.crmbuyer.com/story/as-ai-takes-more-calls-contact-centers-need-a-new-kind-of-manager-177741.html",
+        "what": "The CX engineer role is emerging as a contact center manager for AI agents.",
+        "why": "AI agents taking over voice calls require dedicated engineering and workflow management.",
+        "impact": "Adapt agent architectures for production management"
+      }
+    ]
+  }
+}
