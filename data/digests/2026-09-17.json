@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-17",
+  "beats": {
+    "AI": [
+      {
+        "title": "Affora: A Design System for Agent-Friendly Interfaces",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.19125v1",
+        "what": "Affora introduces a design system for agent-friendly software interfaces.",
+        "why": "It improves machine readability without disrupting human workflows.",
+        "impact": "Improves voice and computer-use agent UI reliability."
+      },
+      {
+        "title": "Ask the Tool, Don't Guess: Agent Tool Calls Hold Their Progress, and\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.18849v1",
+        "what": "Serving systems are proposed that read tool calls to hold their progress.",
+        "why": "It addresses the wall-clock waiting time and GPU memory waste of tool calls.",
+        "impact": "Optimizes latency and GPU memory for custom voice agent backends."
+      },
+      {
+        "title": "ActionPiece: Rethinking Action Tokenization for Autoregressive Vision\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.18487v1",
+        "what": "ActionPiece rethinks action tokenization for autoregressive VLA models.",
+        "why": "It improves the fidelity of policy targets and executable commands.",
+        "impact": "Enhances action generation for multimodal agent development."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Design handoff with Claude Code",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/design-handoff-with-claude-code-fdaf477e4a0c?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet published an article examining design handoffs using Claude Code.",
+        "why": "It addresses bridging the gap between design and code directly inside an AI workflow.",
+        "impact": "speeds up solo AI building"
+      },
+      {
+        "title": "Stop Treating CSS Container Queries Like Traditional Media Queries",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
+        "what": "Smashing Magazine published a guide on properly utilizing CSS container queries.",
+        "why": "It helps reusable UI components adapt intelligently to their immediate container contexts.",
+        "impact": "improves responsive UI architecture"
+      },
+      {
+        "title": "Lost dog\u2014or lost designer?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/lost-dog-or-lost-designer-d5de922e54d9?source=rss----138adf9c44c---4",
+        "what": "UX Collective explored the ethics and context behind AI-generated visual design.",
+        "why": "It highlights the pitfalls and contextual appropriateness of using generative design assets.",
+        "impact": "guides ethical AI asset use"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Plivo CPaaS Is Moving Up the Stack: Can It Orchestrate the Whole ...",
+        "source": "cxtoday.com",
+        "url": "https://www.cxtoday.com/customer-engagement-journey-orchestration/plivo-cpaas-journey-orchestration",
+        "what": "Plivo's Head of Product Voice broke down voice AI into a 7-stage processing pipeline operating under 750ms.",
+        "why": "It quantifies latency math and compounding accuracy failure rates across voice agent architectures.",
+        "impact": "Informs latency budgets for your voice agent build."
+      },
+      {
+        "title": "\u2018Changes will define how telecom infra can be built for AI\u2019: Suman Ga\u2026",
+        "source": "apacnewsnetwork.com",
+        "url": "https://apacnewsnetwork.com/2026/09/changes-will-define-how-telecom-infra-can-be-built-for-ai-suman-gandham-co-founder-and-ceo-vobiz-ai",
+        "what": "Vobiz.ai introduced AI-native, API-first telephony infrastructure sitting underneath the voice AI stack.",
+        "why": "It targets the foundational telecom layer carrying real-time AI conversation traffic.",
+        "impact": "Potential new telephony stack option for prototyping."
+      },
+      {
+        "title": "Google Gemini Live Expands Voice AI in Workspace \u2014 UC Today",
+        "source": "uctoday.com",
+        "url": "https://uctoday.com/google-gemini-live-expands-voice-ai-across-workspace",
+        "what": "Google is expanding Gemini Live conversational voice AI capabilities deeper into the Workspace app suite.",
+        "why": "It moves generative voice and assistant workflows directly into routine productivity software.",
+        "impact": "Benchmarks UX patterns for conversational tool integration."
+      }
+    ]
+  }
+}
