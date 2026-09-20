@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-20",
+  "beats": {
+    "AI": [
+      {
+        "title": "MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.20152v1",
+        "what": "MTVA-Bench evaluates the language model component inside cascaded voice agents.",
+        "why": "It isolates LLM decision-making for voice from ASR and TTS components.",
+        "impact": "Improves voice agent core logic evaluation"
+      },
+      {
+        "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Ed\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.20816v1",
+        "what": "Paint-Anything introduces unified any-color control for image generation and editing.",
+        "why": "It allows specifying target colors via 24-bit hex values in generation.",
+        "impact": "Adds precise color control to design tools"
+      },
+      {
+        "title": "RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Ag\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.20754v1",
+        "what": "RAFT introduces a stateful RAG framework for troubleshooting agents.",
+        "why": "It treats support cases as multi-stage, stateful workflows rather than static docs.",
+        "impact": "Better retrieval for stateful agent design"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Google Stitch vs Figma AI: I Designed the Same Mobile App With Both",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/google-stitch-vs-figma-ai-i-designed-the-same-mobile-app-with-both-7a219c347dba?source=rss----819cc2aaeee0---4",
+        "what": "Google Stitch and Figma AI were compared in a side-by-side mobile app prototyping test using prompts.",
+        "why": "Directly compares two current generative UI prototyping tools for hands-on builders.",
+        "impact": "Helps choose the right AI prototyping tool."
+      },
+      {
+        "title": "The 3 Roles of Context for AI Agents",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Nielsen Norman Group analyzed the three key roles of context (global, local, ambient) for AI agents.",
+        "why": "Provides concrete UX frameworks for structuring context in conversational voice agents.",
+        "impact": "Informs voice agent context architecture."
+      },
+      {
+        "title": "Designing AI Products and Features: Study Guide",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Nielsen Norman Group published a curated study guide on designing AI products and features.",
+        "why": "Offers foundational UX patterns and recommendations specifically for AI interfaces.",
+        "impact": "Guides practical AI UX design patterns."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Grok Bot Now Has Voice Mode: What You Need to Know",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-bot-now-has-voice-mode-what-you-need-to-know",
+        "what": "xAI released Grok Voice Mode powered by the Grok Voice Think Fast 2.0 layer.",
+        "why": "It delivers faster conversational responses and improved real-time transcription.",
+        "impact": "Test real-time conversational latency benchmarks."
+      },
+      {
+        "title": "Humyn Labs Benchmarks Voice AI: Exposes Critical Failures in Human-Ro\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/others/humyn-labs-benchmarks-voice-ai-exposes-critical-failures-in-human-robot-interaction",
+        "what": "Humyn Labs launched BRIDGE, a benchmark report evaluating voice AI across models.",
+        "why": "It exposes critical interaction failures for models like Sarvam, Gemini, and ElevenLabs.",
+        "impact": "Evaluate model reliability for your voice agent."
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-09-18",
+    "Design": "2026-09-19",
+    "Voice AI": "2026-09-18"
+  }
+}
