@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-21",
+  "beats": {
+    "AI": [
+      {
+        "title": "MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.20152v1",
+        "what": "MTVA-Bench evaluates the language model component inside cascaded voice agents.",
+        "why": "It isolates LLM decision-making for voice from ASR and TTS components.",
+        "impact": "Improves voice agent core logic evaluation"
+      },
+      {
+        "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Ed\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.20816v1",
+        "what": "Paint-Anything introduces unified any-color control for image generation and editing.",
+        "why": "It allows specifying target colors via 24-bit hex values in generation.",
+        "impact": "Adds precise color control to design tools"
+      },
+      {
+        "title": "RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Ag\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.20754v1",
+        "what": "RAFT introduces a stateful RAG framework for troubleshooting agents.",
+        "why": "It treats support cases as multi-stage, stateful workflows rather than static docs.",
+        "impact": "Better retrieval for stateful agent design"
+      }
+    ],
+    "Design": [
+      {
+        "title": "AI nutrition facts",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a guide on designing interface nutrition facts for AI outputs.",
+        "why": "It establishes a practical pattern for making AI-generated content transparent and readable.",
+        "impact": "Improves your voice agent's output UX."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Grok Bot Now Has Voice Mode: What You Need to Know",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-bot-now-has-voice-mode-what-you-need-to-know",
+        "what": "xAI released Grok Voice Mode powered by the Grok Voice Think Fast 2.0 layer.",
+        "why": "It delivers faster conversational responses and improved real-time transcription.",
+        "impact": "Test real-time conversational latency benchmarks."
+      },
+      {
+        "title": "Humyn Labs Benchmarks Voice AI: Exposes Critical Failures in Human-Ro\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/others/humyn-labs-benchmarks-voice-ai-exposes-critical-failures-in-human-robot-interaction",
+        "what": "Humyn Labs launched BRIDGE, a benchmark report evaluating voice AI across models.",
+        "why": "It exposes critical interaction failures for models like Sarvam, Gemini, and ElevenLabs.",
+        "impact": "Evaluate model reliability for your voice agent."
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-09-18",
+    "Voice AI": "2026-09-18"
+  }
+}
