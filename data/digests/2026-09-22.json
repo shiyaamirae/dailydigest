@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-22",
+  "beats": {
+    "AI": [
+      {
+        "title": "MSI-Bench: Evaluating Multi-Speaker Voice Interaction for Collaborati\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.24812v1",
+        "what": "MSI-Bench evaluates multi-speaker voice interaction for collaborative AI agents.",
+        "why": "Voice agents need robust multi-speaker support for real-world collaborative settings.",
+        "impact": "Informs voice agent multi-speaker architecture design"
+      },
+      {
+        "title": "\"MeBo Leaves a Piece of You Behind\": Designing a Relational Voice-Bas\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.24706v1",
+        "what": "MeBo is a fully functional relational voice-based memory companion designed for older adults.",
+        "why": "Demonstrates practical design patterns for long-horizon relational voice memory.",
+        "impact": "Provides patterns for relational voice memory features"
+      },
+      {
+        "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs an\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.24983v1",
+        "what": "onPanda is an interactive tool for efficiently annotating LLM alignment data via token-level correction.",
+        "why": "Token-level correction improves alignment and agent trajectory fine-tuning efficiency.",
+        "impact": "Speeds up agent behavior fine-tuning workflows"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Can AI follow a real design system?",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/can-ai-follow-a-real-design-system-c30330ad6dd1?source=rss----819cc2aaeee0---4",
+        "what": "An exploration tested feeding a real design system to Claude Design to see if AI can follow it.",
+        "why": "It addresses practical workflow integration for AI builders implementing design systems directly.",
+        "impact": "Improves AI-generated UI consistency"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Grok Bot Now Has Voice Mode: What You Need to Know",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-bot-now-has-voice-mode-what-you-need-to-know",
+        "what": "xAI released Grok Voice Mode powered by the Grok Voice Think Fast 2.0 layer.",
+        "why": "It delivers faster conversational responses and improved real-time transcription.",
+        "impact": "Test real-time conversational latency benchmarks."
+      },
+      {
+        "title": "Humyn Labs Benchmarks Voice AI: Exposes Critical Failures in Human-Ro\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/others/humyn-labs-benchmarks-voice-ai-exposes-critical-failures-in-human-robot-interaction",
+        "what": "Humyn Labs launched BRIDGE, a benchmark report evaluating voice AI across models.",
+        "why": "It exposes critical interaction failures for models like Sarvam, Gemini, and ElevenLabs.",
+        "impact": "Evaluate model reliability for your voice agent."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-09-18"
+  }
+}
