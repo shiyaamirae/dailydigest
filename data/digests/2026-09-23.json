@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-23",
+  "beats": {
+    "AI": [
+      {
+        "title": "Better prompt caching for GPT-6",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+        "what": "OpenAI released improved prompt caching capabilities for GPT-6.",
+        "why": "It reduces latency and costs via higher cache hit rates and explicit breakpoints.",
+        "impact": "Lowers token costs for active voice agent development."
+      },
+      {
+        "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memor\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.26796v1",
+        "what": "Flash-dLLM introduces IO-aware KV caching and parallel decoding for diffusion LLMs.",
+        "why": "It addresses the lack of effective KV caching in non-autoregressive text generation.",
+        "impact": "Speeds up non-autoregressive text generation."
+      },
+      {
+        "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Ag\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.26779v1",
+        "what": "CliffCompaction offers cost-efficient autocompaction for long-horizon coding agents.",
+        "why": "It reduces context token costs by up to 50 percent while maintaining performance.",
+        "impact": "Improves long-horizon agent state management."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Figma vs. Claude Design: From UI Screenshot to Functional Prototype",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/figma-vs-claude-design-from-ui-screenshot-to-functional-prototype-82e00fb924bc?source=rss----819cc2aaeee0---4",
+        "what": "A direct comparison of Figma and Claude Design for turning UI screenshots into functional prototypes.",
+        "why": "It evaluates practical tools for accelerating the path from visual concept to interactive code.",
+        "impact": "Speeds up prototyping workflows."
+      },
+      {
+        "title": "The variance problem in AI products",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-variance-problem-in-ai-products-62a58272564c?source=rss----138adf9c44c---4",
+        "what": "An exploration of the variance problem in AI products where inconsistent performance erodes user trust.",
+        "why": "Latency and unpredictable output behavior are critical UX hurdles in active AI agent building.",
+        "impact": "Guides handling of AI latency UX."
+      },
+      {
+        "title": "Designers lost their unit of measurement. That\u2019s why we\u2019re struggling.",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/designers-lost-their-unit-of-measurement-thats-why-we-re-struggling-b3c6beeea74f?source=rss----138adf9c44c---4",
+        "what": "An analysis of how losing screens as the core unit of measurement impacts modern product design.",
+        "why": "Voice and AI interfaces require moving beyond traditional screen-based UX patterns.",
+        "impact": "Helps rethink non-screen UX."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Grok Bot Now Has Voice Mode: What You Need to Know",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-bot-now-has-voice-mode-what-you-need-to-know",
+        "what": "xAI released Grok Voice Mode powered by the Grok Voice Think Fast 2.0 layer.",
+        "why": "It delivers faster conversational responses and improved real-time transcription.",
+        "impact": "Test real-time conversational latency benchmarks."
+      },
+      {
+        "title": "Humyn Labs Benchmarks Voice AI: Exposes Critical Failures in Human-Ro\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/others/humyn-labs-benchmarks-voice-ai-exposes-critical-failures-in-human-robot-interaction",
+        "what": "Humyn Labs launched BRIDGE, a benchmark report evaluating voice AI across models.",
+        "why": "It exposes critical interaction failures for models like Sarvam, Gemini, and ElevenLabs.",
+        "impact": "Evaluate model reliability for your voice agent."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-09-18"
+  }
+}
