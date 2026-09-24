@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-24",
+  "beats": {
+    "AI": [
+      {
+        "title": "Ringg\u2019s AI agents resolve up to 65% of customer calls with OpenAI",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/ringg",
+        "what": "Ringg launched multilingual voice and chat AI agents built with OpenAI.",
+        "why": "It showcases production-grade voice agent deployment patterns and pricing economics.",
+        "impact": "Provides a practical benchmark for building voice agents"
+      },
+      {
+        "title": "Gemini 3.8 text-to-speech says hello",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+        "what": "Google DeepMind released the Gemini 3.8 text-to-speech model.",
+        "why": "It delivers a new foundational audio capability directly applicable to real-time voice apps.",
+        "impact": "Direct tool upgrade for building voice agents"
+      },
+      {
+        "title": "Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.28344v1",
+        "what": "Mizar, a 159M audio-language model for efficient on-device understanding, was released.",
+        "why": "Small audio models enable low-latency, resource-constrained audio processing on edge devices.",
+        "impact": "New architectural option for local audio pipelines"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Claude Opus 5.5 for Product Designers",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-opus-5-5-for-product-designers-6d354142d5ac?source=rss----819cc2aaeee0---4",
+        "what": "Anthropic released Claude Opus 5.5, showing improved capability for product design tasks.",
+        "why": "It offers better model performance that can be tested for AI-driven prototyping workflows.",
+        "impact": "Test Opus 5.5 for hands-on prototyping"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Grok Bot Now Has Voice Mode: What You Need to Know",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-bot-now-has-voice-mode-what-you-need-to-know",
+        "what": "xAI released Grok Voice Mode powered by the Grok Voice Think Fast 2.0 layer.",
+        "why": "It delivers faster conversational responses and improved real-time transcription.",
+        "impact": "Test real-time conversational latency benchmarks."
+      },
+      {
+        "title": "Humyn Labs Benchmarks Voice AI: Exposes Critical Failures in Human-Ro\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/others/humyn-labs-benchmarks-voice-ai-exposes-critical-failures-in-human-robot-interaction",
+        "what": "Humyn Labs launched BRIDGE, a benchmark report evaluating voice AI across models.",
+        "why": "It exposes critical interaction failures for models like Sarvam, Gemini, and ElevenLabs.",
+        "impact": "Evaluate model reliability for your voice agent."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-09-18"
+  }
+}
