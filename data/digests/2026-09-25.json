@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-25",
+  "beats": {
+    "AI": [
+      {
+        "title": "Runway\u2019s WorldPrompt and the Engineering of Real-Time Worlds",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/runway",
+        "what": "Latent Space covered Runway's WorldPrompt using persistent context and timed actions for real-time video/audio generation.",
+        "why": "Provides immediate architectural insight into real-time generative world models for interactive simulations.",
+        "impact": "Informs real-time voice and environment design"
+      },
+      {
+        "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.29837v1",
+        "what": "Researchers introduced PUBG Ally, a voice-enabled conversational embodied agent that plays as a teammate.",
+        "why": "Demonstrates practical multimodal integration for low-latency voice interactions in dynamic environments.",
+        "impact": "Directly applicable to voice agent design"
+      },
+      {
+        "title": "ChunkRank: Model-Aware Text Chunking and Abstention-Aware Answer Sele\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.29828v1",
+        "what": "ChunkRank was released as an open-source library for model-aware text chunking and abstention-aware answer selection.",
+        "why": "Offers an off-the-shelf tool to optimize RAG pipeline performance across various target model tokenizers.",
+        "impact": "Instantly usable tool for RAG pipelines"
+      }
+    ],
+    "Design": [
+      {
+        "title": "GPT-6 Astra vs Opus 5.5: Which one is better for product design?",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/gpt-6-astra-vs-opus-5-5-which-one-is-better-for-product-design-ea66a6ff4527?source=rss----819cc2aaeee0---4",
+        "what": "Anthropic updated its flagship AI model, Opus, prompting new design comparisons.",
+        "why": "It evaluates top-tier model performance specifically for product design tasks.",
+        "impact": "Informs model selection for prototyping."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Grok Bot Now Has Voice Mode: What You Need to Know",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-bot-now-has-voice-mode-what-you-need-to-know",
+        "what": "xAI released Grok Voice Mode powered by the Grok Voice Think Fast 2.0 layer.",
+        "why": "It delivers faster conversational responses and improved real-time transcription.",
+        "impact": "Test real-time conversational latency benchmarks."
+      },
+      {
+        "title": "Humyn Labs Benchmarks Voice AI: Exposes Critical Failures in Human-Ro\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/others/humyn-labs-benchmarks-voice-ai-exposes-critical-failures-in-human-robot-interaction",
+        "what": "Humyn Labs launched BRIDGE, a benchmark report evaluating voice AI across models.",
+        "why": "It exposes critical interaction failures for models like Sarvam, Gemini, and ElevenLabs.",
+        "impact": "Evaluate model reliability for your voice agent."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-09-18"
+  }
+}
