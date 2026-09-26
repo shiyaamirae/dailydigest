@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-26",
+  "beats": {
+    "AI": [
+      {
+        "title": "OpenRouter: from Seed to Stripe \u2014 with OpenRouter\u2019s Alex Atallah & AM\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/openrouter",
+        "what": "Latent Space podcast featured OpenRouter's Alex Atallah discussing model routing ecosystems.",
+        "why": "Provides insider perspective on managing multi-model architectures which is vital for agent builders.",
+        "impact": "Informs routing and cost-optimization strategies for voice agents."
+      },
+      {
+        "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/proaction",
+        "what": "OpenAI highlighted how Proaction builds and operates fleet management tools using Codex and GPT models.",
+        "why": "Demonstrates practical end-to-end solo building patterns using advanced AI developer tools.",
+        "impact": "Validates solo-builder workflows using LLMs for rapid shipping."
+      }
+    ],
+    "Design": [
+      {
+        "title": "I Tested Opus 5.5 at Every Effort Level for UI Design",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/i-tested-opus-5-5-at-every-effort-level-for-ui-design-c19860ad8563?source=rss----819cc2aaeee0---4",
+        "what": "An analysis explores how varying effort levels in Opus 5.5 impact AI-generated UI design output quality.",
+        "why": "It helps builders calibrate prompting strategies for optimal interface design generation.",
+        "impact": "Refine your AI-assisted UI generation workflows."
+      },
+      {
+        "title": "When Should You Disclose AI Use? The PACED Framework",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/disclose-ai-paced/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "The PACED framework provides guidelines on when and how to disclose AI use based on context and audience.",
+        "why": "Clear UX disclosure strategies are critical as voice and AI agents become more prevalent.",
+        "impact": "Design transparent user trust patterns for your agent."
+      },
+      {
+        "title": "How AI Works and How Users Think About It: Study Guide",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ai-functionality-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "NN/g released a comprehensive study guide on how artificial intelligence works and user mental models.",
+        "why": "Understanding user mental models is essential for designing intuitive conversational interfaces.",
+        "impact": "Inform your voice agent interaction design."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Grok Bot Now Has Voice Mode: What You Need to Know",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-bot-now-has-voice-mode-what-you-need-to-know",
+        "what": "xAI released Grok Voice Mode powered by the Grok Voice Think Fast 2.0 layer.",
+        "why": "It delivers faster conversational responses and improved real-time transcription.",
+        "impact": "Test real-time conversational latency benchmarks."
+      },
+      {
+        "title": "Humyn Labs Benchmarks Voice AI: Exposes Critical Failures in Human-Ro\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/others/humyn-labs-benchmarks-voice-ai-exposes-critical-failures-in-human-robot-interaction",
+        "what": "Humyn Labs launched BRIDGE, a benchmark report evaluating voice AI across models.",
+        "why": "It exposes critical interaction failures for models like Sarvam, Gemini, and ElevenLabs.",
+        "impact": "Evaluate model reliability for your voice agent."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-09-18"
+  }
+}
