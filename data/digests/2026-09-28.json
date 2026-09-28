@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-28",
+  "beats": {
+    "AI": [
+      {
+        "title": "OpenRouter: from Seed to Stripe \u2014 with OpenRouter\u2019s Alex Atallah & AM\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/openrouter",
+        "what": "Latent Space podcast featured OpenRouter's Alex Atallah discussing model routing ecosystems.",
+        "why": "Provides insider perspective on managing multi-model architectures which is vital for agent builders.",
+        "impact": "Informs routing and cost-optimization strategies for voice agents."
+      },
+      {
+        "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/proaction",
+        "what": "OpenAI highlighted how Proaction builds and operates fleet management tools using Codex and GPT models.",
+        "why": "Demonstrates practical end-to-end solo building patterns using advanced AI developer tools.",
+        "impact": "Validates solo-builder workflows using LLMs for rapid shipping."
+      }
+    ],
+    "Design": [
+      {
+        "title": "How we save entry-level UX work that teaches craft in the time of AI.\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4",
+        "what": "UX Collective outlines seven junior tasks to preserve foundational craft against AI automation.",
+        "why": "It addresses the looming challenge of maintaining human design expertise when AI handles routine work.",
+        "impact": "Refines your solo design process"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Grok Bot Now Has Voice Mode: What You Need to Know",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-bot-now-has-voice-mode-what-you-need-to-know",
+        "what": "xAI released Grok Voice Mode powered by the Grok Voice Think Fast 2.0 layer.",
+        "why": "It delivers faster conversational responses and improved real-time transcription.",
+        "impact": "Test real-time conversational latency benchmarks."
+      },
+      {
+        "title": "Humyn Labs Benchmarks Voice AI: Exposes Critical Failures in Human-Ro\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/others/humyn-labs-benchmarks-voice-ai-exposes-critical-failures-in-human-robot-interaction",
+        "what": "Humyn Labs launched BRIDGE, a benchmark report evaluating voice AI across models.",
+        "why": "It exposes critical interaction failures for models like Sarvam, Gemini, and ElevenLabs.",
+        "impact": "Evaluate model reliability for your voice agent."
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-09-26",
+    "Voice AI": "2026-09-18"
+  }
+}
