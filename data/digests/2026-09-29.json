@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-29",
+  "beats": {
+    "AI": [
+      {
+        "title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/thariq",
+        "what": "Anthropic announced the next era of Claude Code with Opus/Sonnet 5.5, mods, plugins, and projects.",
+        "why": "It introduces powerful new development tools and extensible workflows directly on the frontier.",
+        "impact": "Accelerates solo full-stack building and coding workflows."
+      },
+      {
+        "title": "PhoneCLI: From App Interfaces to Callable Commands for Mobile Agents",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.35671v1",
+        "what": "PhoneCLI translates mobile app GUI interactions into clean, callable terminal-style commands.",
+        "why": "It replaces brittle visual perception loops with fast, ordered, and direct actions for mobile agents.",
+        "impact": "Enables reliable mobile agent development for voice and UI integration."
+      },
+      {
+        "title": "MCP Error Messages Written for Developers Hurt the Most Capable Agent\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.35381v1",
+        "what": "Research shows that standard developer-facing MCP error messages severely degrade agent execution.",
+        "why": "Agents fail when they encounter instructions meant for humans, like opening web pages or running terminal commands.",
+        "impact": "Highlights how to rewrite tool error messages for robust voice-agent tool use."
+      }
+    ],
+    "Design": [
+      {
+        "title": "I Tested Opus 5.5 at Every Effort Level for Animation Design",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/i-tested-opus-5-5-at-every-effort-level-for-animation-design-848411dc7f0a?source=rss----819cc2aaeee0---4",
+        "what": "An evaluation of Opus 5.5 across all effort levels for animation design was published.",
+        "why": "Motion design is critical for modern interfaces and this tests AI capability limits.",
+        "impact": "Test Opus 5.5 for micro-interactions"
+      },
+      {
+        "title": "The next larger context",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-next-larger-context-4dd0c91a7c5b?source=rss----138adf9c44c---4",
+        "what": "An exploration into designing beyond the interface, product, and prompt was published.",
+        "why": "AI builders need to understand systemic context when creating ambient voice agents.",
+        "impact": "Redefine system boundaries for voice"
+      },
+      {
+        "title": "The strategic designer: navigating the Jevons paradox in the AI age",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-strategic-designer-navigating-the-jevons-paradox-in-the-ai-age-e06aa836f9d8?source=rss----138adf9c44c---4",
+        "what": "An analysis of the Jevons paradox and strategic design in the AI age was shared.",
+        "why": "As execution time compresses, design vision and systems thinking become core differentiators.",
+        "impact": "Pivot focus toward orchestration"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Introducing Eleven v4, our most emotive model",
+        "source": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/eleven-v4",
+        "what": "ElevenLabs launched Eleven v4, their most emotive speech generation model yet.",
+        "why": "It dramatically improves the emotional depth and naturalness of synthetic voice output.",
+        "impact": "Upgrade your voice agent's conversational tone."
+      }
+    ]
+  }
+}
