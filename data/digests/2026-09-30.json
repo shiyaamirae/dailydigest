@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-30",
+  "beats": {
+    "AI": [
+      {
+        "title": "Introducing GPT-6.1 Sol",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+        "what": "OpenAI introduced GPT-6.1 Sol with near-Astra intelligence at one-fifth the price.",
+        "why": "It drastically lowers API input and output costs for advanced reasoning and computer use.",
+        "impact": "Cheaper inference for building AI agents."
+      },
+      {
+        "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API,\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+        "what": "Latent Space published a comprehensive breakdown of OpenAI DevDay 2026 announcements.",
+        "why": "It synthesizes major ecosystem launches like new APIs, Spaces, and the Marketplace.",
+        "impact": "Quick overview of new builder tools."
+      },
+      {
+        "title": "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Ge\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.38157v1",
+        "what": "Researchers proposed EmoRES-TTS, a training-free vector steering approach for emotional speech.",
+        "why": "It enables reliable emotional expression in TTS without costly retraining or labeled datasets.",
+        "impact": "Easier emotional tuning for voice agents."
+      }
+    ],
+    "Design": [
+      {
+        "title": "How to de-slopify your designs",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9?source=rss----138adf9c44c---4",
+        "what": "UX Collective published practical tips on how to de-slopify UI designs created using AI tools.",
+        "why": "It addresses the rising backlash against generic AI aesthetics in user interfaces.",
+        "impact": "Improves your AI-generated product aesthetics"
+      },
+      {
+        "title": "I Tested Claude Sonnet 5.5 for Web Design",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/i-tested-claude-sonnet-5-5-for-web-design-8ab1df274cf9?source=rss----819cc2aaeee0---4",
+        "what": "A UX Planet review evaluated Claude Sonnet 5.5 for web design and found it lacking compared to claims.",
+        "why": "It offers a realistic benchmark for using frontier models directly in interface creation.",
+        "impact": "Calibrates expectations for AI coding tools"
+      },
+      {
+        "title": "If you want to design for underserved users, look at farmers\u2019 markets",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/if-you-want-to-design-for-underserved-users-look-at-farmers-markets-eefaedb35607?source=rss----138adf9c44c---4",
+        "what": "UX Collective examined farmers' markets as a model for designing for underserved users.",
+        "why": "It provides alternative mental models for inclusive design patterns outside standard tech norms.",
+        "impact": "Enhances edge-case user experience design"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Introducing Eleven v4, our most emotive model",
+        "source": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/eleven-v4",
+        "what": "ElevenLabs launched Eleven v4, their most emotive speech generation model yet.",
+        "why": "It dramatically improves the emotional depth and naturalness of synthetic voice output.",
+        "impact": "Upgrade your voice agent's conversational tone."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-09-29"
+  }
+}
