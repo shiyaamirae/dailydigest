@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-01",
+  "beats": {
+    "AI": [
+      {
+        "title": "Richard: Voice-First Mobile Interaction for Persistent Tasks",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.39976v1",
+        "what": "Richard is a voice-first mobile interaction framework designed for managing persistent tasks.",
+        "why": "It addresses voice agent workflows for asynchronous, interrupted, and multi-step tasks on mobile.",
+        "impact": "Direct UX patterns for your voice agent."
+      },
+      {
+        "title": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Comp\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2609.40253v1",
+        "what": "ComputerSD introduces online self-distillation from real-time feedback for computer-use agents.",
+        "why": "It improves agent trajectory execution by providing token-level feedback instead of sparse rewards.",
+        "impact": "Better training techniques for action agents."
+      },
+      {
+        "title": "Introducing SynthID Bio",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+        "what": "Google DeepMind introduced SynthID Bio to watermark AI-generated proteins while preserving function.",
+        "why": "It establishes a proof-of-concept for verifiable generation in non-text biological modalities.",
+        "impact": "New watermarking pattern to study."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Headless AI will make every product a platform. Here\u2019s what to consid\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/headless-ai-will-make-every-product-a-platform-heres-what-to-consider-when-designing-for-this-f219c33245c7?source=rss----138adf9c44c---4",
+        "what": "Headless AI shifts the design focus from visual screens to underlying agent contracts and platforms.",
+        "why": "Redefines product architecture beyond simple chat boxes for builders.",
+        "impact": "Informs non-visual agent system design."
+      },
+      {
+        "title": "Intelligent Accessibility: What If Accessibility Could Adapt to You?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/intelligent-accessibility-what-if-accessibility-could-adapt-to-you-db601958ea47?source=rss----138adf9c44c---4",
+        "what": "Intelligent accessibility explores how AI adapts accommodations dynamically to human needs.",
+        "why": "Moves accessibility from static compliance to responsive human-centered experiences.",
+        "impact": "Implements adaptive UI patterns."
+      },
+      {
+        "title": "Five-step color balancing with GenAI",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/five-step-color-balancing-with-genai-60ab1ca5635e?source=rss----138adf9c44c---4",
+        "what": "A five-step guide details color balancing workflows using Gemini and qualitative data.",
+        "why": "Provides a practical GenAI technique for executing design workflows.",
+        "impact": "Speeds up design system generation."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise de\u2026",
+        "source": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/tender-22bn",
+        "what": "ElevenLabs reaches a $22 billion valuation driven by high enterprise demand for conversational agents.",
+        "why": "Signals rapid market validation and scaling adoption for conversational voice agent tech.",
+        "impact": "Validates technology choice for building voice agents"
+      }
+    ]
+  }
+}
