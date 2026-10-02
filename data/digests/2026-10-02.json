@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-02",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+        "what": "Latent Space released Pi 1.0, Pi Durable, and TypeScript support for minimalist agent harnesses.",
+        "why": "It brings stable, production-ready patterns to modern agent development.",
+        "impact": "Direct tool for building agents"
+      },
+      {
+        "title": "Academia is for Ambition \u2014 Alex Zhang, MIT",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/rlm",
+        "what": "Latent Space interviewed MIT PhD Alex Zhang on RLM, agent harnesses, and academic ambition.",
+        "why": "It provides deep architectural insights into cutting-edge agent design directly from top researchers.",
+        "impact": "New agent harness techniques"
+      },
+      {
+        "title": "How Albertsons Companies is reimagining retail from the inside out",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/albertsons-reimagining-retail",
+        "what": "Albertsons deployed ChatGPT Enterprise and OpenAI API to accelerate internal teams and customer apps.",
+        "why": "It demonstrates enterprise-grade deployment patterns using OpenAI tools for retail products.",
+        "impact": "Real-world API deployment patterns"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Stop blaming the model for slow AI. Using Doherty\u2019s threshold as a gu\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/stop-blaming-the-model-for-slow-ai-heres-how-to-design-for-it-doherty-s-threshold-as-a-guideline-5fa6d52e23fc?source=rss----138adf9c44c---4",
+        "what": "UX Collective analyzed Doherty's threshold to solve slow AI latency issues.",
+        "why": "It shows that front-end acknowledgment fixes latency perception better than cheaper inference.",
+        "impact": "Improves your voice agent's perceived responsiveness."
+      },
+      {
+        "title": "AI beyond average: from chatting to collaborating",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ai-beyond-average-from-chatting-to-collaborating-7b308dd9317a?source=rss----138adf9c44c---4",
+        "what": "UX Collective explored how context, skills, and feedback transform model collaboration.",
+        "why": "It moves AI interaction from basic chatting to actual functional collaboration.",
+        "impact": "Enhances your multi-tool AI workflow efficiency."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Microsoft targets ultra-realistic voice agents with its first streami\u2026",
+        "source": "siliconangle.com",
+        "url": "https://siliconangle.com/2026/10/01/microsoft-targets-ultra-realistic-voice-agents-with-its-first-streaming-transcription-model",
+        "what": "Microsoft released three new models for streaming transcription and natural voice agents.",
+        "why": "They reduce turn-taking latency and improve conversational flow for builders.",
+        "impact": "Directly usable for reducing agent latency."
+      },
+      {
+        "title": "Decagon Introduces Voice 3 Agent With Chord Speech Model \u2013 Unite.AI",
+        "source": "unite.ai",
+        "url": "https://www.unite.ai/decagon-introduces-voice-3-agent-with-chord-speech-model",
+        "what": "Decagon launched Voice 3 agent powered by the new Chord speech model.",
+        "why": "Brings advanced speech capabilities specifically designed for customer calls.",
+        "impact": "New architectural approach for call agents."
+      },
+      {
+        "title": "GOOGL Sheds $160 Billion in Value in a Single After-Hours Session | 2\u2026",
+        "source": "247wallst.com",
+        "url": "https://247wallst.com/cards/google-googl-price-swing-01m3wmbtyeqrrtrp1yw9b840pd",
+        "what": "Google took the top pronunciation spot on an independent benchmark.",
+        "why": "Intensifies pricing and performance competition in the voice layer for agents.",
+        "impact": "Evaluate Google's voice APIs against ElevenLabs."
+      }
+    ]
+  }
+}
