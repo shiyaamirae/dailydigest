@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-03",
+  "beats": {
+    "AI": [
+      {
+        "title": "A model guide for the GPT-6 family",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/practical-guide-building-gpt-6",
+        "what": "OpenAI published a comprehensive model guide for the GPT-6 family tailored to startups.",
+        "why": "It provides practical tips on tuning reasoning effort, prompts, and tool coordination for production.",
+        "impact": "Guides model selection and prompt tuning for production apps."
+      },
+      {
+        "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Gue\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/airbnb",
+        "what": "Ahmad Al-Dahle discussed rebuilding Airbnb's internal development and guest experience with AI.",
+        "why": "Offers a rare look at end-to-end AI product transformation inside a major consumer tech company.",
+        "impact": "Informs solo product development and workflow design strategies."
+      }
+    ],
+    "Design": [
+      {
+        "title": "3D Modeling with Claude Code: A Practical Blender Workflow",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/3d-modeling-with-claude-code-a-practical-blender-workflow-97e6e0b536b0?source=rss----819cc2aaeee0---4",
+        "what": "A practical workflow details how to use Claude Code for 3D modeling in Blender.",
+        "why": "It shows hands-on application of AI coding tools for physical and spatial design tasks.",
+        "impact": "Accelerate spatial prototyping for voice agent hardware or UI."
+      },
+      {
+        "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Nielsen Norman Group analyzes why piecemeal agentic AI systems quickly become fragile.",
+        "why": "It highlights architectural anti-patterns to avoid when building complex AI workflows.",
+        "impact": "Build more robust architectures for your voice agent."
+      },
+      {
+        "title": "In/tension modeling: what gives us the right?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/in-tension-modeling-what-gives-us-the-right-01740248eb45?source=rss----138adf9c44c---4",
+        "what": "UX Collective explores tension modeling to navigate opposing user voices and interventions.",
+        "why": "It offers critical questioning frameworks for ethical and effective product design choices.",
+        "impact": "Refine product positioning and UX ethics."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Microsoft Ships First Streaming Transcription Model, Completing Voice\u2026",
+        "source": "techtimes.com",
+        "url": "https://www.techtimes.com/articles/328501/20261002/microsoft-ships-first-streaming-transcription-model-completing-voice-agent-pipeline-foundry.htm",
+        "what": "Microsoft released its first real-time streaming speech-to-text model on Foundry.",
+        "why": "It completes the voice agent pipeline with low latency for conversational developers.",
+        "impact": "Test low-latency STT integration in your agent stack."
+      },
+      {
+        "title": "How to Choose an AI Model in October 2026",
+        "source": "medium.com",
+        "url": "https://medium.com/@shtse8/how-to-choose-an-ai-model-in-october-2026-4980a37bc677",
+        "what": "Medium breakdown shares Gemini 3.8 Flash TTS pricing and audio token rates.",
+        "why": "Provides direct cost metrics for implementing modern voice generation models.",
+        "impact": "Calculate exact voice token unit economics for your product."
+      },
+      {
+        "title": "Microsoft launches MAI-Transcribe-2-Streaming",
+        "source": "testingcatalog.com",
+        "url": "https://www.testingcatalog.com/microsoft-launches-mai-transcribe-2-streaming",
+        "what": "TestingCatalog reports Microsoft launched MAI-Transcribe-2-Streaming with ~100ms transcripts.",
+        "why": "Delivers ultra-fast transcription essential for fluid, natural voice interactions.",
+        "impact": "Benchmark against your current transcription pipeline latency."
+      }
+    ]
+  }
+}
