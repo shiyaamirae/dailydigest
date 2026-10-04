@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-04",
+  "beats": {
+    "AI": [
+      {
+        "title": "What the Best Business AI Users Are Doing Different",
+        "source": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=Rx7G-8myrd8",
+        "what": "Top businesses are now building model routers and data sovereignty strategies.",
+        "why": "It highlights architectural shifts in production AI management layers.",
+        "impact": "Refine routing architecture for your agent."
+      }
+    ],
+    "Design": [
+      {
+        "title": "The feed I produce myself",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-feed-i-produce-myself-11e4192f394c?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a piece on managing multiple concurrent AI agents to produce high volumes of work.",
+        "why": "It offers practical perspective on the shifting solo-builder workflow when orchestrating multiple autonomous agents.",
+        "impact": "Informs solo agentic workflow management"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "AI Week in Review 26.10.03 - by Patrick McGuinness",
+        "source": "patmcguinness.substack.com",
+        "url": "https://patmcguinness.substack.com/p/ai-week-in-review-261003",
+        "what": "Suno launched a public beta of its Speech feature for voiceovers and music.",
+        "why": "It lets creators easily combine custom spoken voice styles with background audio.",
+        "impact": "Test integrated audio for agent media"
+      },
+      {
+        "title": "Microsoft Introduces New MAI Models for Real-Time and Multilingual Vo\u2026",
+        "source": "itvoice.in",
+        "url": "https://www.itvoice.in/microsoft-introduces-new-mai-models-for-real-time-and-multilingual-voice-ai",
+        "what": "Microsoft introduced new MAI models focused on real-time multilingual voice AI.",
+        "why": "It specifically targets reducing latency between listening, processing, and responding.",
+        "impact": "Evaluate for lower latency agents"
+      }
+    ]
+  }
+}
