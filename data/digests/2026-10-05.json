@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-05",
+  "beats": {
+    "AI": [
+      {
+        "title": "Building advertising for the way people use AI",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+        "what": "OpenAI introduces a new visual ad format in ChatGPT for advertisers.",
+        "why": "It signals a shift in monetization models for mainstream generative AI apps.",
+        "impact": "Monitor new UX patterns for monetization."
+      }
+    ],
+    "Design": [
+      {
+        "title": "The feed I produce myself",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-feed-i-produce-myself-11e4192f394c?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a piece on managing multiple concurrent AI agents to produce high volumes of work.",
+        "why": "It offers practical perspective on the shifting solo-builder workflow when orchestrating multiple autonomous agents.",
+        "impact": "Informs solo agentic workflow management"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "MAI-Transcribe vs Grok vs Qwen-Audio Speech AI [2026]",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/au/mai-transcribe-vs-grok-vs-qwen-speech-to-text-2026",
+        "what": "Three new speech-to-text models launched, shifting the leaderboard.",
+        "why": "New streaming transcription options directly impact voice agent latency.",
+        "impact": "Test MAI-Transcribe-2-Streaming in your agent loop."
+      },
+      {
+        "title": "Credgenics Launches Prix AI, an Enterprise Voice AI Platform Built fo\u2026",
+        "source": "indiatechnologynews.in",
+        "url": "https://indiatechnologynews.in/credgenics-launches-prix-ai-an-enterprise-voice-ai-platform-built-for-outcomes",
+        "what": "Credgenics launched Prix AI, an enterprise voice agent platform.",
+        "why": "Focuses voice agent success on real-world outcomes like conversions.",
+        "impact": "Examine their outcome-driven architecture."
+      }
+    ]
+  },
+  "carried_over": {
+    "Design": "2026-10-04"
+  }
+}
