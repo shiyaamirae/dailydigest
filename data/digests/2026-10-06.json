@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-06",
+  "beats": {
+    "AI": [
+      {
+        "title": "Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.06817v1",
+        "what": "Paradee distills Kokoro-82M into an 8.07M parameter single-voice text-to-speech model.",
+        "why": "Provides an ultra-lightweight, high-quality local voice model ideal for fast agent integration.",
+        "impact": "Drops voice generation latency for agents"
+      },
+      {
+        "title": "T-Search: An Open Agentic Retriever and Playground for Hard Multi-Ste\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.06782v1",
+        "what": "T-Search launches as an open agentic retriever and playground for multi-step web searches.",
+        "why": "Offers an open-weight tool specifically engineered for bounded multi-round search workflows.",
+        "impact": "Improves autonomous web search loops"
+      },
+      {
+        "title": "Behavior-Preserving KV Cache Compression",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.06479v1",
+        "what": "Behavior-Preserving KV Cache Compression proposes training-free eviction for long contexts.",
+        "why": "Optimizes memory overhead during long-form generation and agent multi-turn execution.",
+        "impact": "Saves memory in long-context inference"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Claude Code Mods are game changers",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-code-mods-are-game-changers-39a566cddca5?source=rss----819cc2aaeee0---4",
+        "what": "Claude Code Mods allow developers to customize Claude Code to fit specific operational needs.",
+        "why": "Customizing development tools directly impacts the efficiency of building AI agents solo.",
+        "impact": "Speeds up custom workflow creation"
+      },
+      {
+        "title": "Is Meta\u2019s new AI agent easier to trust because it\u2019s cute?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?source=rss----138adf9c44c---4",
+        "what": "Meta launched an AI agent called Muse featuring an interactive avatar and physical keyring gadget.",
+        "why": "It demonstrates successful consumer UX and trust-building patterns for new form factors.",
+        "impact": "Informs voice agent companion UX"
+      },
+      {
+        "title": "Prompt as self-portrait, De-slopifying your designs, The strategic de\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/prompt-as-self-portrait-de-slopifying-your-designs-the-strategic-designer-cf8162f43284?source=rss----138adf9c44c---4",
+        "what": "A curated design resource highlights prompt engineering as a reflection of self and de-slopifying designs.",
+        "why": "Offers practical tactics for refining AI-generated outputs and improving product interface polish.",
+        "impact": "Improves AI output quality"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "MAI-Transcribe vs Grok vs Qwen-Audio Speech AI [2026]",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/au/mai-transcribe-vs-grok-vs-qwen-speech-to-text-2026",
+        "what": "Three new speech-to-text models launched, shifting the leaderboard.",
+        "why": "New streaming transcription options directly impact voice agent latency.",
+        "impact": "Test MAI-Transcribe-2-Streaming in your agent loop."
+      },
+      {
+        "title": "Credgenics Launches Prix AI, an Enterprise Voice AI Platform Built fo\u2026",
+        "source": "indiatechnologynews.in",
+        "url": "https://indiatechnologynews.in/credgenics-launches-prix-ai-an-enterprise-voice-ai-platform-built-for-outcomes",
+        "what": "Credgenics launched Prix AI, an enterprise voice agent platform.",
+        "why": "Focuses voice agent success on real-world outcomes like conversions.",
+        "impact": "Examine their outcome-driven architecture."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-10-05"
+  }
+}
