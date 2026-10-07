@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-07",
+  "beats": {
+    "AI": [
+      {
+        "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.08699v1",
+        "what": "Meta researchers introduced nanoMuse, an open-source personal agent framework for multi-device environments.",
+        "why": "It outlines patterns for persistent, multi-device personal agents operating locally.",
+        "impact": "Direct architectural patterns for persistent voice and personal agents."
+      },
+      {
+        "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap,\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.08775v1",
+        "what": "Researchers introduced 'bottling', a technique for LLM agents to compile capabilities into cheap artifacts.",
+        "why": "It addresses the high API and compute costs of querying LLM agents repeatedly for millions of tasks.",
+        "impact": "Lowers inference costs when deploying custom voice agent workflows at scale."
+      },
+      {
+        "title": "WorldSonus: Bringing Sound to Worlds",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.08760v1",
+        "what": "WorldSonus introduces real-time audio generation to interactive video and environment world models.",
+        "why": "It bridges the gap between visual simulation and responsive auditory feedback in real-time.",
+        "impact": "Provides techniques for adding low-latency sound generation to live voice interfaces."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Jev: How to use it for better, faster, and cheaper user decisions in\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a guide on using the new Jev classifier model for faster UX user decisions.",
+        "why": "It shows how typed answers at keystroke speed can drive immediate interface suggestions.",
+        "impact": "Enables faster, cheaper decision flows in user interfaces."
+      },
+      {
+        "title": "A Practical Guide To Naming Things",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/10/how-name-things/",
+        "what": "Smashing Magazine published a practical guide on naming UI components and structures.",
+        "why": "Clear naming conventions streamline handoff-free development when building solo.",
+        "impact": "Improves code and UI component organization."
+      },
+      {
+        "title": "GPT-6 Astra vs Claude Opus 5.5: Which Is Better for Game Design?",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/gpt-6-astra-vs-claude-opus-5-5-which-is-better-for-game-design-35e47babf36d?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet compared GPT-6 Astra and Claude Opus 5.5 for game design applications.",
+        "why": "It evaluates how flagship AI models perform on interactive design tasks.",
+        "impact": "Informs model selection for agent interactions."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "NY firm ElevenLabs partners with Karnataka govt. to boost Voice AI ad\u2026",
+        "source": "thehindu.com",
+        "url": "https://www.thehindu.com/news/national/karnataka/ny-firm-elevenlabs-partners-with-karnataka-govt-to-boost-voice-ai-adoption/article71552121.ece/amp",
+        "what": "ElevenLabs partnered with Karnataka to expand conversational AI workflows.",
+        "why": "It signals ElevenLabs' shift from basic voice generation to full agentic conversational tools.",
+        "impact": "Test new conversational agent deployment patterns."
+      },
+      {
+        "title": "REG - Netcall PLC - Final Results for the Year Ended 30 June 2026 \u2014 T\u2026",
+        "source": "tradingview.com",
+        "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_RSG8854Xa:0-reg-netcall-plc-final-results-for-the-year-ended-30-june-2026",
+        "what": "Netcall integrated Agent-Ex Search into Liberty Controller for self-service voice AI.",
+        "why": "Provides built-in evaluation and accuracy reporting tools for voice search.",
+        "impact": "Examine new self-service voice testing workflows."
+      },
+      {
+        "title": "Presto Raises $10 Million to Expand Drive-Thru Voice AI as POS Integr\u2026",
+        "source": "restauranttechnologynews.com",
+        "url": "https://restauranttechnologynews.com/2026/10/presto-raises-10-million-to-expand-drive-thru-voice-ai-as-pos-integration-shapes-competition",
+        "what": "Presto raised $10 million to expand its drive-thru voice AI and POS integration.",
+        "why": "Highlights the growing importance of POS integrations in vertical voice AI deployments.",
+        "impact": "Study vertical POS integration techniques."
+      }
+    ]
+  }
+}
