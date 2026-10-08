@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-08",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] Claude Haiku 5.5 \u2014 better than GPT-6 Luna at the same pricing",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+        "what": "Latent Space covered Claude Haiku 5.5, outperforming GPT-6 Luna at identical pricing.",
+        "why": "Provides a high-performance, cost-effective small model ideal for rapid iteration and deployment.",
+        "impact": "Lowers latency and cost for custom agent implementations."
+      },
+      {
+        "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/stacklok",
+        "what": "Kubernetes creators introduced a cloud-native harness to make agent execution reliable beyond desktops.",
+        "why": "Addresses the infrastructure gap in moving autonomous agents from local prototypes to robust cloud apps.",
+        "impact": "Improves infrastructure reliability for deploying voice agents."
+      },
+      {
+        "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.10444v1",
+        "what": "RunningTab enables direct workspace interaction and deliverable generation using environment-side tabs.",
+        "why": "Allows LLM agents to search and read local files natively via terminal without heavy pre-indexing.",
+        "impact": "Streamlines local tool use and file access patterns."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Bounded delegation: How much authority should AI have?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/bounded-delegation-how-much-authority-should-ai-have-823a58fb4192?source=rss----138adf9c44c---4",
+        "what": "A new practical model explores bounded delegation to define clear AI and human authority boundaries.",
+        "why": "It helps product teams systematically decide what level of autonomy to grant AI features.",
+        "impact": "Guides agent workflow boundaries"
+      },
+      {
+        "title": "Meta Muse vs OpenAI Dots: Which AI Assistant Is Better for Product De\u2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/meta-muse-vs-openai-dots-which-ai-assistant-is-better-for-product-designers-1fb2f4dd4530?source=rss----819cc2aaeee0---4",
+        "what": "Meta Muse and OpenAI Dots launched as dedicated AI assistants for product designers.",
+        "why": "Provides new assistant tooling specifically tailored to the product design workflow.",
+        "impact": "Test new design assistant tools"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Voice NPC Setup [2026]: Chatterbox+Nemotron in 15 Min",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/au/ai-npc-voice-companion-chatterbox-setup-2026",
+        "what": "Tech Insider published a 15-minute tutorial on setting up a voice NPC using Chatterbox and Nemotron.",
+        "why": "Provides a hands-on technical walkthrough for building real-time interactive voice characters.",
+        "impact": "Test and integrate new voice NPC patterns."
+      }
+    ]
+  }
+}
