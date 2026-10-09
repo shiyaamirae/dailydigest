@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-09",
+  "beats": {
+    "AI": [
+      {
+        "title": "DiffuPlex: Accelerating Full-Duplex Spoken Dialog Models via Rolling\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.12214v1",
+        "what": "DiffuPlex introduces a rolling masked diffusion framework for fast full-duplex speech models.",
+        "why": "It eliminates sequential compute bottlenecks in simultaneous listening-speaking AI agent interfaces.",
+        "impact": "Crucial for building low-latency real-time voice agents."
+      },
+      {
+        "title": "EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Stre\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.12248v1",
+        "what": "EgoVoice enables proactive spoken assistance using egocentric multimodal streams.",
+        "why": "It shifts voice agents from reactive command-followers to proactive context-aware assistants.",
+        "impact": "Directly applicable pattern for advanced voice agent UX design."
+      },
+      {
+        "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajector\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.12375v1",
+        "what": "OnTrack offers real-time monitoring and intervention for autonomous LLM agent trajectories.",
+        "why": "It prevents costly and unsafe irreversible actions during multi-turn autonomous execution.",
+        "impact": "Improves reliability for production voice and action agents."
+      }
+    ],
+    "Design": [
+      {
+        "title": "I Tried Claude With Figma on an 800+ Screen Project. It Never Reached\u2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/i-tried-claude-with-figma-on-an-800-screen-project-it-never-reached-the-hard-part-7735b120f43a?source=rss----819cc2aaeee0---4",
+        "what": "An enterprise designer tested AI-assisted UI generation on a massive 800+ screen project.",
+        "why": "It exposes the exact limitations of current AI design tools when handling complex enterprise systems.",
+        "impact": "Guides realistic scoping for AI UI tools"
+      },
+      {
+        "title": "15 Figma Tools That Solve Problems Nobody Wants to Deal With",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/15-figma-tools-that-solve-problems-nobody-wants-to-deal-with-2daa888067c2?source=rss----819cc2aaeee0---4",
+        "what": "A curated list of 15 Figma tools and plugins was released to solve repetitive design tasks.",
+        "why": "It directly saves manual hours for solo builders who handle both design and development.",
+        "impact": "Accelerates solo design workflows"
+      },
+      {
+        "title": "Claude Haiku 5.5 is the Ultimate Junior Designer",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-haiku-5-5-is-the-ultimate-junior-designer-f8567a2d9697?source=rss----819cc2aaeee0---4",
+        "what": "A practical test demonstrated Claude Haiku 5.5 acting as a junior designer.",
+        "why": "It showcases a fast, token-efficient model that solo builders can leverage for rapid prototyping.",
+        "impact": "Provides a fast prototyping assistant"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "AI speech software firm ElevenLabs sets up shop in S'pore",
+        "source": "straitstimes.com",
+        "url": "https://www.straitstimes.com/tech/ai-speech-software-firm-elevenlabs-sets-up-shop-in-spore-hires-engineering-sales-roles?ref=latest",
+        "what": "ElevenLabs opens a new office in Singapore to support regional conversational voice agents.",
+        "why": "Proximity to infrastructure reduces latency for real-time voice apps in Asian markets.",
+        "impact": "Improves low-latency voice API performance"
+      },
+      {
+        "title": "Google brings agentic AI to Gemini, starting with businesses | TechCr\u2026",
+        "source": "techcrunch.com",
+        "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses",
+        "what": "Google is bringing agentic AI capabilities to Gemini for business deployments.",
+        "why": "Unifies reactive answering and proactive action-taking within a single interface.",
+        "impact": "Expands multi-turn task execution patterns"
+      },
+      {
+        "title": "Fierce Healthcare Fundraising Tracker '26: Outro clinches $7M for dep\u2026",
+        "source": "fiercehealthcare.com",
+        "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26",
+        "what": "Bunkerhill Health secured funding to expand its Carebricks platform for production AI agents.",
+        "why": "Focuses heavily on governance, monitoring, and clinical workflow safety for health tech.",
+        "impact": "Provides patterns for production agent safeguards"
+      }
+    ]
+  }
+}
