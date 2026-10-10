@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-10",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after la\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+        "what": "TypeSafe/Jev hits over $100M ARR and a $7.5B valuation just 3 weeks after launch.",
+        "why": "It showcases extreme velocity and market validation for a newly launched developer tool.",
+        "impact": "Informs fast-scaling product strategy"
+      }
+    ],
+    "Design": [
+      {
+        "title": "The New Siri\u2019s Biggest Strength Is Not Intelligence",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Nielsen Norman Group analyzes the key components of effective AI assistants.",
+        "why": "It outlines how to design agents that leverage personal context and clear boundaries.",
+        "impact": "Guides voice agent UX design."
+      },
+      {
+        "title": "Context Libraries: How AI Power Users Manage Context Engineering",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "NN/g examines how AI power users manage and organize context engineering files.",
+        "why": "Context management directly dictates the capability limits of deployed agents.",
+        "impact": "Improves agent architecture."
+      },
+      {
+        "title": "Designing for an idea before it exists",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
+        "what": "UX Collective explores early-stage design methods for non-existent concepts.",
+        "why": "Provides metaphors and mental models for novel zero-to-one interaction paradigms.",
+        "impact": "Informs new interface patterns."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Google May Soon Add New Voice Options to Gmail Live",
+        "source": "androidheadlines.com",
+        "url": "https://www.androidheadlines.com/2026/10/google-may-soon-add-new-voice-options-to-gmail-live.html",
+        "what": "Google is testing new customizable voice options for its Gmail Live conversational search experience.",
+        "why": "It brings Gemini-style voice personalization to everyday email assistant interfaces.",
+        "impact": "Informs voice UX design patterns."
+      },
+      {
+        "title": "How AI is Changing Quick-Service Restaurant Ordering in 2026 - QSR Ma\u2026",
+        "source": "qsrmagazine.com",
+        "url": "https://www.qsrmagazine.com/story/how-ai-is-changing-quick-service-restaurant-ordering-in-2026",
+        "what": "Quick-service restaurants are widely adopting plain-language conversational AI ordering systems.",
+        "why": "Demonstrates real-world production deployment of transactional voice agents at scale.",
+        "impact": "Reference for low-latency agent flows."
+      },
+      {
+        "title": "Beyond Workflow Rules: Automating Business Outcomes with Intent-Aware\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/corner-office/beyond-workflow-rules-automating-business-outcomes-with-intent-aware-ai-agents",
+        "what": "FonadaLabs launched intent-aware Voice AI agents designed to automate complex business outcomes.",
+        "why": "Highlights the industry shift from simple workflow rules to autonomous conversational agents.",
+        "impact": "Ideas for agentic orchestration."
+      }
+    ]
+  }
+}
