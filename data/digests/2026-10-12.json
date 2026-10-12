@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-12",
+  "beats": {
+    "AI": [
+      {
+        "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/standard-bots",
+        "what": "Standard Bots shared their AI stack for industrial robotics, learning from real-world demos and corrections.",
+        "why": "Provides actionable architectural patterns for building reliable, self-correcting AI execution loops.",
+        "impact": "Improves agent reliability loops"
+      }
+    ],
+    "Design": [
+      {
+        "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a weekly roundup featuring AI-generated UI resources and Jev for UX.",
+        "why": "It surfaces fresh design patterns and tools specifically relevant to AI-driven product creation.",
+        "impact": "Discover new UI patterns for your voice agent."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Nvidia Open Sources a Voice AI That Talks and Listens at Once - Start\u2026",
+        "source": "startupfortune.com",
+        "url": "https://startupfortune.com/nvidia-open-sources-a-voice-ai-that-talks-and-listens-at-once",
+        "what": "Nvidia open-sourced PersonaPlex, a full-duplex voice AI model enabling simultaneous listening and talking.",
+        "why": "It provides hands-on builders with a state-of-the-art open model for natural, overlapping conversations.",
+        "impact": "Test and integrate open-source full-duplex voice capabilities directly into your agent."
+      },
+      {
+        "title": "Leadrat Acquires Calllive.ai to Transform Real Estate CRM into an AI-\u2026",
+        "source": "cxodigitalpulse.com",
+        "url": "https://www.cxodigitalpulse.com/leadrat-acquires-calllive-ai-to-transform-real-estate-crm-into-an-ai-powered-sales-platform",
+        "what": "Calllive.ai achieved ~600ms end-to-end latency on live phone calls with mid-conversation language switching.",
+        "why": "It sets a high bar for production-grade conversational speed and interruption handling in voice agents.",
+        "impact": "Benchmark your own agent's latency and interruption handling against sub-600ms standards."
+      },
+      {
+        "title": "These execs think voice AI hasn't reached its ChatGPT moment yet | Te\u2026",
+        "source": "techcrunch.com",
+        "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet",
+        "what": "Industry execs highlighted fast reasoning for full-duplex models as the next major voice AI frontier.",
+        "why": "It pinpoints the exact architectural bottleneck builders must solve to make voice agents feel truly natural.",
+        "impact": "Focus optimization efforts on reducing reasoning latency rather than just synthesis speed."
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-10-11"
+  }
+}
