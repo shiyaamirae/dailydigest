@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-13",
+  "beats": {
+    "AI": [
+      {
+        "title": "How Anthropic\u2019s Dynamic Workflows Coordinate Claude Agents",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/claude-dynamic-workflows",
+        "what": "Anthropic shared dynamic workflow patterns inspired by Unix to coordinate Claude agents on large projects.",
+        "why": "It provides practical architectural patterns for managing multi-agent systems without developer overload.",
+        "impact": "Improve agent orchestration"
+      },
+      {
+        "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL\u2019s Claude 5.5-tier Fronti\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+        "what": "Meta released Muse Wonder and Wonder Full, positioning MSL as a new frontier AI lab.",
+        "why": "It expands the available tier of frontier model capabilities accessible to builders.",
+        "impact": "Test new frontier models"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Secret agent bot: accessibility matters for the agents even if you ca\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+        "what": "Semantic HTML structure now dictates whether AI agents can read and interact with your web pages.",
+        "why": "AI agents bypass visual design entirely, making robust underlying markup critical for functionality.",
+        "impact": "Optimize HTML markup for agent accessibility."
+      },
+      {
+        "title": "5 Best Claude Code Mods You Should Try in 2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/5-best-claude-code-mods-you-should-try-in-2026-580eee0aec57?source=rss----819cc2aaeee0---4",
+        "what": "Developers share five custom mods to extend and tailor Claude Code for specialized workflows.",
+        "why": "Customizing coding assistants directly improves iteration speed when building solo.",
+        "impact": "Try these mods to speed up agent building."
+      },
+      {
+        "title": "I Tested 100+ GitHub Tools for Claude. These 7 Are the Best",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/i-tested-100-github-tools-for-claude-these-7-are-the-best-d3d13ad1befd?source=rss----819cc2aaeee0---4",
+        "what": "A curated test of over 100 GitHub tools surfaces the seven best repositories for Claude workflows.",
+        "why": "Filtering through noisy tooling ecosystems saves valuable development time for solo builders.",
+        "impact": "Adopt proven tools for your dev stack."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Kakao Unveils Kanana AI That Translates in Real Time\u2014Response Speed I\u2026",
+        "source": "finance.biggo.com",
+        "url": "https://finance.biggo.com/news/04f62955-69d5-4b25-8b88-79f0e26de281",
+        "what": "Kakao unveiled Kanana-o, a multimodal AI model featuring real-time translation and emotive voice generation.",
+        "why": "It showcases advanced emotional intonation and real-time multimodal processing trained on professional voice data.",
+        "impact": "Test advanced voice emotion modeling."
+      },
+      {
+        "title": "Leadrat Acquires Calllive.ai to Transform Real Estate CRM into an AI-\u2026",
+        "source": "cxotoday.com",
+        "url": "https://cxotoday.com/media-coverage/leadrat-acquires-calllive-ai-to-transform-real-estate-crm-into-an-ai-powered-sales-platform",
+        "what": "Leadrat acquired Calllive.ai for its sub-600ms latency voice agents supporting mid-conversation language switching.",
+        "why": "It demonstrates production-grade performance metrics for live phone agents handling interruptions and pauses.",
+        "impact": "Benchmark ultra-low latency patterns."
+      },
+      {
+        "title": "Voice AI's Next Breakthrough Will Be Reliability, Not Human-Like Spee\u2026",
+        "source": "ceoworld.biz",
+        "url": "https://ceoworld.biz/2026/10/13/voice-ais-next-breakthrough-will-be-reliability-not-human-like-speech",
+        "what": "Industry discussions highlight reliability as the next critical bottleneck for voice AI over pure human-like speech.",
+        "why": "It shifts development focus from cosmetic audio quality to robust handling of conversational workflows.",
+        "impact": "Prioritize reliability architecture."
+      }
+    ]
+  }
+}
