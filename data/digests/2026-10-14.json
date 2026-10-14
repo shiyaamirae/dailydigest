@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-14",
+  "beats": {
+    "AI": [
+      {
+        "title": "Google DeepMind and Singapore Government collaborate to build fine-tu\u2026",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+        "what": "Google DeepMind and GovTech Singapore launched lightweight on-device Gemma models for private conversational scam detection.",
+        "why": "It demonstrates zero-cloud data egress on-device intelligence directly applicable to local agent applications.",
+        "impact": "Direct pattern for local, private voice agent architecture."
+      },
+      {
+        "title": "SEAR: Self-Evolving Agentic Robotics",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.18792v1",
+        "what": "Researchers introduced SEAR, a framework allowing frontier language models to autonomously improve robotics via self-evolution.",
+        "why": "It bridges agentic loops and physical execution, creating self-improving agent skills and memory.",
+        "impact": "Actionable feedback-driven agent scaffolding techniques."
+      },
+      {
+        "title": "Higgsfield takes AI video from 1 minute to over 10",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+        "what": "OpenAI released Higgsfield, extending AI video generation to over 10 minutes alongside live voice filmmaking tools.",
+        "why": "It pushes multi-modal capability boundaries toward synchronized real-time voice and video interfaces.",
+        "impact": "New tooling primitives for voice-first product design."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Want to Make Product Development with Claude Code More Predictable? U\u2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/want-to-make-product-development-with-claude-code-more-predictable-use-agent-skills-f37d056f67cc?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet published a guide on using Agent Skills to make Claude Code product development more predictable.",
+        "why": "It addresses AI performance inconsistency when building products with CLI coding tools.",
+        "impact": "Improves daily AI coding reliability"
+      },
+      {
+        "title": "The synth everyone owned and few could program: a lesson for AI design",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-synth-everyone-owned-and-few-could-program-a-lesson-for-ai-design-6f618ec2aea0?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a design lesson comparing AI sameness to the complex 1983 Yamaha DX7 synth UI.",
+        "why": "It highlights how to make AI-powered products stand out when everyone has access to average quality.",
+        "impact": "Inspires distinctive voice agent UX"
+      },
+      {
+        "title": "Taste is not a design methodology",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/taste-is-not-a-design-methodology-e02b37aea148?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an essay arguing that human judgment and agency matter more than taste in AI design.",
+        "why": "It challenges how solo builders should evaluate AI-generated design outputs and product decisions.",
+        "impact": "Refines product decision-making"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Apple AFM 3: Siri AI Model Leaps 45.6% vs GPT-6 [2026]",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/ca/apple-afm-3-siri-ai-model-vs-gpt-6-gemini-2026",
+        "what": "Apple introduced the HomeView smart-home hub powered by the new Apple AFM 3 Siri AI model.",
+        "why": "It showcases state-of-the-art on-device voice assistant capabilities from a major platform player.",
+        "impact": "Benchmarks new UX patterns for hardware voice agents."
+      },
+      {
+        "title": "SoundHound AI expands Kia voice AI while SoundHound AI stock stays be\u2026",
+        "source": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/soundhound-ai-expands-kia-voice-ai-while-soundhound-ai-stock-stays-below/70319708",
+        "what": "SoundHound AI introduced OASYS Edge, expanding conversational voice tech deployments in vehicles.",
+        "why": "Edge deployment reduces latency critical for real-time voice interactions.",
+        "impact": "Provides patterns for low-latency edge voice architectures."
+      },
+      {
+        "title": "Scalable and Personalized Oral Assessments Using Voice AI \u2013 Communica\u2026",
+        "source": "cacm.acm.org",
+        "url": "https://cacm.acm.org/practice/scalable-and-personalized-oral-assessments-using-voice-ai",
+        "what": "CACM published research on scalable, personalized oral assessments utilizing voice AI systems.",
+        "why": "Demonstrates advanced multi-turn dialogue management and evaluation techniques.",
+        "impact": "Inspires new conversational flow designs for agent evaluation."
+      }
+    ]
+  }
+}
