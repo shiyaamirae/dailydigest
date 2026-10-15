@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-15",
+  "beats": {
+    "AI": [
+      {
+        "title": "Amp puts AI agents to work beyond code with OpenAI models",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/amp-beyond-coding",
+        "what": "OpenAI released Amp, pushing agent frontiers with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+        "why": "Provides brand-new high-performance agent models and features directly usable for development.",
+        "impact": "Test immediately in your voice agent development."
+      },
+      {
+        "title": "SentinelOne cuts malware analysis from weeks to hours",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/sentinelone",
+        "what": "SentinelOne deployed OpenAI Daybreak to reduce malware analysis time from weeks to hours.",
+        "why": "Demonstrates practical enterprise-grade acceleration of complex analysis using OpenAI tools.",
+        "impact": "Adapt these workflow patterns for agentic automation."
+      },
+      {
+        "title": "TreeFlex: Agents Navigating Their Own Search Trees",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.20334v1",
+        "what": "Researchers introduced TreeFlex, a method for ReAct-style agents to navigate their own search trees and prune context.",
+        "why": "Directly tackles context bloat and stale information in long-running agent loops.",
+        "impact": "Apply this pattern to streamline your voice agent state."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Reverse Engineer Anything: What the Viral GitHub Repo Actually Does",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/reverse-engineer-anything-what-the-viral-github-repo-actually-does-c5ea949123a5?source=rss----819cc2aaeee0---4",
+        "what": "A hands-on breakdown of REA, a tool for Claude Code that lets it decompile apps.",
+        "why": "It offers direct utility for solo builders looking to reverse engineer and prototype rapidly.",
+        "impact": "Speeds up code analysis and reverse engineering."
+      },
+      {
+        "title": "Nobody wants your AI app",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/nobody-wants-your-ai-app-cff8629064a4?source=rss----138adf9c44c---4",
+        "what": "UX Collective argues that standalone AI apps will disappear in favor of invisible intelligence.",
+        "why": "It challenges traditional app-centric product paradigms for your voice agent development.",
+        "impact": "Informs workflow and interface design choices."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Square Launches Flagship Kiosk With Agentic AI Voice Ordering \u2013 Unite\u2026",
+        "source": "unite.ai",
+        "url": "https://www.unite.ai/square-launches-flagship-kiosk-with-agentic-ai-voice-ordering",
+        "what": "Square launched its flagship Kiosk featuring agentic AI voice ordering for restaurants.",
+        "why": "It is a prime example of production-grade conversational commerce deployed in the wild.",
+        "impact": "Study real-world UX patterns for multimodal voice kiosks."
+      },
+      {
+        "title": "Grok Voice 3.0 Launches \u2014 Already Handling Starlink and Tesla Calls",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-voice-3-0-launches-already-handling-starlink-and-tesla-calls",
+        "what": "Grok Voice 3.0 launched, powering live customer service calls for Starlink and Tesla.",
+        "why": "It sets a new benchmark for high-volume, production voice AI handling real workflows.",
+        "impact": "Benchmark your agent architecture against high-scale production systems."
+      },
+      {
+        "title": "Jabra finds audio hardware blocks effective voice AI use | AV Magazine",
+        "source": "avinteractive.com",
+        "url": "https://www.avinteractive.com/news/ai/jabra-finds-audio-hardware-blocks-effective-voice-ai-use-14-10-2026",
+        "what": "Jabra released a study highlighting audio hardware blocks in effective voice AI use.",
+        "why": "Hardware constraints heavily impact user comfort and interaction success.",
+        "impact": "Account for hardware and audio routing limitations in voice UX design."
+      }
+    ]
+  }
+}
