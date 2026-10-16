@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-16",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] Modal\u2019s $1B ARR, $16B Series D makes it NYC\u2019s newest AI Infr\u2026",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+        "what": "Modal raised a Series D at a $16B valuation, hitting $1B ARR.",
+        "why": "Highlights the massive commercial adoption of serverless sandboxes for AI infra.",
+        "impact": "Validates infrastructure patterns for deploying agents."
+      },
+      {
+        "title": "A team of Gemini 4 Argon agents beats Minecraft",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.22319v1",
+        "what": "Researchers deployed four Gemini-powered agents to beat Minecraft autonomously.",
+        "why": "Demonstrates multi-agent coordination without fixed roles in a complex environment.",
+        "impact": "Offers architectural patterns for multi-agent systems."
+      },
+      {
+        "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.22280v1",
+        "what": "LEASH introduces weak-to-strong oversight for computer-use agents to cut costs.",
+        "why": "Balances expensive frontier models with cheap open-weight agents during execution.",
+        "impact": "Optimizes API costs for agentic workflows."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Reverse Engineer Anything: What the Viral GitHub Repo Actually Does",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/reverse-engineer-anything-what-the-viral-github-repo-actually-does-c5ea949123a5?source=rss----819cc2aaeee0---4",
+        "what": "A hands-on breakdown of REA, a tool for Claude Code that lets it decompile apps.",
+        "why": "It offers direct utility for solo builders looking to reverse engineer and prototype rapidly.",
+        "impact": "Speeds up code analysis and reverse engineering."
+      },
+      {
+        "title": "Nobody wants your AI app",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/nobody-wants-your-ai-app-cff8629064a4?source=rss----138adf9c44c---4",
+        "what": "UX Collective argues that standalone AI apps will disappear in favor of invisible intelligence.",
+        "why": "It challenges traditional app-centric product paradigms for your voice agent development.",
+        "impact": "Informs workflow and interface design choices."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Square Launches Flagship Kiosk With Agentic AI Voice Ordering \u2013 Unite\u2026",
+        "source": "unite.ai",
+        "url": "https://www.unite.ai/square-launches-flagship-kiosk-with-agentic-ai-voice-ordering",
+        "what": "Square launched its flagship Kiosk featuring agentic AI voice ordering for restaurants.",
+        "why": "It is a prime example of production-grade conversational commerce deployed in the wild.",
+        "impact": "Study real-world UX patterns for multimodal voice kiosks."
+      },
+      {
+        "title": "Grok Voice 3.0 Launches \u2014 Already Handling Starlink and Tesla Calls",
+        "source": "basenor.com",
+        "url": "https://www.basenor.com/blogs/news/grok-voice-3-0-launches-already-handling-starlink-and-tesla-calls",
+        "what": "Grok Voice 3.0 launched, powering live customer service calls for Starlink and Tesla.",
+        "why": "It sets a new benchmark for high-volume, production voice AI handling real workflows.",
+        "impact": "Benchmark your agent architecture against high-scale production systems."
+      },
+      {
+        "title": "Jabra finds audio hardware blocks effective voice AI use | AV Magazine",
+        "source": "avinteractive.com",
+        "url": "https://www.avinteractive.com/news/ai/jabra-finds-audio-hardware-blocks-effective-voice-ai-use-14-10-2026",
+        "what": "Jabra released a study highlighting audio hardware blocks in effective voice AI use.",
+        "why": "Hardware constraints heavily impact user comfort and interaction success.",
+        "impact": "Account for hardware and audio routing limitations in voice UX design."
+      }
+    ]
+  },
+  "carried_over": {
+    "Design": "2026-10-15",
+    "Voice AI": "2026-10-15"
+  }
+}
