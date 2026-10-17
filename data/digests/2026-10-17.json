@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-17",
+  "beats": {
+    "AI": [
+      {
+        "title": "How Ita\u00fa is building generative AI for its entire customer base",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/itau-generative-ai",
+        "what": "OpenAI highlights how Ita\u00fa built ia.i, a conversational AI interface for millions in a regulated sector.",
+        "why": "It shows production-grade architecture patterns for enterprise conversational interfaces.",
+        "impact": "Informs voice agent deployment patterns."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Building Your Own Skill for Claude Code? Here\u2019s What You Need to Know",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/building-your-own-skill-for-claude-code-heres-what-you-need-to-know-beece61249ed?source=rss----819cc2aaeee0---4",
+        "what": "A practical guide details how to create and optimize custom skills for Claude Code using SKILL.md.",
+        "why": "It provides hands-on instructions for extending AI developer tooling to match custom workflows.",
+        "impact": "Enhance your solo AI development workflow with custom tools."
+      },
+      {
+        "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Research compares AI synthetic users to human respondents, finding similar conclusions with lower variation.",
+        "why": "It highlights both the utility and limitations of synthetic user testing for rapid product iteration.",
+        "impact": "Test voice agent UX concepts faster using synthetic users."
+      },
+      {
+        "title": "Is Your Organization Messing Up AI Adoption?",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/",
+        "what": "Paul Boag explores lessons from digital transformation to help organizations navigate AI adoption challenges.",
+        "why": "It connects historical digital adaptation frameworks directly to modern AI workflow integration.",
+        "impact": "Improve organizational adoption strategies for your AI products."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Google Rolls Out Gmail Live With AI-powered Voice Search - Dataconomy",
+        "source": "dataconomy.com",
+        "url": "https://dataconomy.com/2026/10/16/google-gmail-live-ai-voice-search",
+        "what": "Google released Gmail Live, an AI-powered conversational voice search feature for inbox queries.",
+        "why": "It demonstrates production-grade UX patterns for integrating conversational voice search into consumer apps.",
+        "impact": "Study its conversational UX design patterns"
+      },
+      {
+        "title": "Artificial Intelligence - AI Update, October 16, 2026: AI News and Vi\u2026",
+        "source": "marketingprofs.com",
+        "url": "https://www.marketingprofs.com/opinions/2026/56192/ai-update-october-16-2026-ai-news-and-views-from-the-past-week",
+        "what": "PolyAI executives highlighted that current accuracy and reasoning delays limit voice AI adoption.",
+        "why": "It outlines the exact latency and reliability bottlenecks you must solve in your voice agent.",
+        "impact": "Benchmark your agent's latency thresholds"
+      }
+    ]
+  }
+}
