@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-18",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] High Taste Testers Ep. 1",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+        "what": "Latent Space launched a new pilot show titled High Taste Testers.",
+        "why": "It offers fresh perspective on AI tool curation from top builders.",
+        "impact": "Discovers new builder tools"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Don\u2019t Make Me Do: The Ten Principles of UI/UX in the Age of Autonomou\u2026",
+        "source": "medium.com",
+        "url": "https://medium.com/@adnanmasood/dont-make-me-do-the-ten-principles-of-ui-ux-in-the-age-of-autonomous-agents-962c011c1ac0",
+        "what": "An article outlines ten new UI/UX principles for designing interfaces for autonomous AI agents.",
+        "why": "It addresses the shift toward agentic interaction paradigms directly applicable to modern builders.",
+        "impact": "Guides voice and agent UX patterns"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Gmail's Live AI search feature arrives for Google AI subscribers | Go\u2026",
+        "source": "en.ammonnews.net",
+        "url": "http://en.ammonnews.net/article/96231",
+        "what": "Google released Gmail Live, enabling conversational voice search for inbox management.",
+        "why": "It showcases production-grade conversational voice integration in mainstream consumer apps.",
+        "impact": "Inspiration for voice query UX patterns"
+      },
+      {
+        "title": "Norfolk uses artificial intelligence to handle thousands of non-emerg\u2026",
+        "source": "wtkr.com",
+        "url": "https://www.wtkr.com/news/in-the-community/norfolk/norfolk-uses-artificial-intelligence-to-handle-thousands-of-non-emergency-calls",
+        "what": "Norfolk deployed an AI voice assistant to handle thousands of municipal non-emergency calls.",
+        "why": "Demonstrates real-world scaling and reliability of voice agents in public sector workflows.",
+        "impact": "Benchmarking telephony integration reliability"
+      }
+    ]
+  }
+}
