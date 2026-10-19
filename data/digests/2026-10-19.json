@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-19",
+  "beats": {
+    "AI": [
+      {
+        "title": "DeepSeek releases updated V4.1-Flash model it says completes tasks fa\u2026",
+        "source": "siliconangle.com",
+        "url": "https://siliconangle.com/2026/10/18/deepseek-releases-updated-v4-1-flash-model-it-says-completes-tasks-faster",
+        "what": "DeepSeek released the updated V4.1-Flash model designed to complete tasks faster.",
+        "why": "Faster inference speeds directly improve responsiveness for real-time voice agents.",
+        "impact": "Test the new model endpoint for voice latency."
+      },
+      {
+        "title": "\u2018Faster and leaner\u2019: DeepSeek rolls out upgraded AI model after recen\u2026",
+        "source": "malaysia.news.yahoo.com",
+        "url": "https://malaysia.news.yahoo.com/faster-leaner-deepseek-rolls-upgraded-051830857.html",
+        "what": "DeepSeek rolled out an upgraded, faster and leaner AI model following recent outages.",
+        "why": "Reliability and speed are critical when building real-time interactive voice applications.",
+        "impact": "Evaluate stability improvements for production pipelines."
+      },
+      {
+        "title": "Number of AI startups in T\u00fcrkiye rises above 500 - Latest News",
+        "source": "hurriyetdailynews.com",
+        "url": "https://www.hurriyetdailynews.com/number-of-ai-startups-in-turkiye-rises-above-500-228295",
+        "what": "Agentic AI emerged as the fastest-growing startup segment in T\u00fcrkiye with 10 new entrants.",
+        "why": "Highlights the rapid proliferation of agentic tooling and workflow patterns in the market.",
+        "impact": "Explore new agent frameworks and patterns."
+      }
+    ],
+    "Design": [
+      {
+        "title": "How to build a brand foundation with AI without losing your craft",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/how-to-build-a-brand-foundation-with-ai-without-losing-your-craft-d616b05cb838?source=rss----138adf9c44c---4",
+        "what": "A guide on using Claude and guardrails to build a design system that developers respect and ship.",
+        "why": "It bridges the gap between design tokens and functional code for solo AI builders.",
+        "impact": "Streamlines multi-role development"
+      },
+      {
+        "title": "Design in the material you ship",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee?source=rss----138adf9c44c---4",
+        "what": "An essay arguing designers must understand code capabilities deeply since AI now handles execution.",
+        "why": "Aligns with the zero-handoff product development model where design and code merge.",
+        "impact": "Enhances direct-to-code execution"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Starlink deploys Grok to handle 20,000 customer service calls a day,\u2026",
+        "source": "digitaltoday.co.kr",
+        "url": "https://www.digitaltoday.co.kr/en/view/116325/starlink-deploys-grok-to-handle-20000-customer-service-calls-a-day-resolving-70-percent-without-humans",
+        "what": "Starlink deployed Grok to handle 20,000 daily customer service calls with 70 percent resolution.",
+        "why": "It demonstrates a massive production deployment of a voice AI model for live customer support.",
+        "impact": "Provides a production benchmark for voice agent architecture."
+      },
+      {
+        "title": "Copilot vs Meta AI vs Le Chat: $25 Price Gap [2026]",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/microsoft-copilot-vs-meta-ai-vs-mistral-le-chat-2026",
+        "what": "Mistral launched Le Chat's voice mode powered by its proprietary Voxtral speech stack.",
+        "why": "End-to-end control over the speech stack gives developers new options for low-latency voice integration.",
+        "impact": "Offers a new voice stack to test for latency and accuracy."
+      },
+      {
+        "title": "Perplexity vs ChatGPT vs Google AI Mode: 37% vs 67% [2026]",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/perplexity-vs-chatgpt-vs-google-ai-mode-2026",
+        "what": "Perplexity secured OS-level integration on Samsung flagships with a 'Hey Plex' voice trigger.",
+        "why": "It highlights new device-level voice paradigms and shortcut access methods.",
+        "impact": "Informs design patterns for OS-level voice agent invocation."
+      }
+    ]
+  }
+}
