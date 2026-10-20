@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-20",
+  "beats": {
+    "AI": [
+      {
+        "title": "Advancing coding in low\u2011resource programming languages",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/low-resource-programming-languages",
+        "what": "OpenAI published new evaluations and improvements for ChatGPT in low-resource programming languages and COBOL migration.",
+        "why": "It provides updated benchmarks and techniques for legacy code translation and software engineering workflows.",
+        "impact": "Improves AI-assisted legacy code migration"
+      },
+      {
+        "title": "[AINews] not much happened today",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+        "what": "Latent Space covered minor releases including DeepSeek V4.1 Flash, MiniMax M3.1 Flash, and Mercury 3.",
+        "why": "It surfaces new lightweight model options that may become relevant for low-latency agent architectures.",
+        "impact": "Exposes new low-latency model options"
+      }
+    ],
+    "Design": [
+      {
+        "title": "I Tried Designing an Entire Product in Claude Code Without Figma",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/i-tried-designing-an-entire-product-in-claude-code-without-figma-d5b76360db38?source=rss----819cc2aaeee0---4",
+        "what": "An author tried designing an entire product directly in Claude Code without using Figma.",
+        "why": "It showcases direct-to-code product creation workflows relevant to solo AI builders.",
+        "impact": "Bypasses design handoffs to code faster."
+      },
+      {
+        "title": "Human attention is the new old bottleneck. We have to design for it e\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/anthropic-october-2026-study-human-attention-is-the-new-old-bottleneck-d7bc4642668a?source=rss----138adf9c44c---4",
+        "what": "Anthropic agents now log six hours of work for every human hour, creating attention bottlenecks.",
+        "why": "It highlights the rising need to design judgement and filtering systems for agent outputs.",
+        "impact": "Crucial for managing your voice agent's data flow."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "ElevenLabs Lets Users Build AI Agents Through Conversation - Seoul Ec\u2026",
+        "source": "en.sedaily.com",
+        "url": "https://en.sedaily.com/technology/2026/10/20/elevenlabs-lets-users-build-ai-agents-through-conversation",
+        "what": "ElevenLabs launched Architect, letting users build AI agents via voice or text commands.",
+        "why": "It introduces a conversational interface pattern for rapid agent configuration.",
+        "impact": "Test this conversational creation workflow for your own voice agent."
+      },
+      {
+        "title": "Consumers want AI receptionists to disclose their identity, Upfirst r\u2026",
+        "source": "startupbeat.com",
+        "url": "https://startupbeat.com/consumers-want-ai-receptionists-to-disclose-their-identity-upfirst-report-finds/39760",
+        "what": "Upfirst report shows consumers strongly want AI receptionists to disclose their identity.",
+        "why": "Transparency is becoming a core user trust requirement for autonomous voice bots.",
+        "impact": "Add clear identity disclosure prompts to your voice UX design."
+      },
+      {
+        "title": "Voice AI faces a bigger test than sounding human: getting customers t\u2026",
+        "source": "sociable.co",
+        "url": "https://sociable.co/business/voice-ai-faces-a-bigger-test-than-sounding-human-getting-customers-to-trust-it",
+        "what": "Sociable reported on the growing customer trust challenges facing conversational voice AI.",
+        "why": "Building reliability matters more than raw human-sounding audio synthesis.",
+        "impact": "Prioritize trust and fallback patterns in your voice agent architecture."
+      }
+    ]
+  }
+}
