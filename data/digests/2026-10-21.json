@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-21",
+  "beats": {
+    "AI": [
+      {
+        "title": "Cache Engineering for Agents",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.28577v1",
+        "what": "Researchers released a new paper detailing advanced KV-cache engineering techniques for LLM agents.",
+        "why": "It directly targets the dominant cost and context limits of long-trajectory agent execution.",
+        "impact": "Optimize memory and token handling in your voice agent"
+      },
+      {
+        "title": "Object-Oriented Harness: Evolving Agent Harnesses through Object-Orie\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.28380v1",
+        "what": "Object-Oriented Harness (OO-Harness) introduces modular agent harnesses via object-oriented design.",
+        "why": "It solves the failure modes of monolithic global harnesses when tackling heterogeneous tasks.",
+        "impact": "Restructure your agent's code architecture for modularity"
+      },
+      {
+        "title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agen\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.28425v1",
+        "what": "A study benchmarks carryover attacks on LLM agents using persistent memory and scheduled tasks.",
+        "why": "It exposes critical security risks in multi-session agent setups that maintain local state.",
+        "impact": "Secure persistent memory states in your app architecture"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Claude Haiku 5.5 vs Sonnet 5.5 vs Opus 5.5: Which Model Should You Us\u2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-haiku-5-5-vs-sonnet-5-5-vs-opus-5-5-which-model-should-you-use-for-which-task-558e2b26cb3c?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet published a guide comparing Claude models for design, coding, and prototyping tasks.",
+        "why": "It helps solo AI builders optimize which model to use for specific building workflows.",
+        "impact": "Guides model selection for building."
+      },
+      {
+        "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+        "what": "Smashing Magazine explores organic UI design using the new native CSS random() function.",
+        "why": "It enables playful, human-like web interfaces without relying on JavaScript libraries.",
+        "impact": "Adds organic feel to web UIs."
+      },
+      {
+        "title": "Let AI have the average user: Why User Research should focus on bad d\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+        "what": "UX Collective argues that user research must focus on edge cases rather than average users.",
+        "why": "Synthetic AI research captures average behaviors, leaving extreme failure modes for humans.",
+        "impact": "Improves real-world product testing."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "ElevenLabs Realtime Breaks Voice AI Speed-Accuracy Barrier: No Transc\u2026",
+        "source": "techtimes.com",
+        "url": "https://www.techtimes.com/articles/329301/20261021/elevenlabs-realtime-breaks-voice-ai-speed-accuracy-barrier-no-transcript-no-component-control.htm",
+        "what": "ElevenLabs launched Realtime, a low-latency model bypassing transcripts for faster conversational dynamics.",
+        "why": "It significantly improves how voice agents handle full-duplex interactions, pauses, and natural interruptions.",
+        "impact": "Test this new API for building faster, more natural conversational agents."
+      },
+      {
+        "title": "Auto bot voice assistant searches inventory and texts link",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/jason.girdner/posts/the-auto-bot-voice-assistant-can-search-inventory-and-text-a-link-to-the-custome/29444325461827738",
+        "what": "Auto bot voice assistants using tools like Vapi are enabling instant, 24/7 inventory search via SMS and voice.",
+        "why": "It demonstrates a practical, deployed production pattern for combining voice agents with backend inventory workflows.",
+        "impact": "Adapt this architecture for your own voice agent tool-use patterns."
+      },
+      {
+        "title": "C-stores tap conversational AI to boost store ops | C-Store Dive",
+        "source": "cstoredive.com",
+        "url": "https://www.cstoredive.com/news/instoreai-adds-conversational-ai-experience/833406",
+        "what": "InStore.ai launched Ask InStore, a conversational AI letting retailers query real-time store operations data.",
+        "why": "It highlights practical domain-specific conversational analytics and real-time operational tool integration.",
+        "impact": "Study the UX pattern for query-based conversational voice interfaces."
+      }
+    ]
+  }
+}
