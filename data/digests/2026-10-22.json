@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-22",
+  "beats": {
+    "AI": [
+      {
+        "title": "OpenAI models are coming to Google Cloud",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/openai-models-google-cloud",
+        "what": "OpenAI frontier models and Codex workflows are now available in Google Cloud's Model Garden.",
+        "why": "It expands enterprise access channels and simplifies multi-cloud LLM infrastructure choices for builders.",
+        "impact": "New deployment options for your agent stacks"
+      },
+      {
+        "title": "Claude Mods: Flipping the Harness Inside Out",
+        "source": "Latent Space",
+        "url": "https://www.latent.space/p/claude-mods",
+        "what": "Claude Mods introduces an Attention Interface that flips agent harnesses to face the human user.",
+        "why": "It redefines human-agent interaction patterns beyond traditional machine-facing tool harnesses.",
+        "impact": "Fresh UI/UX patterns for agent design"
+      },
+      {
+        "title": "MemoryTax: The Bitter Lesson of Agent Memory",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.29823v1",
+        "what": "MemoryTax analyzes whether designed agent memory systems still help when models can search raw history.",
+        "why": "It questions the ROI of complex external memory layers against self-search capabilities.",
+        "impact": "Optimizing memory architecture for your voice agent"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Can you take AI at its word?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4",
+        "what": "UX Collective examines how AI agents fluently explain their incorrect work.",
+        "why": "It highlights the trust and transparency challenges in autonomous agent outputs.",
+        "impact": "Refines agent UI error-handling design"
+      },
+      {
+        "title": "A founder with a tool is not a founder with a clue",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8?source=rss----138adf9c44c---4",
+        "what": "UX Collective discusses how AI tooling enables solo founders to build products.",
+        "why": "It highlights the gap between AI generation capacity and human product judgment.",
+        "impact": "Shifts focus to product validation"
+      },
+      {
+        "title": "Design v ADHD",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/design-vs-adhd-4411c3b81d1b?source=rss----138adf9c44c---4",
+        "what": "UX Collective explores ADHD-friendly design patterns and simplifying information architecture.",
+        "why": "It critiques standard minimalist advice in favor of better cognitive processing.",
+        "impact": "Informs accessible agent interaction design"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "ElevenLabs targets AI assistants and customer support with two new vo\u2026",
+        "source": "economictimes.indiatimes.com",
+        "url": "https://economictimes.indiatimes.com/ai/ai-insights/elevenlabs-targets-ai-assistants-and-customer-support-with-two-new-voice-models/articleshow/135088022.cms",
+        "what": "ElevenLabs launched two new speech-to-speech models for building conversational voice agents.",
+        "why": "It directly targets developers building real-time voice assistants and customer support tools.",
+        "impact": "Test immediately for voice agent pipelines"
+      },
+      {
+        "title": "Home Assistant Claude AI Integration for Voice Commands - Geeky Gadge\u2026",
+        "source": "geeky-gadgets.com",
+        "url": "https://www.geeky-gadgets.com/home-assistant-claude-ai-integration",
+        "what": "Home Assistant integrated Claude AI to enable conversational, flexible voice commands.",
+        "why": "It eliminates rigid phrasing requirements for smart home and IoT voice interfaces.",
+        "impact": "Apply NLP patterns to voice hardware"
+      },
+      {
+        "title": "IBM AI Releases Granite Speech 5.0 2B for Multilingual Transcription\u2026",
+        "source": "marktechpost.com",
+        "url": "https://www.marktechpost.com/2026/10/22/ibm-granite-speech-5-0-2b-release",
+        "what": "IBM released Granite Speech 5.0 2B for multilingual transcription and translation.",
+        "why": "Provides an open model option for fast multilingual voice handling.",
+        "impact": "Evaluate open weights for local transcription"
+      }
+    ]
+  }
+}
