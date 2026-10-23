@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-23",
+  "beats": {
+    "AI": [
+      {
+        "title": "Build more responsive apps with the Decisions API",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/decisions-api",
+        "what": "OpenAI launched the Decisions API to provide fast, low-cost routing and choices for applications.",
+        "why": "It gives builders a native API primitive for deterministic app branching without heavy custom LLM logic.",
+        "impact": "Instantly cheaper and faster agent orchestration."
+      },
+      {
+        "title": "Certified Execution Harness for Agentic AI: Safe and Least-Intrusive\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.31376v1",
+        "what": "Researchers proposed a certified execution harness using Petri nets to safely supervise agent tool use.",
+        "why": "It mathematically bounds capabilities and budgets between reasoning and action against prompt injection.",
+        "impact": "Crucial security pattern for production voice agents."
+      },
+      {
+        "title": "Adaptive Skill Granularity for Coding Agents: Runtime Routing and Mac\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.31461v1",
+        "what": "A new framework introduces adaptive skill granularity and macro-to-micro recovery for coding agents.",
+        "why": "It solves execution recovery failures where agents recognize mistakes but stay on the wrong trajectory.",
+        "impact": "Improves long-horizon reliability in agent loops."
+      }
+    ],
+    "Design": [
+      {
+        "title": "I Tested 3 Claude Code Skills for Web Design: Which One Is Best?",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/i-tested-3-claude-code-skills-for-web-design-which-one-is-best-521137220dc1?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet tested three different Claude Code skills for web design using identical prompts.",
+        "why": "It compares real-world output quality for AI-driven frontend design workflows.",
+        "impact": "Evaluate design-focused AI coding skills."
+      },
+      {
+        "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+        "what": "UX Collective explores how buy versus build decisions are now fundamentally UX choices.",
+        "why": "AI lowers building costs, shifting architectural choices to ownership of seams and chat surfaces.",
+        "impact": "Inform product buy-vs-build strategies."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Gemini in Google Maps CarPlay: 5 Voice Tasks [2026]",
+        "source": "shattered.io",
+        "url": "https://shattered.io/gemini-google-maps-carplay-5-voice-tasks-2026",
+        "what": "Gemini integration in Google Maps for Apple CarPlay rolled out for voice tasks.",
+        "why": "It brings advanced conversational voice UI directly into vehicle dashboards.",
+        "impact": "Test context-aware voice UX patterns"
+      },
+      {
+        "title": "SoundHound AI to Announce Third Quarter 2026 Financial",
+        "source": "globenewswire.com",
+        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386901/0/en/soundhound-ai-to-announce-third-quarter-2026-financial-results-on-november-5th.html",
+        "what": "SoundHound AI announced financial results and highlighted its OASYS agentic platform.",
+        "why": "OASYS powers natural, end-to-end conversational experiences across physical channels.",
+        "impact": "Evaluate enterprise agentic voice tools"
+      }
+    ]
+  }
+}
