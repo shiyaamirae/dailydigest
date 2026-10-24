@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-24",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrow\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-kimi-31/",
+        "what": "Latent Space released Kimi 3.1 Pro 104BA with open weights and a 2-3x speed Pro Highspeed API.",
+        "why": "Provides immediate access to frontier-class open weights and faster inference speeds for builders.",
+        "impact": "Integrate fast new open-weights models into your voice agent."
+      },
+      {
+        "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users\u2026",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+        "what": "OpenAI detailed how it scaled Habitat storage for ChatGPT with global caching and Cosmos DB.",
+        "why": "Offers architectural insights into high-scale multi-tenancy and low-latency data access.",
+        "impact": "Apply latency-reduction patterns to real-time voice apps."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Can Claude Code Design Professional UI Animations? I Tested 3 Approac\u2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/can-claude-code-design-professional-ui-animations-i-tested-3-approaches-b6a855f0eadf?source=rss----819cc2aaeee0---4",
+        "what": "An exploration of three approaches using Claude Code to design professional UI animations.",
+        "why": "It shows practical AI-driven prototyping methods for enriching interactive experiences.",
+        "impact": "Speed up animation prototyping in your agent's UI."
+      },
+      {
+        "title": "Entering Atomic Design from the screen",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/entering-atomic-design-from-the-screen-bae744ecc288?source=rss----138adf9c44c---4",
+        "what": "A guide on discovering design system atomic structures by starting from complete screens.",
+        "why": "It offers an inverted mental model for building scalable interface systems faster.",
+        "impact": "Rapidly structure design systems for your products."
+      },
+      {
+        "title": "Accordion Icons: Which Work Best?",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+        "what": "Smashing Magazine analyzes accordion icons, split menus, and caret usability.",
+        "why": "It provides concrete guidelines for common navigation and disclosure patterns.",
+        "impact": "Apply tested UX patterns to voice agent companion UIs."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Jack Dorsey\u2019s Block makes AI that talks like humans, it runs without\u2026",
+        "source": "indiatoday.in",
+        "url": "https://www.indiatoday.in/technology/news/story/jack-dorseys-block-makes-ai-that-talks-like-humans-it-runs-without-internet-on-macbook-3024055-2026-10-24",
+        "what": "Jack Dorsey's Block launched Dessa, a speech-to-speech voice AI model running offline.",
+        "why": "It bypasses traditional text-to-speech LLMs to enable full-duplex human conversation.",
+        "impact": "Explore non-LLM speech architectures"
+      },
+      {
+        "title": "Top MarTech News From the Week of October 23rd: Updates from Salesfor\u2026",
+        "source": "solutionsreview.com",
+        "url": "https://solutionsreview.com/crm/2026/10/23/top-martech-news-from-the-week-of-october-23rd-updates-from-salesforce-monday-com-insightly-and-more",
+        "what": "monday.com launched Harmony, a voice AI agent platform built on small LLMs.",
+        "why": "It targets enterprise sales workflows with real-time call navigation capabilities.",
+        "impact": "Study small LLM sales agent patterns"
+      }
+    ]
+  }
+}
