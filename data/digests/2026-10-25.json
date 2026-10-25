@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-25",
+  "beats": {
+    "AI": [
+      {
+        "title": "S&P Global's AI Transition Faces Q3 Moment of Truth Oct. 27: Kensho A\u2026",
+        "source": "247wallst.com",
+        "url": "https://247wallst.com/investing/2026/10/24/sp-globals-ai-transition-faces-q3-moment-of-truth-oct-27-kensho-apis-and-11t-refinancing-wall-need-to-outrun-sales-bottlenecks",
+        "what": "S&P Global reported LLM-ready API customers topped 500 with a 5x surge in call volumes.",
+        "why": "It shows rapid enterprise adoption and scaling patterns for production LLM API architectures.",
+        "impact": "Benchmarks API scaling"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Deel vs. Rippling for Contractor Management: Which Platform Gets the\u2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/deel-vs-rippling-for-contractor-management-which-platform-gets-the-user-experience-right-275775f329d8?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet published a design-focused comparison of Deel and Rippling for managing global contractors.",
+        "why": "It evaluates complex enterprise workflows and onboarding patterns relevant to building multi-region tools.",
+        "impact": "Improves cross-border contractor UX patterns."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Block's new voice model sounds eerily human | TechCrunch",
+        "source": "techcrunch.com",
+        "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human",
+        "what": "Block released Dessa, a full-duplex speech-to-speech voice model trained without text.",
+        "why": "It runs locally on a single GPU and captures natural human expressions like laughs and pauses.",
+        "impact": "Test local full-duplex speech models for your agent."
+      },
+      {
+        "title": "ElevenLabs and Mistral Make Voices Speak Any Language - Voice Over Ta\u2026",
+        "source": "voiceoverherald.com",
+        "url": "https://www.voiceoverherald.com/elevenlabs-realtime-translation-mistral-voxtral-3-voice-clone-languages",
+        "what": "ElevenLabs and Mistral announced new capabilities for real-time multilingual voice translation.",
+        "why": "Expands production options for low-latency conversational agents across multiple languages.",
+        "impact": "Integrate new multilingual APIs into your agent."
+      }
+    ]
+  }
+}
