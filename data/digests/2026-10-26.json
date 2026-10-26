@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-26",
+  "beats": {
+    "AI": [
+      {
+        "title": "S&P Global's AI Transition Faces Q3 Moment of Truth Oct. 27: Kensho A\u2026",
+        "source": "247wallst.com",
+        "url": "https://247wallst.com/investing/2026/10/24/sp-globals-ai-transition-faces-q3-moment-of-truth-oct-27-kensho-apis-and-11t-refinancing-wall-need-to-outrun-sales-bottlenecks",
+        "what": "S&P Global reported LLM-ready API customers topped 500 with a 5x surge in call volumes.",
+        "why": "It shows rapid enterprise adoption and scaling patterns for production LLM API architectures.",
+        "impact": "Benchmarks API scaling"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Nobody asked for the sparkle button",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6?source=rss----138adf9c44c---4",
+        "what": "Products are shipping generic AI sparkle buttons instead of integrated features.",
+        "why": "Users hunt for off switches as spend outruns returns on tacked-on chat panels.",
+        "impact": "Build deeply integrated AI features."
+      },
+      {
+        "title": "Where to draw the line before AI reaches professional users",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4",
+        "what": "A framework evaluates whether chat boxes actually speed up professional users.",
+        "why": "Every B2B app adds a chatbot without questioning if it slows experts down.",
+        "impact": "Design better expert workflows."
+      },
+      {
+        "title": "The context advantage of human UX",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
+        "what": "UX Collective explores human context as the raw material AI is absorbing.",
+        "why": "Context is shifting from a human-only advantage to an automated capability.",
+        "impact": "Refine voice agent context design."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Jack Dorsey\u2019s Block Introduces Dessa, an Emotionally Expressive Voice\u2026",
+        "source": "theaiinsider.tech",
+        "url": "https://theaiinsider.tech/2026/10/25/jack-dorseys-block-introduces-dessa-an-emotionally-expressive-voice-ai-that-runs-locally",
+        "what": "Block released Dessa, an emotionally expressive voice AI that runs locally.",
+        "why": "It offers low-latency, private, emotional voice interactions directly on-device.",
+        "impact": "Test local emotional voice models for agent architectures."
+      },
+      {
+        "title": "AI calling: Ensuring reliability when a voice agent calls | Bhubanesw\u2026",
+        "source": "timesofindia.indiatimes.com",
+        "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/ai-calling-ensuring-reliability-when-a-voice-agent-calls/articleshow/135193575.cms",
+        "what": "An analysis highlighted reliability challenges for outbound AI voice agents.",
+        "why": "Addresses operational blind spots in conversational comprehension and promises.",
+        "impact": "Implement robust guardrails for your voice agent's output."
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-10-25"
+  }
+}
