@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-27",
+  "beats": {
+    "AI": [
+      {
+        "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codeb\u2026",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+        "what": "OpenAI highlighted CodeRabbit utilizing GPT-6.1 Sol for security vulnerability investigations.",
+        "why": "Demonstrates real-world application of advanced models for automated code security audits.",
+        "impact": "Improves automated security review workflows."
+      },
+      {
+        "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35868v1",
+        "what": "Researchers proposed DecisionRAG, using decision models instead of lexical retrieval for documents.",
+        "why": "Addresses capability asymmetries in retrieval-augmented generation pipelines.",
+        "impact": "Enhances RAG accuracy and retrieval reliability."
+      },
+      {
+        "title": "Integrate the Reward, Don't Sample It: Window Likelihood for Interrup\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35581v1",
+        "what": "A study on full-duplex speech models showed binary window rewards outperform window likelihood methods.",
+        "why": "Directly impacts how conversational voice agents handle interruptions and backchannels.",
+        "impact": "Refines real-time voice agent interaction mechanics."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Building an AI-ready design system library: Code \u2192 Figma with MCP.",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+        "what": "A guide explores building an AI-ready design system library moving from code to Figma using MCP.",
+        "why": "It bridges code and design systems using modern AI workflows directly applicable to product builders.",
+        "impact": "Streamline design system maintenance"
+      },
+      {
+        "title": "AGENTS.md in Claude Code: What it is and why it matters",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/agents-md-in-claude-code-what-it-is-and-why-it-matters-2664ea64f7b0?source=rss----819cc2aaeee0---4",
+        "what": "AGENTS.md introduces a Markdown instruction format for configuring AI coding agents in projects.",
+        "why": "It directly improves how you orchestrate AI assistants within your own development workflow.",
+        "impact": "Optimize AI coding agent output"
+      },
+      {
+        "title": "Telling the wrong story, Design v ADHD, AI doesn\u2019t care about your jo\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/telling-the-wrong-story-design-v-adhd-ai-doesnt-care-about-your-job-title-63869c750f07?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a weekly roundup focusing on AI shortcuts, stakeholder alignment, and roles.",
+        "why": "It addresses the workflow shifts faced by solo AI builders skipping traditional design steps.",
+        "impact": "Refine solo product execution"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "AI Voice Reminders for Seniors: 89.3% Want Them [2026]",
+        "source": "shattered.io",
+        "url": "https://shattered.io/seniors-home-health-ai-voice-technology-89-3-percent-reminders-2026",
+        "what": "Google released Gemini 3.8 Flash TTS and Flash-Lite TTS with a new API Voices endpoint.",
+        "why": "Provides hands-on builders with brand new production-ready text-to-speech models and API access.",
+        "impact": "Integrate new high-speed TTS models"
+      },
+      {
+        "title": "NTT Develops Conversational AI to Curb Over-Sycophancy; Situation-Und\u2026",
+        "source": "finance.biggo.com",
+        "url": "https://finance.biggo.com/news/786d7404-bf7f-4863-b260-85784613e3b2",
+        "what": "NTT developed conversational AI designed to curb over-sycophancy in call centers.",
+        "why": "Tackles a major behavioral failure mode in production voice agents.",
+        "impact": "Apply anti-sycophancy prompts to agents"
+      }
+    ]
+  }
+}
