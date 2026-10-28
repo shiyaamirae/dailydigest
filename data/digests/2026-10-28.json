@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-28",
+  "beats": {
+    "AI": [
+      {
+        "title": "How Anthropic ships Claude with Claude: Separating the Brain from the\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/opus55/",
+        "what": "Anthropic engineers shared details on Opus 5.5 and separating model brains from agent hands.",
+        "why": "It reveals production-grade architectural patterns for building reliable managed AI agents.",
+        "impact": "Improves voice agent reliability and architecture"
+      },
+      {
+        "title": "Coding From the Himalayas With an Offline AI Agent",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/offline-coding/",
+        "what": "A guide was published on running offline coding agents using OpenCode, Ollama, and Qwen.",
+        "why": "Provides a practical blueprint for locally hosted, self-contained developer workflows.",
+        "impact": "Enables local offline AI tooling experimentation"
+      },
+      {
+        "title": "Concordat: Typed Sessions for LLM Agents",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.37461v1",
+        "what": "Researchers introduced Concordat, a typed sessions framework for governing LLM agent actions.",
+        "why": "Provides programmatic safety guarantees for agents executing consequential real-world tasks.",
+        "impact": "Secures action boundaries in agent design"
+      }
+    ],
+    "Design": [
+      {
+        "title": "The agent woke up before you did",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-agent-woke-up-before-you-did-a61cfc3948c7?source=rss----138adf9c44c---4",
+        "what": "Four companies launched products challenging core user-centered design assumptions as autonomous agents take the lead.",
+        "why": "It signals a massive paradigm shift in how we design interfaces for proactive, autonomous AI agents.",
+        "impact": "Guides your voice agent design patterns"
+      },
+      {
+        "title": "The time AI saves designers usually disappears. Here\u2019s how to keep it.",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-time-ai-saves-designers-usually-disappears-heres-how-to-keep-it-61eb38e1ed69?source=rss----138adf9c44c---4",
+        "what": "A survey of 521 UX professionals revealed where AI time savings are lost and how to retain them.",
+        "why": "Helps you avoid productivity traps when integrating AI into your solo product workflow.",
+        "impact": "Optimizes your solo dev workflow"
+      },
+      {
+        "title": "Smaller teams want design leaders who make, again. Here\u2019s how.",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/smaller-teams-want-design-leaders-who-make-again-heres-how-b8939221bd7b?source=rss----138adf9c44c---4",
+        "what": "UX Collective explored how shrinking AI-assisted teams demand hands-on design leaders who actively build.",
+        "why": "Reflects the exact multi-hat reality of solo AI builders doing product, design, and code.",
+        "impact": "Validates your multi-hat builder approach"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Product update: A voice platform built around AI Voice Agents - Apifo\u2026",
+        "source": "apifonica.com",
+        "url": "https://apifonica.com/blog/product-update-a-voice-platform-built-around-ai-voice-agents",
+        "what": "Apifonica rebuilt its voice platform around AI agents with persistent caller history and memory.",
+        "why": "It showcases practical state management for multi-turn voice applications.",
+        "impact": "Informs memory architecture design."
+      },
+      {
+        "title": "Cisco\u2019s Dialog Takes Customer Service Beyond the Conversation |",
+        "source": "opusresearch.net",
+        "url": "https://opusresearch.net/2026/10/27/ciscos-dialog-takes-customer-service-beyond-the-conversation",
+        "what": "Cisco announced Dialog to push customer service automation beyond basic conversations.",
+        "why": "It highlights enterprise patterns for agentic customer support workflows.",
+        "impact": "Provides enterprise workflow patterns."
+      },
+      {
+        "title": "Build and Customize Your Own AI Voice Agents in ...",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/EvenUpLaw/videos/need-an-ai-voice-agent-for-a-specific-task-that-doesnt-come-out-of-the-box-build/1869781797792262",
+        "what": "A new guide outlines building conversational AI agents starting with brain, voice, and phone.",
+        "why": "It offers a structured architectural approach for hands-on voice agent development.",
+        "impact": "Guides system architecture decisions."
+      }
+    ]
+  }
+}
