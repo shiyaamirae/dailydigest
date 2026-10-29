@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-29",
+  "beats": {
+    "AI": [
+      {
+        "title": "Why Agents Love Supabase",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/supabase/",
+        "what": "Latent Space featured Paul Copplestone and Ant Wilson discussing backend patterns for AI agents.",
+        "why": "Provides concrete backend architecture strategies specifically tailored for agentic applications.",
+        "impact": "Improves agent data architecture design"
+      },
+      {
+        "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+        "what": "OpenAI and ServiceNow expanded their partnership to integrate models and agents into workflows.",
+        "why": "Shows enterprise integration patterns for multi-step autonomous agents interacting with tools.",
+        "impact": "Inspires enterprise agent workflow design"
+      },
+      {
+        "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defend\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+        "what": "Google launched its new Gemini 4 Carbon frontier model, leading independent leaderboards.",
+        "why": "Represents the current state-of-the-art capability frontier for complex reasoning tasks.",
+        "impact": "Evaluates new foundational model capabilities"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Claude Code Skills vs. Mods vs. Plugins vs. Agents: What\u2019s the Differ\u2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-code-skills-vs-mods-vs-plugins-vs-agents-whats-the-difference-5fccf8c1b4e6?source=rss----819cc2aaeee0---4",
+        "what": "Claude Code's extension methods including Skills, Mods, Plugins, and Agents are compared.",
+        "why": "It clarifies how to extend developer tools directly used in building AI agents.",
+        "impact": "Guides your choice of extension tools for your agent build."
+      },
+      {
+        "title": "Designing for AI deep research: lessons from Google, Perplexity and M\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
+        "what": "UX lessons for designing AI deep research tasks are drawn from Google, Perplexity, and Microsoft.",
+        "why": "Deep research interactions present unique multi-turn UI challenges relevant to agents.",
+        "impact": "Informs interaction patterns for your voice agent."
+      },
+      {
+        "title": "Autonomy by design: how gamification and AI can respect (or rewrite)\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/autonomy-by-design-how-gamification-and-ai-can-respect-or-rewrite-our-choices-122ad795ec57?source=rss----138adf9c44c---4",
+        "what": "The ethical boundaries of autonomy and gamification in AI design are explored.",
+        "why": "Autonomous agents actively influence user behavior, making interface transparency crucial.",
+        "impact": "Helps design ethical guardrails for agent workflows."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Rime Launches Customizable Speech-to-Speech AI Model for Enterprise V\u2026",
+        "source": "theaiinsider.tech",
+        "url": "https://theaiinsider.tech/2026/10/28/rime-launches-customizable-speech-to-speech-ai-model-for-enterprise-voice-applications",
+        "what": "Rime launched a customizable speech-to-speech AI model for enterprise voice applications.",
+        "why": "It gives voice builders access to specialized enterprise-grade speech-to-speech tooling.",
+        "impact": "Evaluate Rime's model for low-latency agent builds."
+      },
+      {
+        "title": "AI Chat No Sign-Up: 3 Bots Answered Logged Out [2026]",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/ai-chat-no-sign-up-best-chatbots-without-account-2026",
+        "what": "xAI priced Grok Voice 3.0 at $0.08 per minute in their API.",
+        "why": "Clear pricing benchmarks for native speech-to-speech APIs help model operational costs.",
+        "impact": "Benchmark API costs against current agent builds."
+      },
+      {
+        "title": "AuraLift Ai Releases Voice-First Advances, Including Personalized Wee\u2026",
+        "source": "northjersey.com",
+        "url": "https://www.northjersey.com/press-release/story/259197/auralift-ai-releases-voice-first-advances-including-personalized-weekly-stories-narrated-by-its-guide-laura",
+        "what": "AuraLift Ai released voice-first updates featuring persistent conversational memory.",
+        "why": "Demonstrates practical implementation of stateful voice sessions in production apps.",
+        "impact": "Study their memory architecture patterns."
+      }
+    ]
+  }
+}
