@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-31",
+  "beats": {
+    "AI": [
+      {
+        "title": "Making it easier for websites to express AI training preferences",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+        "what": "OpenAI introduces a shared robots.txt signal for website AI training preferences.",
+        "why": "It standardizes how site owners manage data scraping for LLMs.",
+        "impact": "Informs data sourcing for your apps."
+      },
+      {
+        "title": "Community safety report and new protections for teens",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+        "what": "OpenAI strengthens teen protections and violence safeguards in ChatGPT.",
+        "why": "It raises the safety bar for conversational agent applications.",
+        "impact": "Guides safety guardrails for your voice agent."
+      },
+      {
+        "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+        "what": "Google reports a Search revenue drop due to AI integration.",
+        "why": "It highlights the monetization challenges of conversational search models.",
+        "impact": "Context for agent business models."
+      }
+    ],
+    "Design": [
+      {
+        "title": "The Role of UX in Agentic Software Factories",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Nielsen Norman Group published a framework on UX in AI-native software development lifecycles.",
+        "why": "It redefines how solo builders must handle discovery and evaluation when AI replaces traditional handoffs.",
+        "impact": "Informs how you scope and evaluate your voice agent."
+      },
+      {
+        "title": "Experience Design: Dropping the \u201cUser\u201d from \u201cUser Experience\u201d",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Nielsen Norman Group explored experience design for AI agents acting on behalf of humans.",
+        "why": "It expands interface patterns beyond direct human control toward autonomous delegation.",
+        "impact": "Directly applies to multi-agent voice workflows."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Nemotron 3.5 Transcribe: 17 GB, 5.33% WER [2026]",
+        "source": "shattered.io",
+        "url": "https://shattered.io/nemotron-3-5-transcribe-17gb-nvfp4-5-33-wer-self-hosting-2026",
+        "what": "Mistral released Voxtral 3 and ElevenLabs launched Realtime for instant speech in voice agents.",
+        "why": "New foundational speech tools directly expand the design and deployment options for your agent.",
+        "impact": "Test and benchmark against current agent latency"
+      },
+      {
+        "title": "Voice AI Agents Market Size, Share, Trends, and Industry Analysis - G\u2026",
+        "source": "uk.finance.yahoo.com",
+        "url": "https://uk.finance.yahoo.com/news/voice-ai-agents-market-size-154200592.html",
+        "what": "OpenAI made gpt-realtime generally available with SIP phone calling at reduced preview pricing.",
+        "why": "Low-latency telephony integration is now production-ready for end-to-end voice agents.",
+        "impact": "Integrate SIP calling into your current build"
+      },
+      {
+        "title": "Ai that answers your phone and books appointments",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/sagarwalsac/posts/you-can-now-set-up-an-ai-that-answers-your-phone-and-books-appointments-in-44-la/10163487373706139",
+        "what": "New HIPAA-compliant AI receptionists launched to handle calls, schedule, and reduce voicemails.",
+        "why": "Demonstrates vertical UX patterns and compliance handling for production voice products.",
+        "impact": "Study UX patterns for domain-specific agents"
+      }
+    ]
+  }
+}
