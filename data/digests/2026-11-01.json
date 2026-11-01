@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-01",
+  "beats": {
+    "AI": [
+      {
+        "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/arca/",
+        "what": "Arca's head of AI discusses persistent memory and custom agent harnesses for long-horizon workflows.",
+        "why": "Provides practical implementation patterns for building agents that operate reliably across multiple days.",
+        "impact": "Improves long-horizon memory design for voice agents."
+      }
+    ],
+    "Design": [
+      {
+        "title": "5 NEW Claude Mods that will change how you work",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/5-new-claude-mods-that-will-change-how-you-work-618fa55bc7db?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet published a guide on 5 new Claude Mods for customizing CLI behavior.",
+        "why": "It shows practical ways to adapt developer interfaces for agentic workflows.",
+        "impact": "Customize your terminal environment"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "How voice AI is transforming banking and insurance: Desible.ai founde\u2026",
+        "source": "yourstory.com",
+        "url": "https://yourstory.com/2026/10/voice-ai-transforming-banking-insurance-desibleai-founders-business-behind-technology",
+        "what": "Desible.ai founders discussed agentic AI engineering for BFSI on a Prime Venture podcast.",
+        "why": "It offers practical insights into production patterns for voice and agentic systems in enterprise.",
+        "impact": "Guides architecture choices for agentic workflows."
+      },
+      {
+        "title": "Inside The Mind Steering Ferrari: CEO Benedetto Vigna on Innovation,\u2026",
+        "source": "m.economictimes.com",
+        "url": "https://m.economictimes.com/news/corner-office-conversation/inside-the-mind-steering-ferrari-ceo-benedetto-vigna-on-innovation-india-powertrains-the-quest/videoshow/135393906.cms",
+        "what": "Sarvam AI discussed voice AI economics and India's AI strategy in a recent interview.",
+        "why": "Provides real-world perspectives on scaling voice AI cost-efficiently in diverse markets.",
+        "impact": "Informs low-latency voice model economics."
+      },
+      {
+        "title": "Patient AI in Primary Care: 114 Patients, 0 Stops [2026]",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/patient-facing-ai-primary-care-amie-114-patients-zero-safety-stops-2026",
+        "what": "A primary care study evaluated patient-facing voice AI handling real symptom intake.",
+        "why": "Demonstrates successful safety and reliability metrics for high-stakes conversational agents.",
+        "impact": "Validates reliability patterns for voice agents."
+      }
+    ]
+  }
+}
