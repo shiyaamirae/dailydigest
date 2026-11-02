@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-02",
+  "beats": {
+    "AI": [
+      {
+        "title": "Our Core Vendor Was Down for 24 Hours. Our AI Agent Replaced Them Bef\u2026",
+        "source": "saastr.com",
+        "url": "https://www.saastr.com/our-core-vendor-was-down-for-24-hours-our-ai-agent-replaced-them-before-they-came-back-up",
+        "what": "An AI agent successfully replaced a core vendor service during a 24-hour outage.",
+        "why": "Demonstrates the practical reliability and speed of deploying agents for core infrastructure fallbacks.",
+        "impact": "Informs agentic fallback design patterns."
+      }
+    ],
+    "Design": [
+      {
+        "title": "How to design transparent AI cost controls",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/how-to-design-transparent-ai-cost-controls-a44fd52b9104?source=rss----138adf9c44c---4",
+        "what": "A guide on designing transparent AI cost controls and spending limits.",
+        "why": "Helps you build better cost management into agentic products.",
+        "impact": "Informs billing UX in your voice agent."
+      },
+      {
+        "title": "Context is the new interface",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/context-is-the-new-interface-c16b7f6e77be?source=rss----138adf9c44c---4",
+        "what": "Exploration of how AI agents use contextual data across applications.",
+        "why": "Context is the emerging interface paradigm for ambient AI systems.",
+        "impact": "Guides context-handling for your voice agent."
+      },
+      {
+        "title": "Anthropic Just Revealed 3 NEW Rules for Claude Skills",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/anthropic-just-revealed-3-new-rules-for-claude-skills-bf6d5ff66930?source=rss----819cc2aaeee0---4",
+        "what": "Anthropic revealed new rules and capabilities for Claude Skills.",
+        "why": "Directly impacts how you configure and deploy Claude models.",
+        "impact": "Improves your agent workflow design."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Deepgram Acquires Daily, Maker of Open Source Voice AI Framework Pipe\u2026",
+        "source": "theaiinsider.tech",
+        "url": "https://theaiinsider.tech/2026/11/02/deepgram-acquires-daily-maker-of-open-source-voice-ai-framework-pipecat",
+        "what": "Deepgram acquired Daily, the creator of the open-source voice AI framework Pipecat.",
+        "why": "Consolidates key infrastructure for building real-time voice agents under one major provider.",
+        "impact": "Direct tool stack evolution for your voice agent development."
+      },
+      {
+        "title": "Voice AI Observability: Guide to Monitor AI Voice Agents",
+        "source": "ecosmob.com",
+        "url": "https://www.ecosmob.com/blog/voice-ai-observability",
+        "what": "A comprehensive guide on voice AI observability was published focusing on fixing voicebot latency.",
+        "why": "Latency and smart escalation logic are critical bottlenecks when building production voice agents.",
+        "impact": "Actionable patterns to optimize your voice agent's UX."
+      },
+      {
+        "title": "Agoda\u2019s AI Assistant Brings Travel Planning and Booking into One Conv\u2026",
+        "source": "breakingtravelnews.com",
+        "url": "https://www.breakingtravelnews.com/news/article/agodas-ai-assistant-brings-travel-planning-and-booking-into-one-conversatio",
+        "what": "Agoda launched an AI travel assistant combining OpenAI models with Gemini and Google Maps grounding.",
+        "why": "Demonstrates a production architecture for multi-model conversational apps with real-time ground truth.",
+        "impact": "Architectural inspiration for context-aware voice features."
+      }
+    ]
+  }
+}
