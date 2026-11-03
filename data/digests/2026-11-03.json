@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-03",
+  "beats": {
+    "AI": [
+      {
+        "title": "Optimize the Harness, Not the Model: Fitting a Minimal Agent to a Sel\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.03434v1",
+        "what": "Researchers introduced CLEO, a method for fitting a minimal agent harness to self-hostable LLMs.",
+        "why": "It enables deploying secure, auditable, and cost-effective investigative analysis agents locally.",
+        "impact": "Build lightweight, secure agents without relying on hosted frontier models."
+      },
+      {
+        "title": "MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measur\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.03555v1",
+        "what": "A study measured Model Context Protocol (MCP) tool poisoning vulnerabilities in agentic frameworks.",
+        "why": "It highlights how unchecked schemas and content inject risks into tool-using agent architectures.",
+        "impact": "Harden your tool definitions and validation checks in voice and agentic loops."
+      },
+      {
+        "title": "Strategist: Evolving Reasoning with Agents",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.03618v1",
+        "what": "Researchers introduced Strategist, a meta-agent designed to evolve reasoning procedures for AI agents.",
+        "why": "It automates the inference strategy layer which is traditionally hand-written when building agents.",
+        "impact": "Improve the reasoning loop performance of your voice agent."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with M\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+        "what": "A weekly curation covering sparkle buttons, AI reckoning in UX, and Figma with MCP was published.",
+        "why": "It highlights current UX trends and new tool integrations like Figma with MCP for hands-on builders.",
+        "impact": "Gives you fresh design patterns and tools to try."
+      },
+      {
+        "title": "What I learned teaching AI prototyping at university",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+        "what": "Insights from teaching university students how to prototype apps directly with AI instead of Figma.",
+        "why": "It reveals practical trade-offs and workflows for non-traditional product creation using generative AI.",
+        "impact": "Informs your own AI prototyping workflow."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Deepgram Acquires Daily, Maker of Open Source Voice AI Framework Pipe\u2026",
+        "source": "theaiinsider.tech",
+        "url": "https://theaiinsider.tech/2026/11/02/deepgram-acquires-daily-maker-of-open-source-voice-ai-framework-pipecat",
+        "what": "Deepgram acquired Daily, the creator of the open-source voice AI framework Pipecat.",
+        "why": "Consolidates key infrastructure for building real-time voice agents under one major provider.",
+        "impact": "Direct tool stack evolution for your voice agent development."
+      },
+      {
+        "title": "Voice AI Observability: Guide to Monitor AI Voice Agents",
+        "source": "ecosmob.com",
+        "url": "https://www.ecosmob.com/blog/voice-ai-observability",
+        "what": "A comprehensive guide on voice AI observability was published focusing on fixing voicebot latency.",
+        "why": "Latency and smart escalation logic are critical bottlenecks when building production voice agents.",
+        "impact": "Actionable patterns to optimize your voice agent's UX."
+      },
+      {
+        "title": "Agoda\u2019s AI Assistant Brings Travel Planning and Booking into One Conv\u2026",
+        "source": "breakingtravelnews.com",
+        "url": "https://www.breakingtravelnews.com/news/article/agodas-ai-assistant-brings-travel-planning-and-booking-into-one-conversatio",
+        "what": "Agoda launched an AI travel assistant combining OpenAI models with Gemini and Google Maps grounding.",
+        "why": "Demonstrates a production architecture for multi-model conversational apps with real-time ground truth.",
+        "impact": "Architectural inspiration for context-aware voice features."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-11-02"
+  }
+}
