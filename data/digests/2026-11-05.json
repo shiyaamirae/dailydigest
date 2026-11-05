@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-05",
+  "beats": {
+    "AI": [
+      {
+        "title": "Accelerating engineering for the physical world",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+        "what": "OpenAI highlighted how ChatGPT and Codex accelerate CAD, PCB design, and engineering workflows.",
+        "why": "Provides concrete patterns for using LLMs to drive hardware and engineering physical design loops.",
+        "impact": "New AI-assisted engineering workflows"
+      },
+      {
+        "title": "Agentic cheminformatics with Google Antigravity",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+        "what": "Google DeepMind introduced Google Antigravity and Cheminformatics Skills for accelerated drug discovery.",
+        "why": "Demonstrates specialized domain agent skills that integrate tightly into complex discovery pipelines.",
+        "impact": "Actionable multi-step agent patterns"
+      },
+      {
+        "title": "You don't need long context",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.05306v1",
+        "what": "Researchers show that frequent compaction lets frontier models use short context with minimal loss.",
+        "why": "Offers a direct engineering solution to slash generation latency and token costs on long-horizon tasks.",
+        "impact": "Drastically lower latency and costs"
+      }
+    ],
+    "Design": [
+      {
+        "title": "AI can generate the interface. What makes it worth caring about?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ai-can-generate-the-interface-what-makes-it-worth-caring-about-a5f3a3e81986?source=rss----138adf9c44c---4",
+        "what": "UX Collective examines how AI-generated interfaces require intentional design choices to avoid generic patterns.",
+        "why": "It addresses how to inject soul and surprise into AI-generated components instead of default generic templates.",
+        "impact": "Improves your voice agent interface design."
+      },
+      {
+        "title": "What AI has changed in Design Systems, and what is still up to us",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+        "what": "Experts discuss the changing human role in creating and maintaining design systems in the AI era.",
+        "why": "Helps define what design guardrails to automate versus keep human-controlled when building solo.",
+        "impact": "Optimizes your solo AI workflow systems."
+      },
+      {
+        "title": "How to Become One of the Top 1% Most Effective Claude Code Users",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/how-to-become-one-of-the-top-1-most-effective-claude-code-users-7c2ebe0c2afc?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet outlines three practical methods for becoming a top Claude Code user.",
+        "why": "Directly enhances your coding efficiency and agent-building velocity using advanced tool techniques.",
+        "impact": "Speeds up your voice agent development."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Rime Launches Fine-Tunable Speech-to-Speech Model for Enterprise Voic\u2026",
+        "source": "audioxpress.com",
+        "url": "https://audioxpress.com/news/rime-launches-fine-tunable-speech-to-speech-model-for-enterprise-voice-applications",
+        "what": "Rime launched Prism, a fine-tunable speech-to-speech model for enterprise voice applications.",
+        "why": "It gives developers precise control over deployment, pronunciation, and response policies.",
+        "impact": "Evaluate for custom agent pronunciation and control."
+      },
+      {
+        "title": "Salesforce to buy Cresta and bring its AI voice agents into Service C\u2026",
+        "source": "thenextweb.com",
+        "url": "https://thenextweb.com/news/salesforce-cresta-2-7bn-voice-ai-agents",
+        "what": "Salesforce is acquiring Cresta to integrate its AI voice agents into Service Cloud.",
+        "why": "It connects real-time voice conversations directly to customer history and business outcomes.",
+        "impact": "Study architecture patterns for enterprise workflow integration."
+      },
+      {
+        "title": "The Selloff Didn\u2019t Stop Salesforce From Spending $2.7 Billion on an A\u2026",
+        "source": "247wallst.com",
+        "url": "https://247wallst.com/investing/2026/11/03/the-selloff-didnt-stop-salesforce-from-spending-2-7-billion-on-an-ai-startup",
+        "what": "Salesforce spent $2.7 billion to acquire Agentforce, focusing heavily on voice capabilities.",
+        "why": "Industry leaders highlight phone calls as the hardest and highest-value vector for AI agents.",
+        "impact": "Benchmark against high-stakes voice agent requirements."
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-11-04",
+    "Voice AI": "2026-11-04"
+  }
+}
