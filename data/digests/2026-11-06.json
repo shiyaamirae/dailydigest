@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-06",
+  "beats": {
+    "AI": [
+      {
+        "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+        "what": "Google DeepMind released Gemini Omni 1.2 Flash for faster, cost-effective multimodal processing.",
+        "why": "It delivers high-performance multimodal capabilities with lower latency and longer video clip support.",
+        "impact": "Lowers latency and cost for building real-time voice and video agents."
+      },
+      {
+        "title": "Gabor Gabor: E-Gaborformer, a Strictly Causal Speech Recognizer with\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.08092v1",
+        "what": "Researchers proposed E-Gaborformer, a strictly causal speech recognizer with constant call memory.",
+        "why": "Real-time voice agents require zero future audio wait time and fixed memory footprint per call.",
+        "impact": "Drop-in architecture pattern for ultra-low latency voice agent streaming."
+      },
+      {
+        "title": "The Power of Meta Access in the Software of the Future --- Demonstrat\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.08428v1",
+        "what": "A new paper explores meta access for LLM chats, giving assistants permissioned workspace views.",
+        "why": "Moving beyond plain chat interfaces lets agents perceive the actual surrounding application state.",
+        "impact": "New UX pattern for building context-aware dev tools and integrated agent workflows."
+      }
+    ],
+    "Design": [
+      {
+        "title": "5 NEW GitHub Repos for Claude Code Worth Trying for Product Design",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/5-new-github-repos-for-claude-code-worth-trying-for-product-design-8d2ca0914487?source=rss----819cc2aaeee0---4",
+        "what": "Five new GitHub repositories for Claude Code tailored for product design workflows.",
+        "why": "Offers hands-on developer tools to speed up AI-assisted prototyping and design tasks.",
+        "impact": "Integrates directly into your solo builder toolkit."
+      },
+      {
+        "title": "Making Immersive LLM Chat Experiences More Accessible",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/",
+        "what": "Eric Bailey shares practical accessibility patterns for immersive LLM chat interfaces on the web.",
+        "why": "Ensures your AI chat and voice agent experiences are usable by everyone.",
+        "impact": "Apply inclusive UX patterns to your voice agent frontend."
+      },
+      {
+        "title": "Berrypicking still beats the single answer for search, even in the wo\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+        "what": "An exploration of Marcia Bates' berrypicking model and why it still beats single-answer AI search.",
+        "why": "Provides foundational UX mental models for designing complex information retrieval agents.",
+        "impact": "Informs multi-turn conversational UX design."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Meta adds real-time voice chat and animated avatars to its Muse app",
+        "source": "thenextweb.com",
+        "url": "https://thenextweb.com/news/meta-muse-ai-voice-chat-animated-avatars",
+        "what": "Meta added real-time voice chat and animated avatars to its Muse AI app across platforms.",
+        "why": "Provides a live template for consumer-facing real-time voice integration patterns.",
+        "impact": "Informs UX design for live voice agents."
+      }
+    ]
+  }
+}
