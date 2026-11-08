@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-08",
+  "beats": {
+    "AI": [
+      {
+        "title": "OpenMausBot Gains 1,986 Stars in 24 Hours, Surges on GitHub Trending\u2026",
+        "source": "blockchain.news",
+        "url": "https://blockchain.news/news/openmausbot-surges-github-trending",
+        "what": "OpenMausBot surged on GitHub Trending with rapid adoption.",
+        "why": "Provides a fresh open-source codebase for hands-on exploration.",
+        "impact": "Inspect new agentic implementation patterns."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Otherwise you\u2019re just a machine",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an analysis on how human designers must adapt as AI gets better at interface generation.",
+        "why": "It addresses the shifting skills required for product designers building with AI tools without handoffs.",
+        "impact": "Refines your solo design-to-code workflow skills."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "How Voice Models Work From Whisper to Conversational AI",
+        "source": "medium.com",
+        "url": "https://medium.com/@adnanmasood/how-voice-models-work-from-whisper-to-conversational-ai-cb4b0a8ab20f",
+        "what": "A comprehensive overview breaks down the architecture of modern voice models from Whisper to conversational AI.",
+        "why": "It provides a clear technical roadmap of how modern speech recognition and text-to-speech models integrate.",
+        "impact": "Guides pipeline architecture choices for custom voice agents."
+      },
+      {
+        "title": "Five9 Acquires Level AI For Standalone Contact Center AI",
+        "source": "cmswire.com",
+        "url": "https://www.cmswire.com/contact-center/five9-buys-level-ai-for-325m-to-expand-cx-ai",
+        "what": "Five9 acquired Level AI to integrate real-time transcription and conversation intelligence into contact centers.",
+        "why": "It highlights enterprise demand for automated CRM logging and real-time conversation analytics.",
+        "impact": "Informs enterprise integration patterns for production voice bots."
+      },
+      {
+        "title": "Amazon Launches Text-to-Shop Alexa After Blocking Meta's Muse | The T\u2026",
+        "source": "techbuzz.ai",
+        "url": "https://www.techbuzz.ai/articles/amazon-launches-text-to-shop-alexa-after-blocking-meta-s-muse",
+        "what": "Amazon launched Text-to-Shop Alexa, introducing hybrid text-based fallback options for voice assistants.",
+        "why": "It addresses the core usability friction of voice-only interfaces in public or quiet environments.",
+        "impact": "Inspires multimodal fallback patterns in agent design."
+      }
+    ]
+  },
+  "carried_over": {
+    "Voice AI": "2026-11-07"
+  }
+}
