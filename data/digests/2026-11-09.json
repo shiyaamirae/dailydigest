@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-09",
+  "beats": {
+    "AI": [
+      {
+        "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engi\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+        "what": "Stanford's CS146S explores how to teach AI-native engineering when coding agents handle basic assignments.",
+        "why": "It showcases real-world pedagogical shifts for building software entirely with AI agents.",
+        "impact": "Adapt your solo dev workflows for AI-native engineering."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Otherwise you\u2019re just a machine",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an analysis on how human designers must adapt as AI gets better at interface generation.",
+        "why": "It addresses the shifting skills required for product designers building with AI tools without handoffs.",
+        "impact": "Refines your solo design-to-code workflow skills."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Shizuku-Duplex, an AI capable of real-time conversation in Japanese,\u2026",
+        "source": "gigazine.net",
+        "url": "https://gigazine.net/gsc_news/en/20261109-shizuku-duplex-natural-conversation-ai",
+        "what": "Shizuku-Duplex was released, enabling real-time Japanese voice conversation at 80ms speed.",
+        "why": "It showcases ultra-low latency streaming architecture with built-in interjections and web search.",
+        "impact": "Informs low-latency pipeline design."
+      },
+      {
+        "title": "LG Uplus Teams With Top Universities on Korean Voice AI - Seoul Econo\u2026",
+        "source": "en.sedaily.com",
+        "url": "https://en.sedaily.com/technology/2026/11/09/lg-uplus-teams-with-top-universities-on-korean-voice-ai",
+        "what": "LG Uplus partnered with top universities to advance voice-to-voice (V2V) tech.",
+        "why": "Focuses on direct speech-to-speech understanding and situation-aware tone modulation.",
+        "impact": "Highlights emerging V2V modeling techniques."
+      }
+    ]
+  },
+  "carried_over": {
+    "Design": "2026-11-08"
+  }
+}
