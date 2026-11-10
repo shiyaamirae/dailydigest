@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-10",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow beg\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+        "what": "Anthropic announced Claude Fable 5.2 and Mythos 5.2 alongside its IPO roadshow.",
+        "why": "It sets a new frontier benchmark for model capabilities and reasoning economics.",
+        "impact": "Upgrade reasoning workflows and model selection."
+      },
+      {
+        "title": "ChatGPT Enterprise now available in AWS Marketplace",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "what": "OpenAI's ChatGPT Enterprise is now available directly through the AWS Marketplace.",
+        "why": "Simplifies enterprise procurement using existing cloud billing relationships.",
+        "impact": "Easier deployment of enterprise tooling."
+      },
+      {
+        "title": "MNN-Pocket-0.3B Technical Report",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.12311v1",
+        "what": "MNN-Pocket-0.3B was released as a 300M dense model optimized for on-device deployment.",
+        "why": "Delivers high throughput and 32K context with a tiny 173MB footprint.",
+        "impact": "Prototype local, low-latency edge features."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Claude Fable 5.2 for UI Design: Better, but at What Cost?",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-fable-5-2-for-ui-design-better-but-at-what-cost-81aeec4170f4?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet published a real-world design test comparing Claude Fable 5.2 against Opus 5.5.",
+        "why": "It evaluates the practical design quality of a brand-new model on actual product work.",
+        "impact": "Test Claude Fable 5.2 for rapid UI prototyping."
+      },
+      {
+        "title": "5 Underrated Claude Code Tools That Fix Its Biggest Problems",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/5-underrated-claude-code-tools-that-fix-its-biggest-problems-1b6007eddf4f?source=rss----819cc2aaeee0---4",
+        "what": "UX Planet highlighted five underrated Claude Code tools that fix production-ready UI generation.",
+        "why": "It addresses the specific friction points of turning AI prototypes into production code.",
+        "impact": "Adopt these tools to streamline AI-driven development."
+      },
+      {
+        "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
+        "what": "UX Collective explored how AI assembles interfaces from patterns and contextual UI design.",
+        "why": "It rethinks interface assembly as AI shifts toward context-aware moment-based layouts.",
+        "impact": "Incorporate context-driven patterns into your voice agent."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Memrise creators raise \u00a32.5m for Mindmax\u2019s conversational AI tutor |\u2026",
+        "source": "edtechinnovationhub.com",
+        "url": "https://www.edtechinnovationhub.com/news/memrise-creators-raise-25m-for-mindmaxs-conversational-ai-tutor",
+        "what": "Memrise creators raised \u00a32.5M for Mindmax, a real-time conversational AI voice tutor.",
+        "why": "It showcases advanced real-time voice interruption patterns in EdTech products.",
+        "impact": "Provides patterns for building real-time interruption flows."
+      },
+      {
+        "title": "Salesforce to buy voice AI firm Cresta for customer service | Outsour\u2026",
+        "source": "news.outsourceaccelerator.com",
+        "url": "https://news.outsourceaccelerator.com/salesforce-cresta-acquisition",
+        "what": "Salesforce announced its acquisition of voice-first operating system Cresta.",
+        "why": "Validates the demand for real-time voice agents that handle calls and assist humans.",
+        "impact": "Highlights architectural standards for enterprise voice agents."
+      },
+      {
+        "title": "AI-powered Alchemer Voice Turns Conversations into Actionable Insights",
+        "source": "businesswire.com",
+        "url": "https://www.businesswire.com/news/home/20261109532172/en/AI-powered-Alchemer-Voice-Turns-Conversations-into-Actionable-Insights",
+        "what": "Alchemer launched Alchemer Voice to turn customer conversations into actionable insights.",
+        "why": "Demonstrates practical post-call analysis pipelines for voice applications.",
+        "impact": "Offers architectural ideas for voice feedback intelligence loops."
+      }
+    ]
+  }
+}
