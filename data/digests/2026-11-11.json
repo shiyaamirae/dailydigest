@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-11",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow beg\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+        "what": "Anthropic announced Claude Fable 5.2 and Mythos 5.2 alongside its IPO roadshow.",
+        "why": "It sets a new frontier benchmark for model capabilities and reasoning economics.",
+        "impact": "Upgrade reasoning workflows and model selection."
+      },
+      {
+        "title": "ChatGPT Enterprise now available in AWS Marketplace",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "what": "OpenAI's ChatGPT Enterprise is now available directly through the AWS Marketplace.",
+        "why": "Simplifies enterprise procurement using existing cloud billing relationships.",
+        "impact": "Easier deployment of enterprise tooling."
+      },
+      {
+        "title": "MNN-Pocket-0.3B Technical Report",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.12311v1",
+        "what": "MNN-Pocket-0.3B was released as a 300M dense model optimized for on-device deployment.",
+        "why": "Delivers high throughput and 32K context with a tiny 173MB footprint.",
+        "impact": "Prototype local, low-latency edge features."
+      }
+    ],
+    "Design": [
+      {
+        "title": "AI Prototyping inside your design system. A hands-on guide for design\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+        "what": "A hands-on guide details how to integrate AI prototyping directly inside your design system using MCP.",
+        "why": "It bridges design systems with AI execution, saving hours of manual UI generation.",
+        "impact": "Speeds up hands-on voice agent UI creation"
+      },
+      {
+        "title": "Every new medium gets called cheating",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+        "what": "An essay explores the historical resistance to new mediums and how embracing AI tools fosters creative growth.",
+        "why": "It reframes skepticism into practical adoption for builders navigating new paradigms.",
+        "impact": "Unlocks new AI tool workflows"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "OpenAI pulls the plug on two major voice modes as GPT-Live takes over",
+        "source": "interestingengineering.com",
+        "url": "https://interestingengineering.com/ai-robotics/chatgpt-drops-two-voice-modes-december-2026",
+        "what": "OpenAI announced it will retire its legacy voice modes on December 11, replacing them with GPT-Live.",
+        "why": "GPT-Live introduces simultaneous listening and speaking capabilities for more natural interactions.",
+        "impact": "Test real-time duplex capabilities for your voice agent."
+      },
+      {
+        "title": "Modulate Accelerates Enterprise Voice AI With Twilio Ventures Investm\u2026",
+        "source": "morningstar.com",
+        "url": "https://www.morningstar.com/news/accesswire/1246519msn/modulate-accelerates-enterprise-voice-ai-with-twilio-ventures-investment-and-new-real-time-audio-intelligence-capabilities",
+        "what": "Modulate added new audio-native signals to its Velma platform with backing from Twilio Ventures.",
+        "why": "It gives developers deeper visibility into response timing, audio quality, and misunderstandings.",
+        "impact": "Integrate real-time audio analytics into your stack."
+      },
+      {
+        "title": "TrueML Products Introduces Penelope, Integrated Voice AI Built for De\u2026",
+        "source": "insidearm.com",
+        "url": "https://www.insidearm.com/news/00096380-trueml-products-introduces-penelope-integ",
+        "what": "TrueML launched Penelope, an integrated voice AI agent built specifically for debt collection.",
+        "why": "It showcases vertical-specific workflow integration beyond standalone conversational tools.",
+        "impact": "Study domain-specific agent architecture patterns."
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-11-10"
+  }
+}
