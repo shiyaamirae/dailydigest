@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-12",
+  "beats": {
+    "AI": [
+      {
+        "title": "The Jev Revolution: What Engineers Are Already Building with System O\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/jev-revolution/",
+        "what": "Latent Space covered the AI Engineer Code Summit featuring System One models and developer automation tools.",
+        "why": "It showcases cutting-edge patterns and tools for full-stack AI builders looking to automate workflows.",
+        "impact": "Informs tool selection for automation"
+      },
+      {
+        "title": "[AINews] D-Day (Decision Models Day)",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+        "what": "Latent Space reported on Google entering decision models and Cloudflare's build failure classifier.",
+        "why": "Provides tactical insights into production-ready architectures and new decision model capabilities.",
+        "impact": "Improves agent reliability logic"
+      },
+      {
+        "title": "Holiday Extras is rethinking what it can build with Codex",
+        "source": "OpenAI",
+        "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+        "what": "OpenAI highlighted how Holiday Extras uses Codex to build better apps and boost bookings.",
+        "why": "Demonstrates practical, real-world product application of coding models in a live business.",
+        "impact": "Sparks ideas for Codex workflows"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Why are we cloning Photoshop?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+        "what": "An open-source Photoshop clone called PhotoCraft launched, showing how AI easily replicates pro tools.",
+        "why": "It challenges UX designers to look beyond cloning legacy software for bigger interface opportunities.",
+        "impact": "Reevaluate UI paradigms beyond legacy clones"
+      },
+      {
+        "title": "Want to Create Animations with Claude Code? Try These 5 GitHub Reposi\u2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/want-to-create-animations-with-claude-code-try-these-5-github-repositories-8f5c5bb24908?source=rss----819cc2aaeee0---4",
+        "what": "Five GitHub repositories were released for creating animations and motion effects using Claude Code.",
+        "why": "It provides ready-to-use tooling for building richer interface motion directly through code agents.",
+        "impact": "Integrate code-driven motion into prototypes"
+      },
+      {
+        "title": "Every click has a price now. Who designs how that \u201cfeels\u201d?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+        "what": "The all-you-can-eat AI era is ending, introducing token-cost pricing models that impact UX design.",
+        "why": "Designers must now account for micro-costs and token efficiency directly within user interactions.",
+        "impact": "Design UI patterns for explicit cost awareness"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Building the interaction layer for AI: Everything announced at Eleven\u2026",
+        "source": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/nyc-summit",
+        "what": "ElevenLabs announced major voice interaction tools at their NYC Summit.",
+        "why": "Provides hands-on builders with new interface primitives for voice products.",
+        "impact": "Test new voice UX tools immediately."
+      }
+    ]
+  }
+}
