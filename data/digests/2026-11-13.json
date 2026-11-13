@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-13",
+  "beats": {
+    "AI": [
+      {
+        "title": "How Amplitude ships product improvements in 1\u20132 days with OpenAI",
+        "source": "OpenAI",
+        "url": "https://openai.com/business/customer-stories/amplitude",
+        "what": "OpenAI highlighted Amplitude's use of OpenAI models to power Wave, a proactive product agent.",
+        "why": "Shows a real-world product engineering team shipping improvements in 1-2 days using AI agents.",
+        "impact": "Provides a direct architectural pattern for building your own agent-driven product workflows."
+      },
+      {
+        "title": "LazyWeights: Decode-on-Demand Edge LLMs",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.17108v1",
+        "what": "Researchers introduced LazyWeights for decode-on-demand edge LLMs to optimize memory and bandwidth.",
+        "why": "Addresses strict hardware constraints for running language models efficiently on edge devices.",
+        "impact": "Useful techniques if you are deploying local or edge-based models for voice agents."
+      },
+      {
+        "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Track\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.16933v1",
+        "what": "Kezek splits mono two-person conversations into per-speaker tracks for full-duplex dialogue data.",
+        "why": "Solves the scarcity of multi-track training data needed for natural full-duplex spoken dialogue.",
+        "impact": "Directly applicable to training data pipelines for your hands-on voice agent project."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Anthropic Just Dropped Claude Whiteboard, Sheets and Data",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/anthropic-just-dropped-claude-whiteboard-sheets-and-data-a9a89b69a3d8?source=rss----819cc2aaeee0---4",
+        "what": "Anthropic released three new artifact types: Whiteboard, Sheets, and Data.",
+        "why": "Expands what you can prototype directly within Claude without context switching.",
+        "impact": "Faster hands-on prototyping"
+      },
+      {
+        "title": "AI is the new old design material",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ai-is-the-new-old-design-material-0e7f83540c9a?source=rss----138adf9c44c---4",
+        "what": "An exploration of AI models as the new foundational design material for makers.",
+        "why": "Frames AI tools as raw building blocks rather than just productivity add-ons.",
+        "impact": "Shifts how you build products"
+      },
+      {
+        "title": "The AI mind tax that afflicts those who use AI best",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+        "what": "An essay on the mental tax and fragmentation felt by solo AI power users.",
+        "why": "Highlights the exact coordination friction solo builders face managing multi-tool stacks.",
+        "impact": "Validates your workflow bottlenecks"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice a\u2026",
+        "source": "the-decoder.com",
+        "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
+        "what": "ElevenLabs launched Scribe v3 Live to stop voice agents from interrupting users.",
+        "why": "It uses conversational context to fix a major latency and UX flaw in voice bots.",
+        "impact": "Improves real-time voice agent UX"
+      },
+      {
+        "title": "FinancialContent - American Family Care Rolls Out Flip\u2019s Conversation\u2026",
+        "source": "markets.financialcontent.com",
+        "url": "https://markets.financialcontent.com/stocks/article/bizwire-2026-11-12-american-family-care-rolls-out-flips-conversational-ai-across-its-clinics-nationwide",
+        "what": "American Family Care rolled out Flip conversational AI nationwide across clinics.",
+        "why": "Demonstrates successful production deployment of healthcare voice agents at scale.",
+        "impact": "Validates healthcare voice agent patterns"
+      },
+      {
+        "title": "SoundHound AI Named a Leader and a Star Performer in Everest Group\u2019s\u2026",
+        "source": "directorsclub.news",
+        "url": "https://directorsclub.news/2026/11/12/soundhound-ai-named-a-leader-and-a-star-performer-in-everest-groups-conversational-ai-and-ai-agents-in-cxm-products-peak-matrix-assessment-2026",
+        "what": "SoundHound AI was named a Leader in Everest Group's 2026 CXM AI Assessment.",
+        "why": "Highlights the market maturation of voice-native multimodal agent platforms.",
+        "impact": "Benchmarks enterprise voice agent features"
+      }
+    ]
+  }
+}
