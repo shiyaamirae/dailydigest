@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-14",
+  "beats": {
+    "AI": [
+      {
+        "title": "Introducing ChatGPT Wallet",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet",
+        "what": "OpenAI launched ChatGPT Wallet for agents to complete secure purchases.",
+        "why": "Enables agents to autonomously handle financial transactions with user approval.",
+        "impact": "Add transactional capabilities to your voice agent"
+      },
+      {
+        "title": "[AINews] The No AI Slop Manifesto",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+        "what": "Latent Space published The No AI Slop Manifesto for combatting low-quality output.",
+        "why": "Establishes design standards and patterns for building higher-quality AI applications.",
+        "impact": "Refine product quality standards for your builds"
+      }
+    ],
+    "Design": [
+      {
+        "title": "Claude Fable 5.2 Official Prompting Guide",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-fable-5-2-official-prompting-guide-34cd74abe0a2?source=rss----819cc2aaeee0---4",
+        "what": "Anthropic released official prompting guidelines for Claude Fable 5.2 with 5 new rules.",
+        "why": "Prompting frameworks directly dictate the capability and reliability of AI agents.",
+        "impact": "Instantly improve your agent workflows"
+      },
+      {
+        "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Nielsen Norman Group published guidance on integrating UXR into rapid AI development cycles.",
+        "why": "Ensures product validation keeps pace with single-person AI development sprints.",
+        "impact": "Accelerate user testing speed"
+      },
+      {
+        "title": "Decision theatre or decision design?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an analysis on shifting from information overload to decision design.",
+        "why": "AI interfaces must help users make choices, not just generate content.",
+        "impact": "Guide your agent UX architecture"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Harmony\u2019s Sub-400ms Voice AI Leads 8 Enterprise Appointment Setters |\u2026",
+        "source": "wboc.com",
+        "url": "https://www.wboc.com/online_features/press_releases/harmony-s-sub-400ms-voice-ai-leads-8-enterprise-appointment-setters/article_58026aa4-bd81-5072-a76b-73fafc0698f4.html",
+        "what": "Harmony launched its sub-400ms voice AI, competing among enterprise appointment setters.",
+        "why": "Ultra-low latency is a critical architectural requirement for fluid, real-time voice agents.",
+        "impact": "benchmark for latency"
+      },
+      {
+        "title": "Infor and Anthropic Bring Claude to Manufacturing -",
+        "source": "enterprisetimes.co.uk",
+        "url": "https://www.enterprisetimes.co.uk/2026/11/13/infor-and-anthropic-bring-claude-to-manufacturing",
+        "what": "Infor and Anthropic integrated Claude into manufacturing conversational assistants.",
+        "why": "Demonstrates domain-specific workflow automation patterns powered by frontier LLMs.",
+        "impact": "new design patterns"
+      },
+      {
+        "title": "XTIUM Launches XTAI Voice, a New Generation of AI-Native Managed Voic\u2026",
+        "source": "telecomreseller.com",
+        "url": "https://telecomreseller.com/2026/11/13/xtium-launches-xtai-voice",
+        "what": "XTIUM launched XTAI Voice, an AI-native managed voice service platform.",
+        "why": "Expands the ecosystem of managed infrastructure options for deploying production voice agents.",
+        "impact": "evaluate managed infra"
+      }
+    ]
+  }
+}
