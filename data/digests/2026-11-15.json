@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-15",
+  "beats": {
+    "AI": [
+      {
+        "title": "Introducing ChatGPT Wallet",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet",
+        "what": "OpenAI launched ChatGPT Wallet for agents to complete secure purchases.",
+        "why": "Enables agents to autonomously handle financial transactions with user approval.",
+        "impact": "Add transactional capabilities to your voice agent"
+      },
+      {
+        "title": "[AINews] The No AI Slop Manifesto",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+        "what": "Latent Space published The No AI Slop Manifesto for combatting low-quality output.",
+        "why": "Establishes design standards and patterns for building higher-quality AI applications.",
+        "impact": "Refine product quality standards for your builds"
+      }
+    ],
+    "Design": [
+      {
+        "title": "What Is A Business Designer? Business Design In 2026 - FourWeekMBA",
+        "source": "fourweekmba.com",
+        "url": "https://fourweekmba.com/business-design",
+        "what": "AI tools like Figma Make now turn prompts into working prototypes within hours.",
+        "why": "It drastically lowers the cost of testing desirability compared to traditional design sprints.",
+        "impact": "speeds up solo product validation"
+      },
+      {
+        "title": "Tag: Predictive UX Research",
+        "source": "merlien.com",
+        "url": "https://merlien.com/tag/predictive-ux-research",
+        "what": "Predictive UX research models are being developed to anticipate real user actions.",
+        "why": "It shifts user research toward predictive modeling as AI capabilities mature.",
+        "impact": "hints at automated user testing"
+      },
+      {
+        "title": "UI8 Review: Premium Figma Templates, UI Kits, 3D Assets ...",
+        "source": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=Y0nsyTuVyrY",
+        "what": "UI8 offers a marketplace of premium Figma templates, UI kits, and 3D assets.",
+        "why": "Ready-made design resources save hours of work for solo builders without handoffs.",
+        "impact": "accelerates interface design"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "MOSS-Live: OpenMOSS Releases Real-Time Voice AI \u2014 CASRAI",
+        "source": "casrai.org",
+        "url": "https://casrai.org/news/openmoss-moss-live-full-duplex-interaction-system-2026",
+        "what": "OpenMOSS released MOSS-Live, an open-source full-duplex real-time voice AI system.",
+        "why": "It provides hands-on builders with a new open architecture for low-latency voice agents.",
+        "impact": "Test and adapt open-source real-time duplex patterns."
+      },
+      {
+        "title": "AI Rudder launches CALL-E voice agent",
+        "source": "technode.global",
+        "url": "https://technode.global/2026/11/14/ai-rudder-launches-call-e-voice-agent-phone-calls",
+        "what": "AI Rudder launched CALL-E, a specialized voice agent service for phone calls.",
+        "why": "It highlights emerging production tooling specifically optimized for telephony workflows.",
+        "impact": "Benchmark telephony agent reliability and integration."
+      },
+      {
+        "title": "CD Projekt Red turns to AI voice tech for New Witcher 3 expansion",
+        "source": "indulgexpress.com",
+        "url": "https://www.indulgexpress.com/entertainment/2026/Nov/15/cd-projekt-red-turns-to-ai-voice-tech-for-new-witcher-3-expansion-with-one-crucial-caveat",
+        "what": "CD Projekt Red used Respeecher voice AI to maintain continuity for a Witcher expansion.",
+        "why": "It demonstrates production-grade voice cloning and cadence shaping for character continuity.",
+        "impact": "Explore advanced voice styling for character design."
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-11-14"
+  }
+}
