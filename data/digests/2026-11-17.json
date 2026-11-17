@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-17",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+        "what": "Perplexity hit a $1B revenue run rate and shipped the Monitor API alongside computer teammates.",
+        "why": "Signals rapid enterprise adoption and new API tooling for automated workflows and monitoring.",
+        "impact": "Evaluate the Monitor API for agent data feeds."
+      },
+      {
+        "title": "Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Bla\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/bfl/",
+        "what": "Black Forest Labs discussed building visual intelligence from pixels, motion, and sound.",
+        "why": "Highlights the shift toward multi-modal foundational models encompassing audio and video.",
+        "impact": "Informs future multi-modal voice and vision agent designs."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Anthropic Just Launched Claude DATA",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/anthropic-just-launched-claude-data-7095bbe77805?source=rss----819cc2aaeee0---4",
+        "what": "Anthropic launched Claude DATA for mastering dashboard creation and data visualization.",
+        "why": "It streamlines building complex data interfaces using AI agents directly in code.",
+        "impact": "Faster prototyping of analytics features in your voice agent."
+      },
+      {
+        "title": "UI edge cases: A reference guide",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+        "what": "A practical reference guide for catching and fixing UI edge cases before shipping.",
+        "why": "It provides tactical checklists to improve the polish of AI-generated interfaces.",
+        "impact": "Better handling of dynamic states in solo builds."
+      },
+      {
+        "title": "Information Visualization: 6 Essential Rules Every Designer Should Kn\u2026",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/information-visualization-6-essential-rules-every-designer-should-know-b1a13ddd4b66?source=rss----819cc2aaeee0---4",
+        "what": "Six essential rules for turning complex data into clear, actionable visualizations.",
+        "why": "Data density requires strict design principles to remain readable.",
+        "impact": "Improves dashboard UX for agent monitoring panels."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Starling Bank Brings Conversational AI to Everyday Payments - Finovate",
+        "source": "finovate.com",
+        "url": "https://finovate.com/starling-bank-brings-conversational-ai-to-everyday-payments",
+        "what": "Starling Bank launched a voice-powered payment feature allowing natural language prompts for money transfers.",
+        "why": "It shows production-grade integration of conversational AI into transactional financial workflows.",
+        "impact": "Informs design patterns for transactional voice UI."
+      },
+      {
+        "title": "ElevenLabs Makes First Japan Acquisition, Takes Voice AI \"Koto\" Under\u2026",
+        "source": "finance.biggo.com",
+        "url": "https://finance.biggo.com/news/a48d3b3c-ee4f-4343-b0a8-28a43e2c0d8a",
+        "what": "ElevenLabs acquired Japanese voice AI startup Kotoba Technologies.",
+        "why": "Expands ElevenLabs' underlying voice infrastructure capabilities and global market footprint.",
+        "impact": "Signals potential new APIs for multilingual voice tooling."
+      },
+      {
+        "title": "Uhura Bionics Founder Konrad Zieli\u0144ski Says AI Voices Must Carry Laug\u2026",
+        "source": "desmoinesregister.com",
+        "url": "https://www.desmoinesregister.com/press-release/story/153966/uhura-bionics-founder-konrad-zielinski-says-ai-voices-must-carry-laughter-and-emotion-on-tomorrow-today",
+        "what": "Uhura Bionics highlighted the technical need for sub-50ms latency in real-time voice conversion.",
+        "why": "Defines the exact performance thresholds required for seamless face-to-face AI conversation.",
+        "impact": "Sets latency targets for current agent builds."
+      }
+    ]
+  }
+}
