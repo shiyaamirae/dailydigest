@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-18",
+  "beats": {
+    "AI": [
+      {
+        "title": "Introducing GPT-6.2 Astra and Sol",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "what": "OpenAI introduced GPT-6.2 Astra and Sol with improved coding, computer use, and lower costs.",
+        "why": "It dramatically shifts cost-performance curves for production AI workflows and agent building.",
+        "impact": "Upgrade your agent API calls and test the new models for core product logic."
+      },
+      {
+        "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/cloudflare/",
+        "what": "Cloudflare launched System One models to make decisions and pull data in milliseconds.",
+        "why": "It brings ultra-low-latency model execution directly to edge infrastructure.",
+        "impact": "Explore low-latency patterns for real-time voice and agent decision loops."
+      },
+      {
+        "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code wit\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.23205v1",
+        "what": "Researchers applied SFT and QLoRA to Gemma 4 edge models for offline signal-processing code.",
+        "why": "It demonstrates how to effectively fine-tune small edge models on local hardware for domain tasks.",
+        "impact": "Apply these fine-tuning recipes for running specialized offline components."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Anthropic Just Released New Rules of Claude Code",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/anthropic-just-released-new-rules-of-claude-code-d3adc96d4867?source=rss----819cc2aaeee0---4",
+        "what": "Anthropic released updated rules and best practices for using Claude Code.",
+        "why": "Development workflows shift rapidly, making current guidelines essential for efficient solo building.",
+        "impact": "Improves your hands-on coding efficiency."
+      },
+      {
+        "title": "Meet AI 2027 Conference (Dec 1)",
+        "source": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+        "what": "Smashing Magazine announced the Meet AI 2027 Conference focusing on AI-ready design systems and patterns.",
+        "why": "It offers practical insights into upcoming interface patterns and Figma AI workflows.",
+        "impact": "Helps you stay ahead of AI design trends."
+      },
+      {
+        "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a guide on using AI mockup indicators to streamline design audits.",
+        "why": "It provides a practical technique for quickly parsing AI-generated product designs.",
+        "impact": "Speeds up design critique and iteration."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Twilio Adds Voice AI Failover and Hallucination Checks",
+        "source": "cmswire.com",
+        "url": "https://www.cmswire.com/contact-center/twilio-expands-voice-ai-stack-with-8-new-features",
+        "what": "Twilio launched general availability for Smart Turn Detection and STT failover.",
+        "why": "It addresses core production reliability hurdles in building voice agents.",
+        "impact": "Improves real-time voice agent stability."
+      }
+    ]
+  }
+}
