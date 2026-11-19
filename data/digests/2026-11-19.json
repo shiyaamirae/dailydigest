@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-19",
+  "beats": {
+    "AI": [
+      {
+        "title": "Genie 4 is now available",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+        "what": "Google DeepMind has released Genie 4.",
+        "why": "It introduces advanced generative world-action modeling capabilities.",
+        "impact": "Test for simulation environments."
+      },
+      {
+        "title": "MoE-Context: Show the Model Only What It Needs",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.24379v1",
+        "what": "MoE-Context introduces block-based dynamic context routing for language models.",
+        "why": "It cuts down inference costs by only loading necessary context blocks.",
+        "impact": "Optimize long-horizon agent memory."
+      },
+      {
+        "title": "Reducing Inference Cost of Coding Agents with Timeout Cascades",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.24324v1",
+        "what": "Timeout Cascades reduces inference costs for AI coding agents.",
+        "why": "It uses smaller, cheaper models via cascaded timeouts to save compute.",
+        "impact": "Scale your coding agent affordably."
+      }
+    ],
+    "Design": [
+      {
+        "title": "CLAUDE.md NEW Best Practices",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-md-new-best-practices-c48a1dbd5d5d?source=rss----819cc2aaeee0---4",
+        "what": "New best practices for CLAUDE.md files were published for Claude Code projects.",
+        "why": "It optimizes how AI coding agents ingest project context and constraints.",
+        "impact": "Improves your hands-on coding agent workflows."
+      },
+      {
+        "title": "GPT-6.2 Astra for UI Design",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/gpt-6-2-astra-for-ui-design-5960175a77e7?source=rss----819cc2aaeee0---4",
+        "what": "GPT-6.2 Astra has been released as OpenAI's latest model for UI design.",
+        "why": "It offers cutting-edge generative capabilities for interface creation.",
+        "impact": "Test it immediately for rapid UI prototyping."
+      },
+      {
+        "title": "Too Claudified",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+        "what": "A client rejected motion work for looking overly machine-made or Claudified.",
+        "why": "Highlights the rising user fatigue with generic AI aesthetics.",
+        "impact": "Reminds you to inject custom human polish into your AI builds."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Twilio adds smart turn detection, HD audio and speech failover to voi\u2026",
+        "source": "uptech-media.com",
+        "url": "https://uptech-media.com/twilio-adds-smart-turn-detection-hd-audio-and-speech-failover-to-voice-ai-tools",
+        "what": "Twilio added smart turn detection, HD audio, and ElevenLabs v4 Turbo integration to its voice AI tools.",
+        "why": "It upgrades foundational infrastructure for building low-latency conversational voice applications.",
+        "impact": "Test ElevenLabs v4 Turbo and smart turn detection APIs"
+      },
+      {
+        "title": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic | Artifi\u2026",
+        "source": "aws.amazon.com",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic",
+        "what": "Stretto adopted Amazon Nova 2 Sonic, achieving a 95 percent cost reduction for voice agents.",
+        "why": "Demonstrates major unit economic gains for production-grade conversational voice systems.",
+        "impact": "Evaluate Amazon Nova 2 Sonic pricing and latency benchmarks"
+      }
+    ]
+  }
+}
