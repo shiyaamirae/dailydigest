@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-20",
+  "beats": {
+    "AI": [
+      {
+        "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/linear-scaling/",
+        "what": "Linear reported over 50% of tickets written by agents and scaled its GTM motion to $100M ARR.",
+        "why": "It demonstrates real-world agentic workflows driving massive software business growth without traditional sales teams.",
+        "impact": "Validates building agentic product loops."
+      },
+      {
+        "title": "AURA: AUdio-dRiven streaming Avatar",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.26540v1",
+        "what": "AURA introduces audio-driven streaming avatars with low latency for real-time applications.",
+        "why": "Eliminates multi-step diffusion bottlenecks, making responsive generative video viable for interactive assistants.",
+        "impact": "Directly applicable to voice agent UI design."
+      },
+      {
+        "title": "Beam Model Technical Report",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.26358v1",
+        "what": "Beam, a 501B sparse MoE model optimized for coding and agentic workloads, was released.",
+        "why": "It delivers frontier reasoning capabilities while requiring significantly less inference compute than peers.",
+        "impact": "New backend option for voice agent logic."
+      }
+    ],
+    "Design": [
+      {
+        "title": "How to Use Claude Code Effectively and Save Tokens",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/how-to-use-claude-code-effectively-and-save-tokens-d0368bc72a18?source=rss----819cc2aaeee0---4",
+        "what": "A new guide explores how to use Claude Code efficiently while saving tokens during development.",
+        "why": "It helps solo AI builders optimize token consumption and cut down costs in multi-step AI workflows.",
+        "impact": "Lowers development costs when building your voice agent."
+      },
+      {
+        "title": "Everyone\u2019s got the tools. Not everyone\u2019s got the tricks.",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
+        "what": "An essay from UX Collective compares skateboarding improvisation to modern design tool mastery.",
+        "why": "It reframes how solo builders should think about repertoire and rapid tool adaptation.",
+        "impact": "Improves fluid, hands-on prototyping speed."
+      },
+      {
+        "title": "Send the Firefighters to the Fires",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
+        "what": "UX Collective published a reminder that enterprise software should highlight broken states immediately.",
+        "why": "It reinforces core attention-management principles for building proactive UI interfaces.",
+        "impact": "Guides better error-state handling in your voice agent app."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "SoundHound AI Launches OASYS-Powered AI Voice Agent for Bogot\u00e1\u2019s L\u00edne\u2026",
+        "source": "quiverquant.com",
+        "url": "https://www.quiverquant.com/news/SoundHound+AI+Launches+OASYS-Powered+AI+Voice+Agent+for+Bogot%C3%A1%E2%80%99s+L%C3%ADnea+195+Public+Service+Line",
+        "what": "SoundHound AI launched its OASYS-powered voice agent for Bogot\u00e1's L\u00ednea 195 public service line.",
+        "why": "It demonstrates a large-scale deployment of conversational AI achieving high resolution rates.",
+        "impact": "Provides real-world benchmark data for agentic voice."
+      },
+      {
+        "title": "Activate Signal on Instagram: \"Voice is the missing interface for AI\u2026",
+        "source": "instagram.com",
+        "url": "https://www.instagram.com/reel/Df7LOvBOwqp",
+        "what": "Signal highlighted voice notes as the missing, context-rich interface for interacting with AI agents.",
+        "why": "It highlights voice as a primary mechanism for inputting rich context into AI systems.",
+        "impact": "Informs UX design patterns for voice-first interactions."
+      },
+      {
+        "title": "Newo.ai raises $25 million for AI voice technology",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/WSCJLLP/posts/its-exciting-to-see-technology-addressing-the-everyday-challenges-business-owner/1996949381692854",
+        "what": "Newo.ai raised $25 million to advance its AI voice technology for automated calls and scheduling.",
+        "why": "Venture funding indicates growing enterprise demand for out-of-the-box voice workflow automation.",
+        "impact": "Highlights emerging competitive tools in the voice agent space."
+      }
+    ]
+  }
+}
