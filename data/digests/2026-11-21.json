@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-21",
+  "beats": {
+    "AI": [
+      {
+        "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verif\u2026",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/formal-verification/",
+        "what": "Formal verification using AI and Lean is automating software correctness checking.",
+        "why": "It offers a powerful new weapon to eliminate bugs and slop in AI-generated code.",
+        "impact": "Improves code reliability for solo builders."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Can AI Generate Good Designs from Raw User Data?",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "A study showed AI generates better designs from synthesized findings than raw user comments.",
+        "why": "It defines a more effective prompt engineering pattern for utilizing user data in AI workflows.",
+        "impact": "Improves your AI-generated UX design pipelines."
+      },
+      {
+        "title": "This Experimental Feature Is Claude Code\u2019s BIGGEST Recent Improvement",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/this-experimental-feature-is-claude-codes-biggest-recent-improvement-884219219b43?source=rss----819cc2aaeee0---4",
+        "what": "An experimental Claude Code feature significantly reduced token usage for repetitive tasks.",
+        "why": "Optimizing token costs is vital for solopreneurs building and coding complex AI agents.",
+        "impact": "Lowers your development costs and speeds up coding."
+      },
+      {
+        "title": "Qualitative User-Research Methods: An Overview",
+        "source": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+        "what": "Nielsen Norman Group outlined four of the most popular qualitative UX-research methods.",
+        "why": "Understanding user struggle points directly informs how you design agent feedback loops.",
+        "impact": "Sharpens your voice agent product design."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Qwen3 TTS is now available on Together AI",
+        "source": "together.ai",
+        "url": "https://www.together.ai/blog/qwen3-tts",
+        "what": "Qwen3 TTS is now available on Together AI with separated voice identity and delivery controls.",
+        "why": "It allows granular control over speech style via plain-language instructions across 10 languages.",
+        "impact": "Test and integrate new expressive voice styling API."
+      },
+      {
+        "title": "#multimodalai #fullduplexai #aiengineering #conversationalai #product\u2026",
+        "source": "linkedin.com",
+        "url": "https://www.linkedin.com/posts/mayur-solanki-2503931a9_multimodalai-fullduplexai-aiengineering-activity-7529810966801272832-L5WN",
+        "what": "Nuance Labs released a full-duplex audiovisual approach for conversational AI.",
+        "why": "It avoids the traditional relay-race latency of transcribe-LLM-TTS pipelines.",
+        "impact": "Evaluate full-duplex architecture for real-time agents."
+      },
+      {
+        "title": "What are the benefits of OpenAI's GPT-Live-1.1 voice AI?",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/groups/1360721222167813/posts/1697613241811941",
+        "what": "OpenAI launched the GPT-Live-1 voice model emphasizing natural conversational flow.",
+        "why": "It natively handles interruptions and pauses for more human-like interactions.",
+        "impact": "Benchmark new baseline for natural turn-taking."
+      }
+    ]
+  }
+}
