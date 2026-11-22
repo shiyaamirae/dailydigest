@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-22",
+  "beats": {
+    "AI": [
+      {
+        "title": "The AI week: cheaper models, AI-found bugs and governments closing in\u2026",
+        "source": "mlq.ai",
+        "url": "https://mlq.ai/news/the-ai-week-cheaper-models-ai-found-bugs-and-governments-closing-in",
+        "what": "Major labs released new models alongside significant API price cuts.",
+        "why": "Lower inference costs directly improve unit economics for building voice agents.",
+        "impact": "Lowers operational costs for voice agent APIs"
+      },
+      {
+        "title": "AI News Today, November 22: Top Stories | AI Weekly",
+        "source": "aiweekly.co",
+        "url": "https://aiweekly.co/ai-news-today",
+        "what": "Security research uncovered AI hosting providers logging prompts and ignoring zero-data policies.",
+        "why": "Highlights severe data privacy risks when building applications using third-party APIs.",
+        "impact": "Must audit API data retention policies"
+      },
+      {
+        "title": "Technology on Instagram: \"Swipe \u2b05\ufe0f to see what happened in the last 2\u2026",
+        "source": "instagram.com",
+        "url": "https://www.instagram.com/p/DgAz3mMmwSb",
+        "what": "An AR system demonstrated physical robot arm control through hand movements.",
+        "why": "Showcases cutting-edge multimodal interface paradigms relevant to spatial computing.",
+        "impact": "New interaction patterns for voice and gesture"
+      }
+    ],
+    "Design": [
+      {
+        "title": "The judge used to be the user",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+        "what": "UX Collective examines how AI has collapsed model building and changed evaluation.",
+        "why": "It redefines how solo builders validate correct product behavior without traditional user loops.",
+        "impact": "Changes how you validate AI outputs."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Dictation in ChatGPT just lost its 10-minute limit. OpenAI's new Live\u2026",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/groups/aiforconstructioncompanies/posts/2370528090360184",
+        "what": "OpenAI removes the 10-minute limit on ChatGPT dictation and introduces real-time live transcription.",
+        "why": "It improves hands-free interaction speed and makes long-form voice input much more viable.",
+        "impact": "Test real-time speech UX"
+      },
+      {
+        "title": "Why AI Voice Agents Fail Without Automation Behind Them",
+        "source": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=f895QrMTW8c",
+        "what": "Andy Norman explains why AI voice agents fail when they can talk but lack underlying automation.",
+        "why": "It highlights the critical architecture gap between conversational capability and backend execution.",
+        "impact": "Refine agent backend workflows"
+      },
+      {
+        "title": "How AI Voice Upgrades Will Impact Twilio (TWLO) Stock",
+        "source": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-voice-upgrades-impact-twilio-120911361.html",
+        "what": "Twilio rolled out Conversation Intelligence with native transcript analysis for voice calls.",
+        "why": "It provides built-in quality monitoring and hallucination flags for production voice pipelines.",
+        "impact": "Integrate call auditing tools"
+      }
+    ]
+  }
+}
