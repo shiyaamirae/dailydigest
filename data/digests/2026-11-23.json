@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-23",
+  "beats": {
+    "AI": [
+      {
+        "title": "The AI week: cheaper models, AI-found bugs and governments closing in\u2026",
+        "source": "mlq.ai",
+        "url": "https://mlq.ai/news/the-ai-week-cheaper-models-ai-found-bugs-and-governments-closing-in",
+        "what": "Major labs released new models alongside significant API price cuts.",
+        "why": "Lower inference costs directly improve unit economics for building voice agents.",
+        "impact": "Lowers operational costs for voice agent APIs"
+      },
+      {
+        "title": "AI News Today, November 22: Top Stories | AI Weekly",
+        "source": "aiweekly.co",
+        "url": "https://aiweekly.co/ai-news-today",
+        "what": "Security research uncovered AI hosting providers logging prompts and ignoring zero-data policies.",
+        "why": "Highlights severe data privacy risks when building applications using third-party APIs.",
+        "impact": "Must audit API data retention policies"
+      },
+      {
+        "title": "Technology on Instagram: \"Swipe \u2b05\ufe0f to see what happened in the last 2\u2026",
+        "source": "instagram.com",
+        "url": "https://www.instagram.com/p/DgAz3mMmwSb",
+        "what": "An AR system demonstrated physical robot arm control through hand movements.",
+        "why": "Showcases cutting-edge multimodal interface paradigms relevant to spatial computing.",
+        "impact": "New interaction patterns for voice and gesture"
+      }
+    ],
+    "Design": [
+      {
+        "title": "How to write great skills",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
+        "what": "UX Collective published an advanced practical guide to writing agent skills.",
+        "why": "It teaches you how to structure skills learned from experts like Anthropic and Addy Osmani.",
+        "impact": "Improve your voice agent capabilities"
+      },
+      {
+        "title": "Decision theater, Human.MD, What is a researcher\u2019s worth",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
+        "what": "UX Collective explored the frictionless nature of conversing with AI.",
+        "why": "It analyzes how zero-friction machine dialogue changes the core dynamics of interaction design.",
+        "impact": "Design better voice interaction flows"
+      },
+      {
+        "title": "Seven things AI killed while you were measuring productivity",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
+        "what": "UX Collective examined why 80 percent of executives see no AI impact.",
+        "why": "It challenges conventional productivity metrics in favor of looking at actual value creation.",
+        "impact": "Refine your AI product strategy"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Dictation in ChatGPT just lost its 10-minute limit. OpenAI's new Live\u2026",
+        "source": "facebook.com",
+        "url": "https://www.facebook.com/groups/aiforconstructioncompanies/posts/2370528090360184",
+        "what": "OpenAI removes the 10-minute limit on ChatGPT dictation and introduces real-time live transcription.",
+        "why": "It improves hands-free interaction speed and makes long-form voice input much more viable.",
+        "impact": "Test real-time speech UX"
+      },
+      {
+        "title": "Why AI Voice Agents Fail Without Automation Behind Them",
+        "source": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=f895QrMTW8c",
+        "what": "Andy Norman explains why AI voice agents fail when they can talk but lack underlying automation.",
+        "why": "It highlights the critical architecture gap between conversational capability and backend execution.",
+        "impact": "Refine agent backend workflows"
+      },
+      {
+        "title": "How AI Voice Upgrades Will Impact Twilio (TWLO) Stock",
+        "source": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-voice-upgrades-impact-twilio-120911361.html",
+        "what": "Twilio rolled out Conversation Intelligence with native transcript analysis for voice calls.",
+        "why": "It provides built-in quality monitoring and hallucination flags for production voice pipelines.",
+        "impact": "Integrate call auditing tools"
+      }
+    ]
+  },
+  "carried_over": {
+    "AI": "2026-11-22",
+    "Voice AI": "2026-11-22"
+  }
+}
