@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-25",
+  "beats": {
+    "AI": [
+      {
+        "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+        "what": "Latent Space reports Gemini 4 Neon leads LiveBench and accelerates TS Rust tasks by 48.6%.",
+        "why": "It establishes a new performance tier for frontier models directly relevant to full-stack dev work.",
+        "impact": "Test as a drop-in model upgrade for coding workflows."
+      },
+      {
+        "title": "ClusterVAD: Threshold-Free Unsupervised Voice Activity Detection with\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.33059v1",
+        "what": "ClusterVAD offers a threshold-free, unsupervised voice activity detection method using neural representations.",
+        "why": "It removes labeled data dependencies and annotation conventions from speech processing pipelines.",
+        "impact": "Integrate directly into your voice agent pipeline for robust VAD."
+      },
+      {
+        "title": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Cap\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.33153v1",
+        "what": "DiaCap introduces an audiovisual LLM that unifies transcription, timestamps, and speaker description.",
+        "why": "It tightly couples utterance timing and audiovisual diarization for comprehensive dialogue captioning.",
+        "impact": "Apply to multimodal voice and video agent feedback loops."
+      }
+    ],
+    "Design": [
+      {
+        "title": "RIGHT Way to Create a New Skill for Claude Code",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/right-way-to-create-a-new-skill-for-claude-code-0bbd93e40082?source=rss----819cc2aaeee0---4",
+        "what": "A guide details how to create new custom skills to enhance Claude Code performance.",
+        "why": "It offers immediate, practical techniques for optimizing AI-assisted development workflows.",
+        "impact": "Integrate directly into your daily building toolkit."
+      },
+      {
+        "title": "Designing for the AI agent customer",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/designing-ux-for-agentic-commerce-digital-marketing-for-personal-ai-agents-c8c99e1b0b37?source=rss----138adf9c44c---4",
+        "what": "Explores emerging patterns for designing user experiences targeted at autonomous AI agents.",
+        "why": "As voice and agents take over, traditional human marketing and UX patterns must evolve.",
+        "impact": "Redefine your agent interface design strategy."
+      },
+      {
+        "title": "The design process is changing. Are we asking the right questions?",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
+        "what": "Analyzes how the core design process is transforming as design tools become intelligent.",
+        "why": "It addresses the shift from manual design execution to managing intelligent systems.",
+        "impact": "Adapt your solo PM-to-code workflow."
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "NuPlay Introduces Axon Model Family, Debuts 9B Conversational SLM for\u2026",
+        "source": "prnewswire.com",
+        "url": "https://www.prnewswire.com/news-releases/nuplay-introduces-axon-model-family-debuts-9b-conversational-slm-for-enterprise-workflows-302949478.html",
+        "what": "NuPlay launched the Axon 9B conversational SLM supporting Hinglish and Spanglish enterprise workflows.",
+        "why": "It provides a deployable small language model specifically tuned for multi-lingual conversational voice.",
+        "impact": "Test for bilingual voice agent latency and accuracy."
+      }
+    ]
+  }
+}
