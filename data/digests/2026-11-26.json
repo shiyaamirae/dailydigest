@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-26",
+  "beats": {
+    "AI": [
+      {
+        "title": "$\u03bc$-Bench: Benchmarking Multi-User Task Completion in Shared Interact\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.34920v1",
+        "what": "Researchers introduced mu-Bench for evaluating multi-user task completion in shared interaction voice agents.",
+        "why": "It directly tests complex shared-space voice agent dynamics like privacy and multi-party coordination.",
+        "impact": "Guides your voice agent design for multi-user contexts."
+      },
+      {
+        "title": "TASK Memory: Beyond Text-Only Memory with Activation Steering and Kno\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.34762v1",
+        "what": "TASK Memory uses activation steering and knowledge editing to prevent use-time memory hallucinations in LLM agents.",
+        "why": "External memory retrieval often fails when models ignore or misapply retrieved facts during generation.",
+        "impact": "Improves long-running agent state reliability."
+      },
+      {
+        "title": "HoMe: Toward Practical Harness Optimization of Memory Systems for AI\u2026",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2611.34624v1",
+        "what": "HoMe targets practical harness optimization of memory systems for long-running AI assistants.",
+        "why": "Optimizing prompts, configs, and retrieval harnesses for agent memory remains a manual bottleneck.",
+        "impact": "Streamlines building robust memory loops."
+      }
+    ],
+    "Design": [
+      {
+        "title": "Claude Ship Can Ship Your Product",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-ship-can-ship-your-product-05c316808de5?source=rss----819cc2aaeee0---4",
+        "what": "Claude Ship helps take products from code to production.",
+        "why": "It bridges the gap between writing code and actually shipping applications.",
+        "impact": "speeds up product delivery"
+      },
+      {
+        "title": "RIGHT Way to Create a New Skill for Claude Code",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/right-way-to-create-a-new-skill-for-claude-code-0bbd93e40082?source=rss----819cc2aaeee0---4",
+        "what": "A guide was released on creating effective skills for Claude Code.",
+        "why": "Custom skills drastically improve Claude Code performance on specific tasks.",
+        "impact": "optimizes AI-driven development workflows"
+      },
+      {
+        "title": "Machines are trying to get gut feelings while you\u2019re telling me to ig\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/machines-are-trying-to-get-gut-feelings-while-youre-telling-me-to-ignore-mine-17095e56f22d?source=rss----138adf9c44c---4",
+        "what": "An essay explores how AI is mimicking intuition and the loop it creates.",
+        "why": "It challenges traditional UX thinking around gut feelings and decision making.",
+        "impact": "rethinking AI UX paradigms"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "DeepL introduces Aure v2, its fastest Voice AI translation model | Pr\u2026",
+        "source": "times-herald.com",
+        "url": "https://www.times-herald.com/online_features/press_releases/deepl-introduces-aure-v2-its-fastest-voice-ai-translation-model/article_0751a59a-9cee-530f-8edc-8e4716c7122d.html",
+        "what": "DeepL launched Aure v2, its fastest Voice AI translation model yet.",
+        "why": "It cuts translation delays by 50% while improving expressiveness.",
+        "impact": "Integrate faster, higher-quality translation into voice pipelines."
+      },
+      {
+        "title": "16 Conversational AI Solutions for Healthcare & How They Differentiate",
+        "source": "cxfoundation.com",
+        "url": "https://cxfoundation.com/blog/conversational-ai-healthcare",
+        "what": "Tata Communications introduced Commotion with a silent authentication layer.",
+        "why": "It extracts new context and voice network data for better security.",
+        "impact": "Explore silent auth patterns for secure voice agent interactions."
+      },
+      {
+        "title": "C3.ai (AI) vs SoundHound AI (SOUN): Weighing Two Distinct AI Opportun\u2026",
+        "source": "tickeron.com",
+        "url": "https://tickeron.com/blogs/c3-ai-ai-vs-soundhound-ai-soun-weighing-two-distinct-ai-opportunities-46445",
+        "what": "SoundHound AI completed its acquisition of digital messaging platform LivePerson.",
+        "why": "It expands conversational AI reach into enterprise messaging.",
+        "impact": "Benchmark enterprise omnichannel deployment strategies."
+      }
+    ]
+  }
+}
