@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-27",
+  "beats": {
+    "AI": [
+      {
+        "title": "How Clay Builds GTM Agents \u2014 Jeff Barg, Head of AI",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+        "what": "Latent Space interviewed Clay's Head of AI on building GTM agents and infrastructure.",
+        "why": "It offers practical architecture insights for building production-ready agent workflows.",
+        "impact": "Improves agent design patterns."
+      }
+    ],
+    "Design": [
+      {
+        "title": "MCP 2.0: The BIGGEST MCP Upgrade Yet Just Dropped",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/mcp-2-0-the-biggest-mcp-upgrade-yet-just-dropped-e295e32b687a?source=rss----819cc2aaeee0---4",
+        "what": "Model Context Protocol (MCP) has received a major upgrade in version 2.0.",
+        "why": "It introduces significant improvements to context sharing and agent capabilities.",
+        "impact": "Better integration for building voice agents"
+      },
+      {
+        "title": "How I use AI as a solo designer",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+        "what": "A solo designer shares practical workflows and failures using AI tools like Figma Make.",
+        "why": "It offers real-world validation of solo-designer workflows using current AI features.",
+        "impact": "Optimizes solo AI product building"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Technology Brief on Instagram: \"An open-source project called Ming Vo\u2026",
+        "source": "instagram.com",
+        "url": "https://www.instagram.com/p/DgNXr69lghe",
+        "what": "An open-source project called Ming Voice turns a local GPU computer into a voice-controlled home assistant.",
+        "why": "It gives you a practical, local codebase to study or deploy for real-time voice integration.",
+        "impact": "Evaluate for local voice agent patterns"
+      },
+      {
+        "title": "What if your next customer finds you through an AI assistant? AI can\u2026",
+        "source": "instagram.com",
+        "url": "https://www.instagram.com/p/DgOV2ASE_iZ",
+        "what": "CallOHM launched conversational AI voice interactions to replace traditional scripted phone IVRs.",
+        "why": "It illustrates modern production patterns for replacing legacy touch-tone interfaces with voice agents.",
+        "impact": "Study real-time conversational IVR patterns"
+      },
+      {
+        "title": "Best Buy Puts Its Catalog Inside AI Chat | Deployed",
+        "source": "aimmediahouse.com",
+        "url": "https://aimmediahouse.com/retail/best-buy-puts-its-catalog-inside-ai-chat",
+        "what": "Best Buy integrated its product catalog into AI chat platforms for conversational shopping.",
+        "why": "It demonstrates a successful deployment of conversational commerce in a major enterprise setting.",
+        "impact": "Benchmark transactional voice UX patterns"
+      }
+    ]
+  }
+}
