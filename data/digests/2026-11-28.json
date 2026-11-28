@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-28",
+  "beats": {
+    "AI": [
+      {
+        "title": "Inside the AI Training Data Market \u2014 Gabe Greenberg, G2i",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+        "what": "G2i founder Gabe Greenberg explains how frontier labs purchase exclusive versus non-exclusive AI training data.",
+        "why": "Provides direct insight into data acquisition economics for builders scaling custom AI models.",
+        "impact": "Informs data sourcing strategies for training custom models."
+      },
+      {
+        "title": "[AINews] Inside the exploding Coding Data Market",
+        "source": "Latent Space",
+        "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+        "what": "Latent Space examines the rapidly expanding market for specialized AI coding data.",
+        "why": "Highlights market dynamics and pricing structures for high-value developer training data.",
+        "impact": "Guides valuation and acquisition of specialized training data."
+      }
+    ],
+    "Design": [
+      {
+        "title": "How I cut the code Claude writes by up to 16\u00d7 and 97% per coded secti\u2026",
+        "source": "UX Collective",
+        "url": "https://uxdesign.cc/how-i-cut-claude-tokens-by-up-to-95-in-product-design-and-improved-design-quality-d9dc7cec148f?source=rss----138adf9c44c---4",
+        "what": "An author shares a human-led process to drastically reduce and optimize Claude's code generation.",
+        "why": "It offers direct workflow tactics for solo builders managing AI-generated code output.",
+        "impact": "Improve prompt efficiency in coding"
+      },
+      {
+        "title": "Claude Code 2.0 Best Practices",
+        "source": "UX Planet",
+        "url": "https://uxplanet.org/claude-code-2-0-best-practices-1029353b3c9a?source=rss----819cc2aaeee0---4",
+        "what": "New best practices and rules for using Claude Code have been published on UX Planet.",
+        "why": "It provides tactical guidelines to optimize development speed and reliability with a core tool.",
+        "impact": "Refine agentic coding workflows"
+      }
+    ],
+    "Voice AI": [
+      {
+        "title": "Telnyx Brings Conversational AI to WhatsApp, the World\u2019s Largest Mess\u2026",
+        "source": "telecomreseller.com",
+        "url": "https://telecomreseller.com/2026/11/27/telnyx-brings-conversational-ai-to-whatsapp-the-worlds-largest-messaging-platform",
+        "what": "Telnyx launched AI Assistants for WhatsApp messaging and voice calling.",
+        "why": "It provides out-of-the-box infrastructure for deploying voice and chat agents.",
+        "impact": "Test multi-channel agent deployment via API."
+      },
+      {
+        "title": "SoundHound vs. Five9: Which Conversational AI Stock Has an Edge?",
+        "source": "zacks.com",
+        "url": "https://www.zacks.com/stock/news/3036821/soundhound-vs-five9-which-conversational-ai-stock-has-an-edge",
+        "what": "Five9 completed its acquisition of conversational analytics platform Level AI.",
+        "why": "It enhances automated quality management and agent assistance capabilities.",
+        "impact": "Evaluate new tools for agent performance analysis."
+      }
+    ]
+  }
+}
